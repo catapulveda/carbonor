@@ -39,327 +39,39 @@
     ============================== -->
     <div class="sidemenu-wrapper sidemenu-info d-none d-lg-block ">
         <?php include_once 'includes/sidemenu-wrapper.php'; ?>
-    </div><!--==============================
+    </div>
+    <!--==============================
 	Header Area
-==============================-->
+    ==============================-->
     <header class="th-header header-default">
         <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
+            <!-- Menú principal -->
             <div class="menu-area">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
+                        <!-- Logo -->
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo-white.svg" alt="Builda">
+                                    <img src="assets/img/images-cabonor/logo-carbonor1.png" alt="Carbónor">
                                 </a>
                             </div>
                         </div>
+
+                        <!-- Navegación -->
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="index.html">
-                                            Home
-                                        </a>
-                                        <ul class="mega-menu mega-menu-content allow-natural-scroll">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="row gy-4">
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-5.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="index.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-1-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="index.html">Commercial Construction</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-4.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-2.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-2-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-2.html">Modern Construction</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-7.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-3.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-3-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-3.html">Industrial Solutions</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-3.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-4.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-4-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-4.html">Civil Engineering</a></h3>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/index.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-5.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-5-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-5.html">Classic Construction</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-2.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-6.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-6-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-6.html">Construction Company</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-6.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-7.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-7-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-7.html">Residential Projects</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-8.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-8.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-8-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-8.html">Renovation Services</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-9.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-9.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-9-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-9.html">Modern Architecture</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-10.jpg" alt="Home">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="home-10.html" class="th-btn style-border">Multipage</a>
-                                                                        <a href="home-10-op.html" class="th-btn style-border">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="home-10.html">Sustainable Architecture</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <!-- <div class="col-lg-3">
-                    <div class="mega-menu-box">
-                        <div class="mega-menu-img">
-                            <img src="assets/img/pages/home-11.jpg" alt="Home">
-                            <div class="btn-wrap">
-                                <a href="home-11.html" class="th-btn style-border">Multipage</a>
-                                <a href="home-11-op.html" class="th-btn style-border">Onepage</a>
-                            </div>
-                        </div>
-                        <h3 class="mega-menu-title"><a href="home-11.html">Architectural Firm</a></h3>                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="mega-menu-box">
-                        <div class="mega-menu-img">
-                            <img src="assets/img/pages/home-12.jpg" alt="Home">
-                            <div class="btn-wrap">
-                                <a href="home-12.html" class="th-btn style-border">Multipage</a>
-                                <a href="home-12-op.html" class="th-btn style-border">Onepage</a>
-                            </div>
-                        </div>
-                        <h3 class="mega-menu-title"><a href="home-12.html">Interior Design</a></h3>                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="mega-menu-box">
-                        <div class="mega-menu-img">
-                            <img src="assets/img/pages/home-13.jpg" alt="Home">
-                            <div class="btn-wrap">
-                                <a href="home-13.html" class="th-btn style-border">Multipage</a>
-                                <a href="home-13-op.html" class="th-btn style-border">Onepage</a>
-                            </div>
-                        </div>
-                        <h3 class="mega-menu-title"><a href="home-13.html">Green Building</a></h3>                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="mega-menu-box">
-                        <div class="mega-menu-img">
-                            <img src="assets/img/pages/home-14.jpg" alt="Home">
-                            <div class="btn-wrap">
-                                <a href="home-14.html" class="th-btn style-border">Multipage</a>
-                                <a href="home-14-op.html" class="th-btn style-border">Onepage</a>
-                            </div>
-                        </div>
-                        <h3 class="mega-menu-title"><a href="home-14.html">Urban Planning</a></h3>                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="mega-menu-box">
-                        <div class="mega-menu-img">
-                            <img src="assets/img/pages/home-15.jpg" alt="Home">
-                            <div class="btn-wrap">
-                                <a href="home-15.html" class="th-btn style-border">Multipage</a>
-                                <a href="home-15-op.html" class="th-btn style-border">Onepage</a>
-                            </div>
-                        </div>
-                        <h3 class="mega-menu-title"><a href="home-15.html">High-End Landscaping</a></h3>                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="mega-menu-box">
-                        <div class="mega-menu-img">
-                            <img src="assets/img/pages/home-16.jpg" alt="Home">
-                            <div class="btn-wrap">
-                                <a href="home-16.html" class="th-btn style-border">Multipage</a>
-                                <a href="home-16-op.html" class="th-btn style-border">Onepage</a>
-                            </div>
-                        </div>
-                        <h3 class="mega-menu-title"><a href="home-16.html">Structural Engineering</a></h3>                        
-                    </div>
-                </div> -->
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">
-                                            About Us
-                                        </a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="service.html">
-                                            Services
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="service.html">
-                                                    Service
-                                                </a></li>
-                                            <li><a href="service-details.html">
-                                                    Service Details
-                                                </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="project.html">
-                                            Projects
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="project.html">
-                                                    Projects
-                                                </a></li>
-                                            <li><a href="project-details.html">
-                                                    Project Details
-                                                </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">
-                                            Pages
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="team.html">
-                                                    Team Page
-                                                </a></li>
-                                            <li><a href="team-details.html">
-                                                    Team Details
-                                                </a></li>
-                                            <li><a href="pricing.html">
-                                                    Pricing Page
-                                                </a></li>
-                                            <li><a href="appointment.html">
-                                                    Appointment
-                                                </a></li>
-                                            <li><a href="faq.html">
-                                                    Faq Page
-                                                </a></li>
-                                            <li><a href="testimonial.html">
-                                                    Testimonial
-                                                </a></li>
-                                            <li class="menu-item-has-children"><a href="shop.html">
-                                                    Shop Page
-                                                </a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">
-                                                            Shop Page
-                                                        </a></li>
-                                                    <li><a href="shop-details.html">
-                                                            Shop Details
-                                                        </a></li>
-                                                    <li><a href="cart.html">
-                                                            Cart Page
-                                                        </a></li>
-                                                    <li><a href="checkout.html">
-                                                            Checkout Page
-                                                        </a></li>
-                                                    <li><a href="wishlist.html">
-                                                            Wistlist Page
-                                                        </a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="error.html">
-                                                    Error Page
-                                                </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="blog.html">
-                                            Blog
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">
-                                                    Blog Page
-                                                </a></li>
-                                            <li><a href="blog-details.html">
-                                                    Blog Details
-                                                </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">
-                                            Contact Us
-                                        </a></li>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about.html">Quiénes Somos</a></li>
+                                    <li><a href="service.html">Servicios</a></li>
+                                    <li><a href="project.html">Proyectos</a></li>
+                                    <li><a href="blog.html">Noticias</a></li>
+                                    <li><a href="contact.html">Contáctanos</a></li>
                                 </ul>
                             </nav>
+
+                            <!-- Botón menú móvil -->
                             <div class="header-button d-flex d-lg-none">
                                 <button type="button" class="th-menu-toggle sidebar-btn bg-transparent">
                                     <span class="line"></span>
@@ -368,9 +80,11 @@
                                 </button>
                             </div>
                         </div>
+
+                        <!-- Botón destacado (ejemplo: contacto directo) -->
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style4 th-btn-icon">GET A QUOTE</a>
+                                <a href="contact.html" class="th-btn style4 th-btn-icon">Solicitar Información</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -383,68 +97,81 @@
             </div>
         </div>
     </header>
-
-
     <!--==============================
-Hero Area
-==============================-->
+    Hero Area
+    ==============================-->
     <div class="th-hero-wrapper hero-12" id="hero">
         <div class="slider-area">
             <div class="swiper hero-slider12" id="heroSlide12">
                 <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/hero/hero_bg_12_1.jpg"><img src="assets/img/hero/hero_bg_overlay12_1.png" alt="img"></div>
+                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal.JPG">
+                            <img src="assets/img/hero/hero_bg_overlay12_1.png" alt="imagen">
+                        </div>
                         <div class="container">
                             <div class="hero-style12 text-center">
-                                <h4 class="hero-subtitle text-theme fw-medium" data-ani="slideinup" data-ani-delay="0.2s">Welcome to our industry</h4>
+                                <h4 class="hero-subtitle text-theme fw-medium" data-ani="slideinup" data-ani-delay="0.2s">
+                                    Bienvenido a nuestra industria
+                                </h4>
                                 <h1 class="hero-title text-white">
                                     <span class="title" data-ani="slideinup" data-ani-delay="0.2s">
-                                        Industrial Solutions for a </span>
+                                        Soluciones Industriales para un
+                                    </span>
                                     <span class="title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Connected World </span>
+                                        Mundo Conectado
+                                    </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Discover More</a>
-                                    <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contact Us</a>
+                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
                         </div>
-
                     </div>
+
+                    <!-- Slide 2 -->
                     <div class="swiper-slide">
-                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/hero/hero_bg_12_2.jpg"><img src="assets/img/hero/hero_bg_overlay12_1.png" alt="img"></div>
+                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal1.JPG">
+                            <img src="assets/img/hero/hero_bg_overlay12_1.png" alt="imagen">
+                        </div>
                         <div class="container">
                             <div class="hero-style12 text-center">
-                                <h4 class="hero-subtitle text-theme fw-medium" data-ani="slideinup" data-ani-delay="0.2s">Welcome to our industry</h4>
+                                <h4 class="hero-subtitle text-theme fw-medium" data-ani="slideinup" data-ani-delay="0.2s">
+                                    Bienvenido a nuestra industria
+                                </h4>
                                 <h1 class="hero-title text-white">
                                     <span class="title" data-ani="slideinup" data-ani-delay="0.2s">
-                                        Industrial Solutions for a </span>
+                                        Innovación y Energía para un
+                                    </span>
                                     <span class="title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Connected World </span>
+                                        Futuro Sostenible
+                                    </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Discover More</a>
-                                    <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contact Us</a>
+                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
+
+            <!-- Flechas -->
             <button class="slider-arrow slider-prev swiper-button-prev">
-                <img src="assets/img/icon/arrow-left.svg" alt="img">
+                <img src="assets/img/icon/arrow-left.svg" alt="anterior">
                 <span class="circle-tag">
                     <span class="about-experience-tag">
-                        <span class="circle-title-anime">YOUR DREAM PLACE EXPLORE AND FIND</span>
+                        <span class="circle-title-anime">Descubre y explora tu lugar ideal</span>
                     </span>
                 </span>
             </button>
             <button class="slider-arrow slider-next swiper-button-next">
-                <img src="assets/img/icon/arrow-right.svg" alt="img">
+                <img src="assets/img/icon/arrow-right.svg" alt="siguiente">
                 <span class="circle-tag">
                     <span class="about-experience-tag">
-                        <span class="circle-title-anime">YOUR DREAM PLACE EXPLORE AND FIND</span>
+                        <span class="circle-title-anime">Descubre y explora tu lugar ideal</span>
                     </span>
                 </span>
             </button>
@@ -457,105 +184,110 @@ Hero Area
     </div>
     <!--======== / Hero Section ========-->
     <!--==============================
-About Area  
-==============================-->
+    About Area  
+    ==============================-->
     <div class="about-area-15 space overflow-hidden" id="about-sec">
-        <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none" data-bottom="2%" data-left="2%">
-            <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
-        </div>
-        <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-top="2%" data-right="2%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="container th-container2">
-            <div class="row gy-40 gx-60 align-items-center">
-                <div class="col-xxl-7">
-                    <div class="about-thumb17-1">
-                        <div class="img1">
-                            <img src="assets/img/normal/about_17_1.jpg" alt="img">
-                        </div>
-                        <div class="img2">
-                            <img src="assets/img/normal/about_17_2.jpg" alt="img">
-                        </div>
-                        <div class="about-tag">
-                            <div class="about-experience-tag text-title">
-                                <span class="circle-title-anime">Builda Agent Builda Living Solutions</span>
+            <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none" data-bottom="2%" data-left="2%">
+                <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
+            </div>
+            <div class="sec-bg-shape2-1 spin shape-mockup d-xxl-block d-none" data-top="2%" data-right="2%">
+                <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
+            </div>
+            <div class="container th-container2">
+                <div class="row gy-40 gx-60 align-items-center">
+                    <div class="col-xxl-7">
+                        <div class="about-thumb17-1">
+                            <div class="img1">
+                                <img src="assets/img/images-cabonor/2.JPG" alt="Carbónor planta">
                             </div>
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                            <div class="img2">
+                                <img src="assets/img/images-cabonor/1.JPG" alt="Carbónor hornos">
+                            </div>
+                            <div class="about-tag">
+                                <div class="about-experience-tag text-title">
+                                    <span class="circle-title-anime">Carbónor – Energía que mueve el progreso</span>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                            </div>
+                            <div class="about-shape17-1 movingX">
+                                <img src="assets/img/shape/about-shape-17-1.png" alt="img">
+                            </div>
+                            <div class="about-shape17-2 jump">
+                                <img src="assets/img/shape/about-shape-17-2.png" alt="img">
+                            </div>
                         </div>
-                        <div class="about-shape17-1 movingX">
-                            <img src="assets/img/shape/about-shape-17-1.png" alt="img">
-                        </div>
-                        <div class="about-shape17-2 jump">
-                            <img src="assets/img/shape/about-shape-17-2.png" alt="img">
+                    </div>
+                    <div class="col-xxl-5">
+                        <div class="about-wrap16">
+                            <div class="title-area mb-35">
+                                <span class="sub-title text-title">Sobre Nosotros</span>
+                                <h2 class="sec-title">Carbones Norte-Santandereanos S.A.S. – Carbónor</h2>
+                                <p>Somos una empresa regional con más de dos décadas de experiencia en la producción de <strong>coque reactivo bajo en fósforo (ULP)</strong>, operando más de 210 hornos tipo colmena en Norte de Santander – Colombia. Nuestro proceso de producción está certificado y estandarizado, lo que garantiza calidad y continuidad en el suministro.</p>
+                                <p>Contamos con infraestructura propia en toda la cadena productiva: carbones, transporte, patios de almacenamiento y plantas de preparación y producción de coque. Gracias a esto aseguramos un producto homogéneo, confiable y con certificación internacional SGS.</p>
+                            </div>
+                            <div class="btn-wrap">
+                                <a class="th-btn th-btn-icon style4" href="about.html">Conoce Más</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-5">
-                    <div class="about-wrap16">
-                        <div class="title-area mb-35">
-                            <span class="sub-title text-title">About Us</span>
-                            <h2 class="sec-title">A Have Leading Industrial & Manufacturing Company Serving Since 2025</h2>
-                            <p>An industrial manufacturing company is a business entity that specializes in producing and supplying a wide range of products and components used in various industries. These products can range from machinery and equipment to electronics, automotive parts, consumer goods, and more.</p>
-                            <p>Industrial manufacturing companies often produce a diverse range of products, from small components to large machinery.</p>
-                        </div>
-                        <div class="btn-wrap">
-                            <a class="th-btn th-btn-icon style4" href="about.html">More About Us</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </div>
     </div>
-
     <!--==============================
-Counter Area  
-==============================-->
+    Counter Area  
+    ==============================-->
     <div class="space bg-black2">
-        <div class="container th-container2">
-            <div class="counter-card-wrap style2">
-                <div class="counter-card style2">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number text-white">20</span>+</h2>
-                        <p class="box-text text-light">Years of Experiences</p>
+            <div class="container th-container2">
+                <div class="counter-card-wrap style2">
+                    
+                    <div class="counter-card style2">
+                        <div class="media-body">
+                            <h2 class="box-number text-white"><span class="counter-number text-white">20</span>+</h2>
+                            <p class="box-text text-light">Años de experiencia</p>
+                        </div>
                     </div>
-                </div>
-                <div class="counter-card style2">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number text-white">12</span>k+</h2>
-                        <p class="box-text text-light">Featured Projects</p>
+                    
+                    <div class="counter-card style2">
+                        <div class="media-body">
+                            <h2 class="box-number text-white"><span class="counter-number text-white">210</span>+</h2>
+                            <p class="box-text text-light">Hornos tipo colmena propios</p>
+                        </div>
                     </div>
-                </div>
-                <div class="counter-card style2">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number text-white">985</span>+</h2>
-                        <p class="box-text text-light">Modern Houses</p>
+                    
+                    <div class="counter-card style2">
+                        <div class="media-body">
+                            <h2 class="box-number text-white"><span class="counter-number text-white">10.000</span>+</h2>
+                            <p class="box-text text-light">Toneladas mensuales de capacidad</p>
+                        </div>
                     </div>
-                </div>
-                <div class="counter-card style2">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number text-white">85</span>+</h2>
-                        <p class="box-text text-light">Team Members</p>
+                    
+                    <div class="counter-card style2">
+                        <div class="media-body">
+                            <h2 class="box-number text-white"><span class="counter-number text-white">100</span>%</h2>
+                            <p class="box-text text-light">Producción certificada SGS</p>
+                        </div>
                     </div>
-                </div>
-                <div class="counter-card style2">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number text-white">25</span>k+</h2>
-                        <p class="box-text text-light">Satisfied clieants</p>
+                    
+                    <div class="counter-card style2">
+                        <div class="media-body">
+                            <h2 class="box-number text-white"><span class="counter-number text-white">86</span>%</h2>
+                            <p class="box-text text-light">Carbono fijo promedio</p>
+                        </div>
                     </div>
-                </div>
-                <div class="counter-card style2">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number text-white">45</span>k</h2>
-                        <p class="box-text text-light">Trusted Partners</p>
+                    
+                    <div class="counter-card style2">
+                        <div class="media-body">
+                            <h2 class="box-number text-white"><span class="counter-number text-white">2</span></h2>
+                            <p class="box-text text-light">Puertos de exportación</p>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
-        </div>
     </div>
     <!--==============================
-Service Area  
-==============================-->
+    Service Area  
+    ==============================-->
     <section class="service-area-3 space overflow-hidden" id="service-sec">
         <div class="sec-bg-shape2-3 jump shape-mockup d-xl-block d-none" data-top="-2%" data-right="30%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
@@ -564,14 +296,14 @@ Service Area
             <div class="row justify-content-between align-items-center">
                 <div class="col-xxl-5 col-lg-7">
                     <div class="title-area">
-                        <span class="sub-title text-title">Our Industrial Services</span>
-                        <h2 class="sec-title">We're Provide Industry solutions</h2>
-                        <p>Industrial solutions refer to a wide range of technologies, systems, & services designed to improve productivity, efficiency, and sustainability in various industries.</p>
+                        <span class="sub-title text-title">Nuestros Servicios Industriales</span>
+                        <h2 class="sec-title">Soluciones confiables en la industria del carbón</h2>
+                        <p>En Carbónor ofrecemos soluciones integrales que garantizan productividad, sostenibilidad y calidad en la extracción, comercialización y distribución de carbón mineral.</p>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.html" class="th-btn style4 th-btn-icon">Browse All Services</a>
+                        <a href="service.html" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
                     </div>
                 </div>
             </div>
@@ -582,10 +314,10 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-4.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Maintenance & repair</a></h3>
-                            <p class="box-text">Use of AI-powered machines and robotic arms for faster, precise manufacturing.</p>
+                            <h3 class="box-title"><a href="service-details.html">Extracción y producción</a></h3>
+                            <p class="box-text">Procesos eficientes y seguros en la extracción y preparación del carbón mineral.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/3-4.png" alt="img">
+                                <img src="assets/img/images-cabonor/3.jpg" alt="img">
                                 <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
@@ -597,10 +329,10 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-5.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Automotive Manufacturing</a></h3>
-                            <p class="box-text">Industrial manufacturing companies often produce a diverse range of products.</p>
+                            <h3 class="box-title"><a href="service-details.html">Comercialización</a></h3>
+                            <p class="box-text">Suministro confiable de carbón para diferentes sectores industriales y energéticos.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/3-5.png" alt="img">
+                                <img src="assets/img/images-cabonor/4.jpg" alt="img">
                                 <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
@@ -612,10 +344,10 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-6.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Chemical Researching</a></h3>
-                            <p class="box-text">Industrial manufacturing companies often produce a diverse range of products.</p>
+                            <h3 class="box-title"><a href="service-details.html">Transporte y logística</a></h3>
+                            <p class="box-text">Gestión eficiente del transporte para garantizar entregas puntuales a nivel nacional e internacional.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/3-6.png" alt="img">
+                                <img src="assets/img/images-cabonor/5.jpg" alt="img">
                                 <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
@@ -627,70 +359,10 @@ Service Area
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-7.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Construction Engineering</a></h3>
-                            <p class="box-text">Industrial manufacturing companies often produce a diverse range of products.</p>
+                            <h3 class="box-title"><a href="service-details.html">Sostenibilidad ambiental</a></h3>
+                            <p class="box-text">Compromiso con prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/service/3-7.png" alt="img">
-                                <a href="service-details.html" class="icon-btn">
-                                    <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-card style3">
-                            <div class="service-card-icon">
-                                <img src="assets/img/icon/service-icon3-4.svg" alt="Icon">
-                            </div>
-                            <h3 class="box-title"><a href="service-details.html">Maintenance & repair</a></h3>
-                            <p class="box-text">Use of AI-powered machines and robotic arms for faster, precise manufacturing.</p>
-                            <div class="service-img img-shine">
-                                <img src="assets/img/service/3-4.png" alt="img">
-                                <a href="service-details.html" class="icon-btn">
-                                    <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-card style3">
-                            <div class="service-card-icon">
-                                <img src="assets/img/icon/service-icon3-5.svg" alt="Icon">
-                            </div>
-                            <h3 class="box-title"><a href="service-details.html">Automotive Manufacturing</a></h3>
-                            <p class="box-text">Industrial manufacturing companies often produce a diverse range of products.</p>
-                            <div class="service-img img-shine">
-                                <img src="assets/img/service/3-5.png" alt="img">
-                                <a href="service-details.html" class="icon-btn">
-                                    <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-card style3">
-                            <div class="service-card-icon">
-                                <img src="assets/img/icon/service-icon3-6.svg" alt="Icon">
-                            </div>
-                            <h3 class="box-title"><a href="service-details.html">Chemical Researching</a></h3>
-                            <p class="box-text">Industrial manufacturing companies often produce a diverse range of products.</p>
-                            <div class="service-img img-shine">
-                                <img src="assets/img/service/3-6.png" alt="img">
-                                <a href="service-details.html" class="icon-btn">
-                                    <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-card style3">
-                            <div class="service-card-icon">
-                                <img src="assets/img/icon/service-icon3-7.svg" alt="Icon">
-                            </div>
-                            <h3 class="box-title"><a href="service-details.html">Construction Engineering</a></h3>
-                            <p class="box-text">Industrial manufacturing companies often produce a diverse range of products.</p>
-                            <div class="service-img img-shine">
-                                <img src="assets/img/service/3-7.png" alt="img">
+                                <img src="assets/img/images-cabonor/6.jpg" alt="img">
                                 <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a>
@@ -702,10 +374,9 @@ Service Area
             </div>
         </div>
     </section>
-
     <!--==============================
-About Area  
-==============================-->
+    About Area  
+    ==============================-->
     <div class="overflow-hidden bg-black2 space overflow-hidden">
         <div class="about-3-bg-shape text-white sec-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-bottom="15%" data-left="3%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
@@ -722,20 +393,20 @@ About Area
             <div class="row align-items-center justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
-                        <span class="sub-title text-white">Why Choose Us</span>
-                        <h2 class="sec-title text-white">We Are Always Best For Industrial Solution</h2>
-                        <p class="text-white mb-35 mt-20">Industrial services cover a broad range of solutions aimed at improving operations, increasing productivity, and ensuring safety across various industries such as manufacturing</p>
+                        <span class="sub-title text-white">¿Por qué elegirnos?</span>
+                        <h2 class="sec-title text-white">La mejor opción en soluciones de carbón industrial</h2>
+                        <p class="text-white mb-35 mt-20">En Carbónor trabajamos para brindar un servicio confiable y sostenible, optimizando operaciones, garantizando productividad y asegurando calidad en cada proceso.</p>
                         <div class="checklist why-list-wrap mb-15">
                             <ul>
-                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Powerfull Product Strategy</li>
-                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Quality Control System</li>
-                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Professional Team Works</li>
-                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Award Winning Projects</li>
+                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Estrategia de producción eficiente</li>
+                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Control de calidad riguroso</li>
+                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Equipo profesional y comprometido</li>
+                                <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Proyectos reconocidos por excelencia</li>
                             </ul>
                         </div>
                         <div class="btn-wrap justify-content-center">
-                            <a href="contact.html" class="th-btn mb-0 style4 th-btn-icon">Get In Touch</a>
-                            <a href="about.html" class="th-btn mb-0 style-border3 th-btn-icon">More About Builda</a>
+                            <a href="contact.html" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
+                            <a href="about.html" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
                         </div>
                     </div>
                 </div>
@@ -745,40 +416,41 @@ About Area
             <ul class="about-3-thumb-list">
                 <li class="gallery-card">
                     <a class="popup-image jump" href="assets/img/gallery/3-1.png">
-                        <img src="assets/img/gallery/3-1.png" alt="img">
+                        <img src="assets/img/images-cabonor/8.jpg" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image jump-reverse" href="assets/img/gallery/3-2.png">
-                        <img src="assets/img/gallery/3-2.png" alt="img">
+                        <img src="assets/img/images-cabonor/9.jpg" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image jump-reverse" href="assets/img/gallery/3-3.png">
-                        <img src="assets/img/gallery/3-3.png" alt="img">
+                        <img src="assets/img/images-cabonor/10.jpg" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image" href="assets/img/gallery/3-4.png">
-                        <img src="assets/img/gallery/3-4.png" alt="img">
+                        <img src="assets/img/images-cabonor/11.jpg" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image jump" href="assets/img/gallery/3-5.png">
-                        <img src="assets/img/gallery/3-5.png" alt="img">
+                        <img src="assets/img/images-cabonor/7.jpg" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
             </ul>
         </div>
-    </div><!--==============================
-Portfolio Area  
-==============================-->
-    <section class="space overflow-hidden overflow-hidden" id="project-sec">
+    </div>
+    <!--==============================
+    Portfolio Area  
+    ==============================-->
+    <!-- <section class="space overflow-hidden overflow-hidden" id="project-sec">
         <div class="project-bg-shape3-1 sec-bg-shape2-1 jump shape-mockup d-xxl-block d-none" data-bottom="5%" data-right="0%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -947,63 +619,63 @@ Portfolio Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
-Video Area  
-==============================-->
-    <div class="video-area-2 space overflow-hidden" data-bg-src="assets/img/bg/video-bg-2-1.png" id="contact-sec" data-overlay="black2" data-opacity="5">
+    </section> -->
+    <!--==============================
+    Video Area  
+    ==============================-->
+   <div class="video-area-2 space overflow-hidden" data-bg-src="assets/img/images-cabonor/8.jpg" id="contact-sec" data-overlay="black2" data-opacity="5">
         <div class="container th-container2">
             <div class="row gy-50 flex-row-reverse">
                 <div class="col-lg-7">
-                    <div class="video-wrap2 mb-lg-0 mb-40">
-                        <h2 class="video-title text-white">We Manage Your Project, <br class="d-xl-block d-none"> You Run Your Life</h2>
+                    <!-- <div class="video-wrap2 mb-lg-0 mb-40">
+                        <h2 class="video-title text-white">Gestionamos la producción,<br class="d-xl-block d-none"> tú recibes calidad garantizada</h2>
                         <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-btn popup-video">
                             <span class="play-btn style5"><i class="fa-sharp fa-solid fa-play"></i></span>
-                            Play Video
+                            Ver Video
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-5">
                     <div class="appointment-wrap2 bg-black2 me-xxl-5">
-                        <h2 class="form-title text-white">Get In Touch</h2>
+                        <h2 class="form-title text-white">Contáctanos</h2>
                         <form action="mail.php" method="POST" class="appointment-form ajax-contact">
                             <div class="row">
                                 <div class="form-group style-border5 col-12">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu Nombre*">
                                     <i class="fal fa-user"></i>
                                 </div>
                                 <div class="form-group style-border5 col-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo*">
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="form-group style-border5 col-md-12">
                                     <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Select Service Type</option>
-                                        <option value="Real Estate">Real Estate</option>
-                                        <option value="Apartment">Apartment</option>
-                                        <option value="Residencial">Residencial</option>
-                                        <option value="Deluxe">Deluxe</option>
+                                        <option value="" disabled selected hidden>Selecciona el tipo de consulta</option>
+                                        <option value="Cotización">Cotización</option>
+                                        <option value="Compras Nacionales">Compras Nacionales</option>
+                                        <option value="Exportaciones">Exportaciones</option>
+                                        <option value="Otros">Otros</option>
                                     </select>
                                     <i class="fal fa-angle-down"></i>
                                 </div>
                                 <div class="col-12 form-group style-border5">
                                     <i class="far fa-comments"></i>
-                                    <textarea placeholder="Type Your Message" class="form-control"></textarea>
+                                    <textarea placeholder="Escribe tu mensaje" class="form-control" name="message"></textarea>
                                 </div>
                                 <div class="col-12 form-btn mt-4">
-                                    <button class="th-btn style-border">Submit Message <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
+                                    <button class="th-btn style-border">Enviar Mensaje <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
+   </div>
     <!--==============================
-Client Area  
-==============================-->
+    Client Area  
+    ==============================-->
     <div class="client-area-1 bg-black2 space">
         <div class="container th-container2">
             <div class="swiper th-slider has-shadow" id="clientSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"3"},"768":{"slidesPerView":"4"},"992":{"slidesPerView":"5"},"1200":{"slidesPerView":"6"}}}'>
@@ -1085,9 +757,9 @@ Client Area
             </div>
         </div>
     </div><!--==============================
-Subscribe Area   
-==============================-->
-    <div class="space overflow-hidden z-index-common" data-bg-src="assets/img/bg/subscribe-bg-3-1.png" data-overlay="black2" data-opacity="7">
+    Subscribe Area   
+    ==============================-->
+    <!-- <div class="space overflow-hidden z-index-common" data-bg-src="assets/img/bg/subscribe-bg-3-1.png" data-overlay="black2" data-opacity="7">
         <div class="container th-container2">
             <div class="row gx-35">
                 <div class="col-xxl-4 col-lg-5">
@@ -1120,11 +792,11 @@ Subscribe Area
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--==============================
-Testimonial Area  
-==============================-->
-    <section class="overflow-hidden space">
+    Testimonial Area  
+    ==============================-->
+    <!-- <section class="overflow-hidden space">
         <div class="sec-bg-shape2-1 spin shape-mockup d-xl-block d-none" data-bottom="2%" data-left="-1%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
@@ -1323,11 +995,11 @@ Testimonial Area
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--==============================
-Team Area  
-==============================-->
-    <section class="space bg-black2 overflow-hidden" id="team-sec">
+    Team Area  
+    ==============================-->
+    <!-- <section class="space bg-black2 overflow-hidden" id="team-sec">
         <div class="sec-bg-shape2-3 jump shape-mockup d-xxl-block d-none text-white" data-bottom="0%" data-left="1%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -1349,7 +1021,6 @@ Team Area
             <div class="slider-area team-slider3">
                 <div class="swiper th-slider slider-drag-wrap" id="teamSlider3" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}},"grabCursor":"true"}'>
                     <div class="swiper-wrapper">
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1377,7 +1048,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1405,7 +1075,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1433,7 +1102,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1461,7 +1129,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1489,7 +1156,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1517,7 +1183,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1545,7 +1210,6 @@ Team Area
                             </div>
                         </div>
 
-                        <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="th-team team-card style3">
                                 <div class="img-wrap">
@@ -1577,13 +1241,11 @@ Team Area
                 </div>
             </div>
         </div>
-    </section>
-
-
+    </section> -->
     <!--==============================
-Blog Area  
-==============================-->
-    <section class="overflow-hidden space" id="blog-sec">
+    Blog Area  
+    ==============================-->
+    <!-- <section class="overflow-hidden space" id="blog-sec">
         <div class="sec-bg-shape2-3 jump shape-mockup d-xl-block d-none" data-bottom="0%" data-right="4%">
             <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
@@ -1737,9 +1399,10 @@ Blog Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section> -->
+    <!--==============================
 	Footer Area
-==============================-->
+    ==============================-->
 <footer class="footer-wrapper footer-layout3 bg-white">
     <?php include_once 'includes/footer.php'; ?>
 </footer>
