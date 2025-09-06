@@ -1,0 +1,19 @@
+name: Enforce PR source to master
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, edited]
+    branches: [ master ]
+
+jobs:
+  validate-source-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail PRs not coming from develop
+        run: |
+          echo "Base: ${{ github.base_ref }}  | Head: ${{ github.head_ref }}"
+          if [[ "${{ github.base_ref }}" == "master" && "${{ github.head_ref }}" != "develop" ]]; then
+            echo "❌ Solo se permiten PR desde 'develop' hacia 'master'. Rama origen: '${{ github.head_ref }}'"
+            exit 1
+          fi
+          echo "✅ PR válida: '${{ github.head_ref }}' → '${{ github.base_ref }}'"
