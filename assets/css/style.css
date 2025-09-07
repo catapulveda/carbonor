@@ -4027,8 +4027,8 @@ Version: 1.0.0
   overflow: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-animation: animloader 6s linear infinite;
-          animation: animloader 6s linear infinite;
+  -webkit-animation: animloader 2s linear infinite;
+          animation: animloader 2s linear infinite;
 }
 
 @-webkit-keyframes animloader {

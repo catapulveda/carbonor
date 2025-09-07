@@ -44,58 +44,7 @@
 	Header Area
     ==============================-->
     <header class="th-header header-default">
-        <div class="sticky-wrapper">
-            <!-- Menú principal -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <!-- Logo -->
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.html">
-                                    <img src="assets/img/images-cabonor/logo-carbonor1.png" alt="Carbónor">
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Navegación -->
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="about.html">Quiénes Somos</a></li>
-                                    <li><a href="service.html">Servicios</a></li>
-                                    <li><a href="project.html">Proyectos</a></li>
-                                    <li><a href="blog.html">Noticias</a></li>
-                                    <li><a href="contact.html">Contáctanos</a></li>
-                                </ul>
-                            </nav>
-
-                            <!-- Botón menú móvil -->
-                            <div class="header-button d-flex d-lg-none">
-                                <button type="button" class="th-menu-toggle sidebar-btn bg-transparent">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Botón destacado (ejemplo: contacto directo) -->
-                        <div class="col-auto d-none d-xxl-block">
-                            <div class="header-button">
-                                <a href="contact.html" class="th-btn style4 th-btn-icon">Solicitar Información</a>
-                                <button type="button" class="simple-icon sideMenuInfo sidebar-btn">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include_once 'includes/header.php'; ?>
     </header>
     <!--==============================
     Hero Area
@@ -123,7 +72,7 @@
                                     </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <a href="contact.php" class="th-btn style4 th-btn-icon">Contáctanos</a>
                                     <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
@@ -207,7 +156,7 @@
                                 <div class="about-experience-tag text-title">
                                     <span class="circle-title-anime">Carbónor – Energía que mueve el progreso</span>
                                 </div>
-                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                             </div>
                             <div class="about-shape17-1 movingX">
                                 <img src="assets/img/shape/about-shape-17-1.png" alt="img">
@@ -226,7 +175,7 @@
                                 <p>Contamos con infraestructura propia en toda la cadena productiva: carbones, transporte, patios de almacenamiento y plantas de preparación y producción de coque. Gracias a esto aseguramos un producto homogéneo, confiable y con certificación internacional SGS.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a class="th-btn th-btn-icon style4" href="about.html">Conoce Más</a>
+                                <a class="th-btn th-btn-icon style4" href="about.php">Conoce Más</a>
                             </div>
                         </div>
                     </div>
@@ -303,7 +252,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.html" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
+                        <a href="service.php" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
                     </div>
                 </div>
             </div>
@@ -360,7 +309,7 @@
                                 <img src="assets/img/icon/service-icon3-7.svg" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="service-details.html">Sostenibilidad ambiental</a></h3>
-                            <p class="box-text">Compromiso con prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
+                            <p class="box-text">Prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/images-cabonor/6.jpg" alt="img">
                                 <a href="service-details.html" class="icon-btn">
@@ -405,8 +354,8 @@
                             </ul>
                         </div>
                         <div class="btn-wrap justify-content-center">
-                            <a href="contact.html" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
-                            <a href="about.html" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
+                            <a href="contact.php" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
+                            <a href="about.php" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
                         </div>
                     </div>
                 </div>
@@ -1403,9 +1352,9 @@
     <!--==============================
 	Footer Area
     ==============================-->
-<footer class="footer-wrapper footer-layout3 bg-white">
-    <?php include_once 'includes/footer.php'; ?>
-</footer>
+    <footer class="footer-wrapper footer-layout3 bg-white">
+        <?php include_once 'includes/footer.php'; ?>
+    </footer>
     <!--********************************
 			Code End  Here 
 	******************************** -->

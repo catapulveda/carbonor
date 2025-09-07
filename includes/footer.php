@@ -62,11 +62,11 @@
                         <h3 class="widget_title">Enlaces Útiles</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="about.html">Quiénes Somos</a></li>
-                                <li><a href="service.html">Nuestros Servicios</a></li>
-                                <li><a href="projects.html">Proyectos</a></li>
-                                <li><a href="contact.html">Contáctanos</a></li>
-                                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                                <li><a href="about.php">Quiénes Somos</a></li>
+                                <li><a href="service.php">Nuestros Servicios</a></li>
+                                <!-- <li><a href="projects.html">Proyectos</a></li> -->
+                                <li><a href="contact.php">Contáctanos</a></li>
+                                <!-- <li><a href="faq.html">Preguntas Frecuentes</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -78,11 +78,11 @@
                         <h3 class="widget_title">Explorar</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="team.html">Nuestro Equipo</a></li>
-                                <li><a href="sustainability.html">Sostenibilidad</a></li>
-                                <li><a href="blog.html">Noticias</a></li>
-                                <li><a href="process.html">Procesos</a></li>
-                                <li><a href="contact.html">Ubicación</a></li>
+                                <!-- <li><a href="team.html">Nuestro Equipo</a></li> -->
+                                <!-- <li><a href="sustainability.html">Sostenibilidad</a></li> -->
+                                <!-- <li><a href="blog.php">Noticias</a></li>
+                                <li><a href="process.php">Procesos</a></li> -->
+                                <li><a href="contact.php">Ubicación</a></li>
                             </ul>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
 </div>
 
 <!-- Copyright -->
-<div class="copyright-area" data-bg-src="assets/img/bg/footer-bg-3-1.png">
+<div class="copyright-area" data-bg-src="assets/img/bg/breadcumb-bg.jpg&quot">
     <div class="container th-container2">
         <div class="copyright-wrap bg-white">
             <div class="footer-container">
