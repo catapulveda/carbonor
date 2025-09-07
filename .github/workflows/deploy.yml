@@ -1,4 +1,4 @@
-name: Deploy Carbonor to CPanel
+name: Deploy Carbonor to CPanel via FTP
 
 on:
   push:
@@ -18,52 +18,38 @@ jobs:
       with:
         php-version: '8.1'
         
-    - name: Create deployment package
+    - name: Create .htaccess file
       run: |
-        # Crear archivo .htaccess si no existe
         if [ ! -f .htaccess ]; then
           echo "Options -Indexes" > .htaccess
           echo "DirectoryIndex index.php index.html" >> .htaccess
+          echo "RewriteEngine On" >> .htaccess
+          echo "RewriteCond %{HTTPS} off" >> .htaccess
+          echo "RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]" >> .htaccess
         fi
         
-        # Crear paquete de despliegue
-        zip -r carbonor-deploy.zip . \
-          -x "*.git*" \
-          -x "*.github*" \
-          -x "*.md" \
-          -x "node_modules/*" \
-          -x "*.log" \
-          -x ".env*" \
-          -x "*.zip" \
-          -x "*.DS_Store" \
-          -x "Thumbs.db"
-          
-    - name: Deploy to CPanel
-      uses: appleboy/scp-action@v0.1.4
+    - name: Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.3
       with:
-        host: ${{ secrets.CPANEL_HOST }}
-        username: ${{ secrets.CPANEL_USERNAME }}
-        key: ${{ secrets.CPANEL_SSH_KEY }}
-        port: 22
-        source: "carbonor-deploy.zip"
-        target: "/home/${{ secrets.CPANEL_USERNAME }}/"
-        
-    - name: Extract and deploy
-      uses: appleboy/ssh-action@v0.1.5
-      with:
-        host: ${{ secrets.CPANEL_HOST }}
-        username: ${{ secrets.CPANEL_USERNAME }}
-        key: ${{ secrets.CPANEL_SSH_KEY }}
-        passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE }}
-        port: 22
-        script: |
-          cd /home/${{ secrets.CPANEL_USERNAME }}/
-          unzip -o carbonor-deploy.zip -d public_html/
-          rm carbonor-deploy.zip
-          chmod -R 755 public_html/
-          chmod -R 644 public_html/*.php
-          chmod -R 644 public_html/*.html
-          chmod -R 644 public_html/*.css
-          chmod -R 644 public_html/*.js
-          echo "✅ Deployment completed successfully!"
-          echo "📅 $(date)"
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
+        server-dir: public_html/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/.github/**
+          **/*.md
+          **/*.log
+          **/.env*
+          **/*.zip
+          **/*.DS_Store
+          **/Thumbs.db
+          **/.vscode/**
+          **/.idea/**
+          **/*.swp
+          **/*.swo
+          **/*.bak
+          **/*.backup
