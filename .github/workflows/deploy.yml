@@ -1,4 +1,4 @@
-name: Deploy Carbonor to CPanel via FTP
+name: Deploy Carbonor to CPanel via FTP (Incremental)
 
 on:
   push:
@@ -12,11 +12,39 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-      
+      with:
+        fetch-depth: 0  # Obtener todo el historial para comparar
+        
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.1'
+        
+    - name: Get changed files
+      id: changed-files
+      run: |
+        # Obtener archivos modificados en el último commit
+        if [ "${{ github.event_name }}" = "push" ]; then
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+        else
+          # Para workflow_dispatch, subir todos los archivos
+          CHANGED_FILES=$(find . -type f -not -path './.git/*' -not -path './.github/*' -not -path './node_modules/*' -not -path './*.md' -not -path './*.log' -not -path './.env*' -not -path './*.zip' -not -path './*.DS_Store' -not -path './Thumbs.db' -not -path './.vscode/*' -not -path './.idea/*' -not -path './*.swp' -not -path './*.swo' -not -path './*.bak' -not -path './*.backup')
+        fi
+        
+        # Crear lista de archivos para subir
+        echo "$CHANGED_FILES" > changed_files.txt
+        
+        # Mostrar archivos que se van a subir
+        echo "Files to upload:"
+        cat changed_files.txt
+        
+        # Crear archivo de configuración para FTP
+        echo "include:" > ftp_config.txt
+        while IFS= read -r file; do
+          if [ -n "$file" ] && [ -f "$file" ]; then
+            echo "  - $file" >> ftp_config.txt
+          fi
+        done < changed_files.txt
         
     - name: Create .htaccess file
       run: |
@@ -28,7 +56,7 @@ jobs:
           echo "RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]" >> .htaccess
         fi
         
-    - name: Deploy via FTP
+    - name: Deploy changed files via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.3
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -36,6 +64,18 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
         server-dir: public_html/
+        include: |
+          **/*.php
+          **/*.html
+          **/*.css
+          **/*.js
+          **/*.png
+          **/*.jpg
+          **/*.jpeg
+          **/*.gif
+          **/*.svg
+          **/*.ico
+          **/.htaccess
         exclude: |
           **/.git*
           **/.git*/**
@@ -53,3 +93,7 @@ jobs:
           **/*.swo
           **/*.bak
           **/*.backup
+          **/assets/sass/**
+        dry-run: false
+        log-level: minimal
+        dangerous-clean-slate: false
