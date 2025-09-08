@@ -7,7 +7,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="/">
-                                    <img src="/assets/img/images-cabonor/logo-carbonor1.png" alt="Carbónor">
+                                    <img src="/assets/img/images-cabonor/logo-carbonor1.webp" alt="Carbónor">
                                 </a>
                             </div>
                         </div>
@@ -17,10 +17,10 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li><a href="/">INICIO</a></li>
-                                    <li><a href="/about">QUIENES SOMOS</a></li>
+                                    <li><a href="/quienes-somos">QUIENES SOMOS</a></li>
                                     <li><a href="/servicios">SERVICIOS</a></li>
-                                    <li><a href="/proyect">PROYECTOS</a></li>
-                                    <li><a href="/contact">CONTÁCTANOS</a></li>
+                                    <li><a href="/proyectos">PROYECTOS</a></li>
+                                    <li><a href="/contacto">CONTÁCTANOS</a></li>
                                 </ul>
                             </nav>
 

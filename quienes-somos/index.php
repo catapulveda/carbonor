@@ -94,14 +94,14 @@
                 <div class="col-lg-6">
                     <div class="img-box1">
                         <div class="img1 img-shine" data-mask-src="assets/img/shape/about-1-mask.png">
-                            <img src="/assets/img/images-cabonor/quienes-somos/1.jpg" alt="Producción de coque en Carbónor">
+                            <img src="/assets/img/images-cabonor/quienes-somos/1.webp" alt="Producción de coque en Carbónor">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="img-box1">
                         <div class="img1 img-shine" data-mask-src="assets/img/shape/about-1-mask.png">
-                            <img src="/assets/img/images-cabonor/quienes-somos/2.jpg" alt="Hornos tipo colmena Carbónor">
+                            <img src="/assets/img/images-cabonor/quienes-somos/2.webp" alt="Hornos tipo colmena Carbónor">
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
             <div class="video-area-1-1 space-bottom position-relative" data-sec-pos="top-half" data-pos-for="#process-area2">
                 <div class="video-wrap1 style2 overflow-hidden">
                 <div class="video-box1" data-overlay="black2" data-opacity="3">
-                        <img src="assets/img/images-cabonor/quienes-somos/3.jpg" alt="Carbónor Video">
+                        <img src="assets/img/images-cabonor/quienes-somos/3.webp" alt="Carbónor Video">
                         <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn style3 popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i>
                         </a>

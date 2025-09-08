@@ -55,7 +55,7 @@
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal.JPG">
+                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal.webp">
                             <img src="assets/img/hero/hero_bg_overlay12_1.png" alt="imagen">
                         </div>
                         <div class="container">
@@ -81,7 +81,7 @@
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
-                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal1.JPG">
+                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal1.webp">
                             <img src="assets/img/hero/hero_bg_overlay12_1.png" alt="imagen">
                         </div>
                         <div class="container">
@@ -147,10 +147,10 @@
                     <div class="col-xxl-7">
                         <div class="about-thumb17-1">
                             <div class="img1">
-                                <img src="assets/img/images-cabonor/2.JPG" alt="Carbónor planta">
+                                <img src="assets/img/images-cabonor/2.webp" alt="Carbónor planta">
                             </div>
                             <div class="img2">
-                                <img src="assets/img/images-cabonor/1.JPG" alt="Carbónor hornos">
+                                <img src="assets/img/images-cabonor/1.webp" alt="Carbónor hornos">
                             </div>
                             <div class="about-tag">
                                 <div class="about-experience-tag text-title">
@@ -266,7 +266,7 @@
                             <h3 class="box-title"><a href="#">Extracción y producción</a></h3>
                             <p class="box-text">Procesos eficientes y seguros en la extracción y preparación del carbón mineral.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/3.jpg" alt="img">
+                                <img src="assets/img/images-cabonor/3.webp" alt="img">
                                 <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a> -->
@@ -281,7 +281,7 @@
                             <h3 class="box-title"><a href="#">Comercialización</a></h3>
                             <p class="box-text">Suministro confiable de carbón para diferentes sectores industriales y energéticos.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/5.jpg" alt="img">
+                                <img src="assets/img/images-cabonor/5.webp" alt="img">
                                 <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a> -->
@@ -296,7 +296,7 @@
                             <h3 class="box-title"><a href="#">Transporte y logística</a></h3>
                             <p class="box-text">Gestión eficiente del transporte para garantizar entregas puntuales a nivel nacional e internacional.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/4.jpg" alt="img">
+                                <img src="assets/img/images-cabonor/4.webp" alt="img">
                                 <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a> -->
@@ -311,7 +311,7 @@
                             <h3 class="box-title"><a href="#">Sostenibilidad ambiental</a></h3>
                             <p class="box-text">Prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/6.jpg" alt="img">
+                                <img src="assets/img/images-cabonor/6.webp" alt="img">
                                 <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
                                 </a> -->
@@ -365,31 +365,31 @@
             <ul class="about-3-thumb-list">
                 <li class="gallery-card">
                     <a class="popup-image jump" href="assets/img/gallery/3-1.png">
-                        <img src="assets/img/images-cabonor/8.jpg" alt="img">
+                        <img src="assets/img/images-cabonor/8.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image jump-reverse" href="assets/img/gallery/3-2.png">
-                        <img src="assets/img/images-cabonor/9.jpg" alt="img">
+                        <img src="assets/img/images-cabonor/9.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image jump-reverse" href="assets/img/gallery/3-3.png">
-                        <img src="assets/img/images-cabonor/10.jpg" alt="img">
+                        <img src="assets/img/images-cabonor/10.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image" href="assets/img/gallery/3-4.png">
-                        <img src="assets/img/images-cabonor/11.jpg" alt="img">
+                        <img src="assets/img/images-cabonor/11.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
                     <a class="popup-image jump" href="assets/img/gallery/3-5.png">
-                        <img src="assets/img/images-cabonor/7.jpg" alt="img">
+                        <img src="assets/img/images-cabonor/7.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
@@ -572,7 +572,7 @@
     <!--==============================
     Video Area  
     ==============================-->
-   <div class="video-area-2 space overflow-hidden" data-bg-src="assets/img/images-cabonor/8.jpg" id="contact-sec" data-overlay="black2" data-opacity="5">
+   <div class="video-area-2 space overflow-hidden" data-bg-src="assets/img/images-cabonor/8.webp" id="contact-sec" data-overlay="black2" data-opacity="5">
         <div class="container th-container2">
             <div class="row gy-50 flex-row-reverse">
                 <div class="col-lg-7">

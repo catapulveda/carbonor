@@ -130,7 +130,7 @@
     ==============================-->
     <div class="space contact-area-5 z-index-common" id="contact-sec">
         <div class="contact-thumb6-1">
-            <img src="assets/img/images-cabonor/contacto/2.jpg" alt="img">
+            <img src="assets/img/images-cabonor/contacto/2.webp" alt="img">
         </div>
         <div class="container">
             <div class="row gx-60 gy-60 justify-content-end">

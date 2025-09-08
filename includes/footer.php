@@ -7,7 +7,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="assets/img/logo-white.svg" alt="Carbónor"></a>
+                                <a href="index.html"><img src="/assets/img/images-cabonor/logo-carbonor1.webp" alt="Carbónor"></a>
                             </div>
                             <p class="about-text">
                                 Carbones Norte-Santandereanos S.A.S. – <strong>Carbónor</strong>, líder en el sector minero de Norte de Santander, Colombia. 
