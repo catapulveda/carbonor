@@ -9308,6 +9308,7 @@ Version: 1.0.0
 .th-widget-about .about-text {
   margin-bottom: 30px;
   margin-top: -0.5em;
+  text-align: justify;
 }
 
 .footer-text {

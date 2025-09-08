@@ -62,10 +62,10 @@
                         <h3 class="widget_title">Enlaces Útiles</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="about.php">Quiénes Somos</a></li>
-                                <li><a href="service.php">Nuestros Servicios</a></li>
+                                <li><a href="/about">Quiénes Somos</a></li>
+                                <li><a href="/service">Nuestros Servicios</a></li>
                                 <!-- <li><a href="projects.html">Proyectos</a></li> -->
-                                <li><a href="contact.php">Contáctanos</a></li>
+                                <li><a href="/contact">Contáctanos</a></li>
                                 <!-- <li><a href="faq.html">Preguntas Frecuentes</a></li> -->
                             </ul>
                         </div>
@@ -82,7 +82,7 @@
                                 <!-- <li><a href="sustainability.html">Sostenibilidad</a></li> -->
                                 <!-- <li><a href="blog.php">Noticias</a></li>
                                 <li><a href="process.php">Procesos</a></li> -->
-                                <li><a href="contact.php">Ubicación</a></li>
+                                <li><a href="/contact">Ubicación</a></li>
                             </ul>
                         </div>
                     </div>

@@ -6,8 +6,8 @@
                         <!-- Logo -->
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html">
-                                    <img src="assets/img/images-cabonor/logo-carbonor1.png" alt="Carbónor">
+                                <a href="/">
+                                    <img src="/assets/img/images-cabonor/logo-carbonor1.png" alt="Carbónor">
                                 </a>
                             </div>
                         </div>
@@ -16,11 +16,11 @@
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.php">INICIO</a></li>
-                                    <li><a href="about.php">QUIENES SOMOS</a></li>
-                                    <li><a href="servicio.php">SERVICIOS</a></li>
-                                    <li><a href="project.php">PROYECTOS</a></li>
-                                    <li><a href="contact.php">CONTÁCTANOS</a></li>
+                                    <li><a href="/">INICIO</a></li>
+                                    <li><a href="/about">QUIENES SOMOS</a></li>
+                                    <li><a href="/servicios">SERVICIOS</a></li>
+                                    <li><a href="/proyect">PROYECTOS</a></li>
+                                    <li><a href="/contact">CONTÁCTANOS</a></li>
                                 </ul>
                             </nav>
 
@@ -37,7 +37,7 @@
                         <!-- Botón destacado (ejemplo: contacto directo) -->
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.php" class="th-btn style4 th-btn-icon">Solicitar Información</a>
+                                <a href="/contact" class="th-btn style4 th-btn-icon">Solicitar Información</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn">
                                     <span class="line"></span>
                                     <span class="line"></span>

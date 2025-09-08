@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="zxx" dir="ltr">
 
-<head>
-    <?php include_once 'includes/head.php'; ?>
-</head>
+    <head>
+        <?php include_once 'includes/head.php'; ?>
+    </head>
 
 <body class="">
 
@@ -72,7 +72,7 @@
                                     </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.php" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <a href="contact" class="th-btn style4 th-btn-icon">Contáctanos</a>
                                     <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                 <p>Contamos con infraestructura propia en toda la cadena productiva: carbones, transporte, patios de almacenamiento y plantas de preparación y producción de coque. Gracias a esto aseguramos un producto homogéneo, confiable y con certificación internacional SGS.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a class="th-btn th-btn-icon style4" href="about.php">Conoce Más</a>
+                                <a class="th-btn th-btn-icon style4" href="about">Conoce Más</a>
                             </div>
                         </div>
                     </div>
@@ -252,7 +252,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.php" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
+                        <a href="service" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
                     </div>
                 </div>
             </div>
@@ -263,13 +263,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-4.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Extracción y producción</a></h3>
+                            <h3 class="box-title"><a href="#">Extracción y producción</a></h3>
                             <p class="box-text">Procesos eficientes y seguros en la extracción y preparación del carbón mineral.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/images-cabonor/3.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -278,13 +278,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-5.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Comercialización</a></h3>
+                            <h3 class="box-title"><a href="#">Comercialización</a></h3>
                             <p class="box-text">Suministro confiable de carbón para diferentes sectores industriales y energéticos.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/4.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <img src="assets/img/images-cabonor/5.jpg" alt="img">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -293,13 +293,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-6.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Transporte y logística</a></h3>
+                            <h3 class="box-title"><a href="#">Transporte y logística</a></h3>
                             <p class="box-text">Gestión eficiente del transporte para garantizar entregas puntuales a nivel nacional e internacional.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/5.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <img src="assets/img/images-cabonor/4.jpg" alt="img">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -308,13 +308,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-7.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Sostenibilidad ambiental</a></h3>
+                            <h3 class="box-title"><a href="#">Sostenibilidad ambiental</a></h3>
                             <p class="box-text">Prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
                             <div class="service-img img-shine">
                                 <img src="assets/img/images-cabonor/6.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -354,8 +354,8 @@
                             </ul>
                         </div>
                         <div class="btn-wrap justify-content-center">
-                            <a href="contact.php" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
-                            <a href="about.php" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
+                            <a href="contact" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
+                            <a href="about" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
                         </div>
                     </div>
                 </div>
