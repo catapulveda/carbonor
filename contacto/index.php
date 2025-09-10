@@ -30,7 +30,7 @@
     Mobile Menu
     ============================== -->
     <div class="th-menu-wrapper onepage-nav">
-        <?php include_once '../includes/mobile-menu.php'; ?>
+         <?php include_once '../includes/menu-mobile.php'; ?>
     </div>
     <!--==============================
     Sidemenu

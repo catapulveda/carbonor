@@ -30,7 +30,7 @@
     Mobile Menu
     ============================== -->
     <div class="th-menu-wrapper onepage-nav">
-        <?php include_once '../includes/mobile-menu.php'; ?>
+        <?php include_once '../includes/menu-mobile.php'; ?>
     </div>
     <!--==============================
     Sidemenu
@@ -68,22 +68,34 @@
     ==============================-->
    <section class="space-top space-extra2-bottom">
     <div class="container">
-        <div class="row gy-4">
-            
+            <div class="row gy-4">
+                <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-8">
+                        <div class="title-area">
+                            <span class="sub-title3 before-none">Nuestros Servicios</span>
+                            <h2 class="sec-title">Producción y Logística de Coque</h2>
+                            <p class="sec-text">Contamos con tres minas ubicadas en el municipio de Chitaga: CHITA, ESMERALDA y MOUNTAIN, y la tercera mina, MAPORAL, en el pueblo de San Faustino.
+                                 Nuestras minas son conocidas por producir carbones térmicos y de coque de calidad óptima,
+                                lo que nos permite ofrecer productos de calidad superior al mercado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
-                        <img src="assets/img/property/property6-1.png" alt="Servicio">
+                        <img src="/assets/img/images-cabonor/servicios/2.webp" alt="Servicio">
                     </div>
                     <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">Producción de Coque</a></h4>
+                        <h4 class="property-card-title"><a href="service-details.html">COQUE DE NUEZ METALÚRGICO</a></h4>
                         <p class="property-card-text">
-                            Producción de <b>coque reactivo ultrabajo en fósforo (ULP)</b>, con capacidad de 
-                            <b>7.000 – 10.000 toneladas mensuales</b> y procesos certificados por <b>SGS</b>.
+                           Ultra bajo en fósforo
+                           Se utiliza como agente reductor en la fabricación de ferroaleaciones especializadas.
                         </p>
                         <div class="property-btn-wrap">
                             <div class="btn-wrap">
-                                <a href="service-details.html" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                <a href="/servicios/servicio1/index.php" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -93,17 +105,17 @@
             <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
-                        <img src="assets/img/property/property6-2.png" alt="Servicio">
+                        <img src="/assets/img/images-cabonor/servicios/1.webp" alt="Servicio">
                     </div>
                     <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">Infraestructura Propia</a></h4>
+                        <h4 class="property-card-title"><a href="service-details.html">BRISA DE COQUE METALÚRGICO</a></h4>
                         <p class="property-card-text">
-                            <b>Minas, transporte, patios, plantas de preparación y hornos colmena</b>. 
-                            Control total en cada etapa productiva para garantizar calidad y continuidad.
+                            Ultra bajo fósforo Se utiliza como combustible sólido principal en la sinterización de mineral de hierro.
+                            También es un material de relleno.
                         </p>
                         <div class="property-btn-wrap">
                             <div class="btn-wrap">
-                                <a href="service-details.html" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                <a href="/servicios/servicio2/index.php" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -113,24 +125,25 @@
             <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
-                        <img src="assets/img/property/property6-3.png" alt="Servicio">
+                        <img src="/assets/img/images-cabonor/servicios/3.webp" alt="Servicio">
                     </div>
                     <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">Logística y Exportación</a></h4>
+                        <h4 class="property-card-title"><a href="service-details.html">CARBÓN TÉRMICO</a></h4>
                         <p class="property-card-text">
-                            Entregas a nivel nacional y exportaciones desde <b>Barranquilla y Cartagena</b>, 
-                            bajo condiciones <b>FOB y CIF</b>, en contenedores o carga a granel.
+                           Alto valor calórico Se utiliza para proporcionar energía térmica 
+                           en la combustión en varios tipos de hornos a través del método de combustible 
+                           
                         </p>
                         <div class="property-btn-wrap">
                             <div class="btn-wrap">
-                                <a href="service-details.html" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                <a href="/servicios/servicio3/index.php" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6 col-xl-4">
+            <!-- <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
                         <img src="assets/img/property/property6-4.png" alt="Servicio">
@@ -188,7 +201,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>

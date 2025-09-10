@@ -31,7 +31,7 @@
     Mobile Menu
     ============================== -->
     <div class="th-menu-wrapper onepage-nav">
-        <?php include_once 'includes/mobile-menu.php'; ?>
+        <?php include_once 'includes/menu-mobile.php'; ?>
     </div>
     
     <!--==============================
@@ -72,7 +72,7 @@
                                     </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <a href="contacto" class="th-btn style4 th-btn-icon">Contáctanos</a>
                                     <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                                     </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <a href="contacto" class="th-btn style4 th-btn-icon">Contáctanos</a>
                                     <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                 <p>Contamos con infraestructura propia en toda la cadena productiva: carbones, transporte, patios de almacenamiento y plantas de preparación y producción de coque. Gracias a esto aseguramos un producto homogéneo, confiable y con certificación internacional SGS.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a class="th-btn th-btn-icon style4" href="about">Conoce Más</a>
+                                <a class="th-btn th-btn-icon style4" href="quienes-somos">Conoce Más</a>
                             </div>
                         </div>
                     </div>
@@ -252,7 +252,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
+                        <a href="servicios" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
                     </div>
                 </div>
             </div>
@@ -354,8 +354,8 @@
                             </ul>
                         </div>
                         <div class="btn-wrap justify-content-center">
-                            <a href="contact" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
-                            <a href="about" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
+                            <a href="contacto" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
+                            <a href="quienes-somos" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
                         </div>
                     </div>
                 </div>

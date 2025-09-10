@@ -31,7 +31,7 @@
     Mobile Menu
     ============================== -->
     <div class="th-menu-wrapper onepage-nav">
-        <?php include_once '../includes/mobile-menu.php'; ?>
+        <?php include_once '../includes/menu-mobile.php'; ?>
     </div>
 
    <!--==============================
@@ -268,7 +268,7 @@
                                 <div class="why-info-card style2">
                                     <div class="box-icon">
                                         <img src="assets/img/icon/checkmark2.svg" alt="img">
-                                    </div>
+                                    </div> 
                                     <h4 class="box-title">Satisfacción Garantizada</h4>
                                 </div>
                             </div>
@@ -298,7 +298,7 @@
     <!--==============================
     Team Area  
     ==============================-->
-    <section class="team-area-9 overflow-hidden bg-smoke3 space-bottom" id="team-sec">
+    <!-- <section class="team-area-9 overflow-hidden bg-smoke3 space-bottom" id="team-sec">
         <div class="sec-bg-shape9-1 spin shape-mockup d-xxl-block d-none" data-top="4%" data-right="-2%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
         </div>
@@ -321,7 +321,6 @@
             </div>
             <div class="swiper th-slider team-slider9" id="teamSlider9" data-slider-options='{"paginationType":"progressbar","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
                 <div class="swiper-wrapper">
-                    <!-- Miembro 1 -->
                     <div class="swiper-slide">
                         <div class="th-team team-card style6">
                             <div class="img-wrap">
@@ -347,7 +346,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Miembro 2 -->
                     <div class="swiper-slide">
                         <div class="th-team team-card style6">
                             <div class="img-wrap">
@@ -373,7 +371,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Miembro 3 -->
                     <div class="swiper-slide">
                         <div class="th-team team-card style6">
                             <div class="img-wrap">
@@ -405,7 +402,7 @@
                 <button data-slider-next="#teamSlider9" class="slider-arrow slider-next"><img src="assets/img/icon/arrow-right.svg" alt="icon"></button>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!--==============================
     Testimonial Area  

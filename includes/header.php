@@ -1,4 +1,4 @@
-<div class="sticky-wrapper">
+       <div class="sticky-wrapper">
             <!-- Menú principal -->
             <div class="menu-area">
                 <div class="container">
@@ -19,7 +19,7 @@
                                     <li><a href="/">INICIO</a></li>
                                     <li><a href="/quienes-somos">QUIENES SOMOS</a></li>
                                     <li><a href="/servicios">SERVICIOS</a></li>
-                                    <li><a href="/proyectos">PROYECTOS</a></li>
+                                    <li><a href="/proyectos">MINERIA</a></li>
                                     <li><a href="/contacto">CONTÁCTANOS</a></li>
                                 </ul>
                             </nav>
@@ -37,7 +37,7 @@
                         <!-- Botón destacado (ejemplo: contacto directo) -->
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="/contact" class="th-btn style4 th-btn-icon">Solicitar Información</a>
+                                <a href="/contacto" class="th-btn style4 th-btn-icon">Solicitar Información</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn">
                                     <span class="line"></span>
                                     <span class="line"></span>
