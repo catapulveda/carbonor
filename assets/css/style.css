@@ -5377,6 +5377,7 @@ Version: 1.0.0
 .sec-text {
   font-size: 18px;
   line-height: 1.777;
+  text-align: justify;
   /* Extra small devices */
 }
 .sec-text.text-white {
@@ -13976,6 +13977,7 @@ Version: 1.0.0
   margin-bottom: 48px;
   max-width: 648px;
   font-size: 18px;
+  text-align:justify;
 }
 .hero-style2 .about-experience-tag {
   color: var(--title-color);
@@ -19682,6 +19684,7 @@ Version: 1.0.0
   line-height: 1.333;
   font-family: var(--title-font);
   margin-bottom: 0;
+  text-align: justify;
   /* Large devices */
   /* Medium devices */
   /* Small devices */
@@ -25044,6 +25047,7 @@ Version: 1.0.0
 .service-card .box-text {
   color: var(--white-color);
   opacity: 0.8;
+  text-align: justify;
 }
 .service-card:hover .service-card-icon img {
   -webkit-transform: rotateY(180deg);

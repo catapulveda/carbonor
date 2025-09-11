@@ -257,7 +257,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-thumb4-1">
-                            <img class="w-100" src="assets/img/normal/contact_thumb_4_2.png" alt="img">
+                            <img class="w-100" src="/assets/img/images-cabonor/servicios/4.webp" alt="img">
                         </div>
                     </div>
                 </div>

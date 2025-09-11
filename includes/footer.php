@@ -46,12 +46,12 @@
                                     <p><a href="mailto:comercial@carbonor.com.co" class="info-box_link">comercial@carbonor.com.co</a></p>
                                 </div>
                             </div>
-                            <div class="info-box_text">
+                            <!-- <div class="info-box_text">
                                 <div class="icon"><img src="/assets/img/icon/user.svg" alt="CEO"></div>
                                 <div class="details">
                                     <p><strong>CEO:</strong> Arturo González</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

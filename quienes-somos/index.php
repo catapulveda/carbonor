@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="/contact" class="th-btn style4 btn-sm th-btn-icon">Conócenos</a>
+                        <a href="/contacto" class="th-btn style4 btn-sm th-btn-icon">Conócenos</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                                 <span class="circle-title-anime text-title">Más de 20 años de experiencia</span>
                             </div>
                             <div class="about-tag-thumb">
-                                <img src="assets/img/normal/about_1_3.png" alt="Experiencia Carbónor">
+                                <img src="/assets/img/images-cabonor/quienes-somos/4.webp" alt="Experiencia Carbónor">
                             </div>
                         </div>
                     </div>
