@@ -7,7 +7,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="assets/img/logo-white.svg" alt="Carbónor"></a>
+                                <a href="index.html"><img src="/assets/img/images-cabonor/logo-carbonor1.webp" alt="Carbónor"></a>
                             </div>
                             <p class="about-text">
                                 Carbones Norte-Santandereanos S.A.S. – <strong>Carbónor</strong>, líder en el sector minero de Norte de Santander, Colombia. 
@@ -28,30 +28,30 @@
                         <h3 class="widget_title">Contáctanos</h3>
                         <div class="th-widget-contact">
                             <div class="info-box_text">
-                                <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="Ubicación"></div>
+                                <div class="icon"><img src="/assets/img/icon/location-dot.svg" alt="Ubicación"></div>
                                 <div class="details">
                                     <p>Cúcuta, Norte de Santander</p>
                                     <p>Colombia</p>
                                 </div>
                             </div>
                             <div class="info-box_text">
-                                <div class="icon"><img src="assets/img/icon/phone.svg" alt="Teléfono"></div>
+                                <div class="icon"><img src="/assets/img/icon/phone.svg" alt="Teléfono"></div>
                                 <div class="details">
                                     <p><a href="tel:+573112936388" class="info-box_link">+57 311-293-6388</a></p>
                                 </div>
                             </div>
                             <div class="info-box_text">
-                                <div class="icon"><img src="assets/img/icon/envelope.svg" alt="Correo"></div>
+                                <div class="icon"><img src="/assets/img/icon/envelope.svg" alt="Correo"></div>
                                 <div class="details">
                                     <p><a href="mailto:comercial@carbonor.com.co" class="info-box_link">comercial@carbonor.com.co</a></p>
                                 </div>
                             </div>
-                            <div class="info-box_text">
-                                <div class="icon"><img src="assets/img/icon/user.svg" alt="CEO"></div>
+                            <!-- <div class="info-box_text">
+                                <div class="icon"><img src="/assets/img/icon/user.svg" alt="CEO"></div>
                                 <div class="details">
                                     <p><strong>CEO:</strong> Arturo González</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -62,11 +62,11 @@
                         <h3 class="widget_title">Enlaces Útiles</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="about.html">Quiénes Somos</a></li>
-                                <li><a href="service.html">Nuestros Servicios</a></li>
-                                <li><a href="projects.html">Proyectos</a></li>
-                                <li><a href="contact.html">Contáctanos</a></li>
-                                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                                <li><a href="/servicios">Nuestros Servicios</a></li>
+                                <!-- <li><a href="projects.html">Proyectos</a></li> -->
+                                <li><a href="/contacto">Contáctanos</a></li>
+                                <!-- <li><a href="faq.html">Preguntas Frecuentes</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -78,11 +78,11 @@
                         <h3 class="widget_title">Explorar</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="team.html">Nuestro Equipo</a></li>
-                                <li><a href="sustainability.html">Sostenibilidad</a></li>
-                                <li><a href="blog.html">Noticias</a></li>
-                                <li><a href="process.html">Procesos</a></li>
-                                <li><a href="contact.html">Ubicación</a></li>
+                                <!-- <li><a href="team.html">Nuestro Equipo</a></li> -->
+                                <!-- <li><a href="sustainability.html">Sostenibilidad</a></li> -->
+                                <!-- <li><a href="blog.php">Noticias</a></li>
+                                <li><a href="process.php">Procesos</a></li> -->
+                                <li><a href="/contacto">Ubicación</a></li>
                             </ul>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
 </div>
 
 <!-- Copyright -->
-<div class="copyright-area" data-bg-src="assets/img/bg/footer-bg-3-1.png">
+<div class="copyright-area" data-bg-src="/assets/img/bg/breadcumb-bg.jpg&quot">
     <div class="container th-container2">
         <div class="copyright-wrap bg-white">
             <div class="footer-container">

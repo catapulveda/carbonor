@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="zxx" dir="ltr">
 
-<head>
-    <?php include_once 'includes/head.php'; ?>
-</head>
+    <head>
+        <?php include_once 'includes/head.php'; ?>
+    </head>
 
 <body class="">
 
@@ -31,7 +31,7 @@
     Mobile Menu
     ============================== -->
     <div class="th-menu-wrapper onepage-nav">
-        <?php include_once 'includes/mobile-menu.php'; ?>
+        <?php include_once 'includes/menu-mobile.php'; ?>
     </div>
     
     <!--==============================
@@ -44,58 +44,7 @@
 	Header Area
     ==============================-->
     <header class="th-header header-default">
-        <div class="sticky-wrapper">
-            <!-- Menú principal -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <!-- Logo -->
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.html">
-                                    <img src="assets/img/images-cabonor/logo-carbonor1.png" alt="Carbónor">
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Navegación -->
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li><a href="about.html">Quiénes Somos</a></li>
-                                    <li><a href="service.html">Servicios</a></li>
-                                    <li><a href="project.html">Proyectos</a></li>
-                                    <li><a href="blog.html">Noticias</a></li>
-                                    <li><a href="contact.html">Contáctanos</a></li>
-                                </ul>
-                            </nav>
-
-                            <!-- Botón menú móvil -->
-                            <div class="header-button d-flex d-lg-none">
-                                <button type="button" class="th-menu-toggle sidebar-btn bg-transparent">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Botón destacado (ejemplo: contacto directo) -->
-                        <div class="col-auto d-none d-xxl-block">
-                            <div class="header-button">
-                                <a href="contact.html" class="th-btn style4 th-btn-icon">Solicitar Información</a>
-                                <button type="button" class="simple-icon sideMenuInfo sidebar-btn">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include_once 'includes/header.php'; ?>
     </header>
     <!--==============================
     Hero Area
@@ -106,7 +55,7 @@
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal.JPG">
+                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="/assets/img/images-cabonor/fondoprincipal.webp">
                             <img src="assets/img/hero/hero_bg_overlay12_1.png" alt="imagen">
                         </div>
                         <div class="container">
@@ -123,7 +72,7 @@
                                     </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <a href="contacto" class="th-btn style4 th-btn-icon">Contáctanos</a>
                                     <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
@@ -132,7 +81,7 @@
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
-                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="assets/img/images-cabonor/fondoprincipal1.JPG">
+                        <div class="th-hero-bg" data-overlay="title" data-opacity="1" data-bg-src="/assets/img/images-cabonor/fondoprincipal1.webp">
                             <img src="assets/img/hero/hero_bg_overlay12_1.png" alt="imagen">
                         </div>
                         <div class="container">
@@ -149,7 +98,7 @@
                                     </span>
                                 </h1>
                                 <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="contact.html" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                    <a href="contacto" class="th-btn style4 th-btn-icon">Contáctanos</a>
                                     <!-- <a href="contact.html" class="th-btn style-border3 th-btn-icon">Contáctanos</a> -->
                                 </div>
                             </div>
@@ -198,16 +147,16 @@
                     <div class="col-xxl-7">
                         <div class="about-thumb17-1">
                             <div class="img1">
-                                <img src="assets/img/images-cabonor/2.JPG" alt="Carbónor planta">
+                                <img src="/assets/img/images-cabonor/2.webp" alt="Carbónor planta">
                             </div>
                             <div class="img2">
-                                <img src="assets/img/images-cabonor/1.JPG" alt="Carbónor hornos">
+                                <img src="/assets/img/images-cabonor/1.webp" alt="Carbónor hornos">
                             </div>
                             <div class="about-tag">
                                 <div class="about-experience-tag text-title">
                                     <span class="circle-title-anime">Carbónor – Energía que mueve el progreso</span>
                                 </div>
-                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                             </div>
                             <div class="about-shape17-1 movingX">
                                 <img src="assets/img/shape/about-shape-17-1.png" alt="img">
@@ -226,7 +175,7 @@
                                 <p>Contamos con infraestructura propia en toda la cadena productiva: carbones, transporte, patios de almacenamiento y plantas de preparación y producción de coque. Gracias a esto aseguramos un producto homogéneo, confiable y con certificación internacional SGS.</p>
                             </div>
                             <div class="btn-wrap">
-                                <a class="th-btn th-btn-icon style4" href="about.html">Conoce Más</a>
+                                <a class="th-btn th-btn-icon style4" href="quienes-somos">Conoce Más</a>
                             </div>
                         </div>
                     </div>
@@ -303,7 +252,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="service.html" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
+                        <a href="servicios" class="th-btn style4 th-btn-icon">Ver todos los servicios</a>
                     </div>
                 </div>
             </div>
@@ -314,13 +263,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-4.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Extracción y producción</a></h3>
+                            <h3 class="box-title"><a href="#">Extracción y producción</a></h3>
                             <p class="box-text">Procesos eficientes y seguros en la extracción y preparación del carbón mineral.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/3.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <img src="/assets/img/images-cabonor/3.webp" alt="img">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -329,13 +278,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-5.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Comercialización</a></h3>
+                            <h3 class="box-title"><a href="#">Comercialización</a></h3>
                             <p class="box-text">Suministro confiable de carbón para diferentes sectores industriales y energéticos.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/4.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <img src="/assets/img/images-cabonor/5.webp" alt="img">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -344,13 +293,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-6.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Transporte y logística</a></h3>
+                            <h3 class="box-title"><a href="#">Transporte y logística</a></h3>
                             <p class="box-text">Gestión eficiente del transporte para garantizar entregas puntuales a nivel nacional e internacional.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/5.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <img src="/assets/img/images-cabonor/4.webp" alt="img">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -359,13 +308,13 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-7.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Sostenibilidad ambiental</a></h3>
-                            <p class="box-text">Compromiso con prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
+                            <h3 class="box-title"><a href="#">Sostenibilidad ambiental</a></h3>
+                            <p class="box-text">Prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
                             <div class="service-img img-shine">
-                                <img src="assets/img/images-cabonor/6.jpg" alt="img">
-                                <a href="service-details.html" class="icon-btn">
+                                <img src="/assets/img/images-cabonor/6.webp" alt="img">
+                                <!-- <a href="service-details.html" class="icon-btn">
                                     <img src="assets/img/icon/arrow-right.svg" alt="img">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -405,8 +354,8 @@
                             </ul>
                         </div>
                         <div class="btn-wrap justify-content-center">
-                            <a href="contact.html" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
-                            <a href="about.html" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
+                            <a href="contacto" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
+                            <a href="quienes-somos" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
                         </div>
                     </div>
                 </div>
@@ -415,32 +364,32 @@
         <div class="container th-container2">
             <ul class="about-3-thumb-list">
                 <li class="gallery-card">
-                    <a class="popup-image jump" href="assets/img/gallery/3-1.png">
-                        <img src="assets/img/images-cabonor/8.jpg" alt="img">
+                    <a class="popup-image jump" href="/assets/img/images-cabonor/15.webp">
+                        <img src="/assets/img/images-cabonor/8.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
-                    <a class="popup-image jump-reverse" href="assets/img/gallery/3-2.png">
-                        <img src="assets/img/images-cabonor/9.jpg" alt="img">
+                    <a class="popup-image jump-reverse" href="/assets/img/images-cabonor/18.webp">
+                        <img src="/assets/img/images-cabonor/9.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
-                    <a class="popup-image jump-reverse" href="assets/img/gallery/3-3.png">
-                        <img src="assets/img/images-cabonor/10.jpg" alt="img">
+                    <a class="popup-image jump-reverse" href="/assets/img/images-cabonor/14.webp">
+                        <img src="/assets/img/images-cabonor/10.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
-                    <a class="popup-image" href="assets/img/gallery/3-4.png">
-                        <img src="assets/img/images-cabonor/11.jpg" alt="img">
+                    <a class="popup-image" href="/assets/img/images-cabonor/17.webp">
+                        <img src="/assets/img/images-cabonor/11.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
                 <li class="gallery-card">
-                    <a class="popup-image jump" href="assets/img/gallery/3-5.png">
-                        <img src="assets/img/images-cabonor/7.jpg" alt="img">
+                    <a class="popup-image jump" href="/assets/img/images-cabonor/13.webp">
+                        <img src="/assets/img/images-cabonor/7.webp" alt="img">
                         <i class="fal fa-plus"></i>
                     </a>
                 </li>
@@ -623,7 +572,7 @@
     <!--==============================
     Video Area  
     ==============================-->
-   <div class="video-area-2 space overflow-hidden" data-bg-src="assets/img/images-cabonor/8.jpg" id="contact-sec" data-overlay="black2" data-opacity="5">
+   <div class="video-area-2 space overflow-hidden" data-bg-src="/assets/img/images-cabonor/8.webp" id="contact-sec" data-overlay="black2" data-opacity="5">
         <div class="container th-container2">
             <div class="row gy-50 flex-row-reverse">
                 <div class="col-lg-7">
@@ -1403,9 +1352,13 @@
     <!--==============================
 	Footer Area
     ==============================-->
-<footer class="footer-wrapper footer-layout3 bg-white">
-    <?php include_once 'includes/footer.php'; ?>
-</footer>
+    <!-- Botón flotante de WhatsApp -->
+   <a href="https://wa.me/+573112936388?text=Hola%20quiero%20más%20información" class="whatsapp-button" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+   </a>
+    <footer class="footer-wrapper footer-layout3 bg-white">
+        <?php include_once 'includes/footer.php'; ?>
+    </footer>
     <!--********************************
 			Code End  Here 
 	******************************** -->
