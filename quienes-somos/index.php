@@ -114,7 +114,7 @@
                                 <span class="circle-title-anime text-title">Más de 20 años de experiencia</span>
                             </div>
                             <div class="about-tag-thumb">
-                                <img src="/assets/img/images-cabonor/quienes-somos/4.webp" alt="Experiencia Carbónor">
+                                <img src="/assets/img/images-cabonor/quienes-somos/5.webp" alt="Experiencia Carbónor">
                             </div>
                         </div>
                     </div>

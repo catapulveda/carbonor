@@ -1352,6 +1352,10 @@
     <!--==============================
 	Footer Area
     ==============================-->
+    <!-- Botón flotante de WhatsApp -->
+   <a href="https://wa.me/+573112936388?text=Hola%20quiero%20más%20información" class="whatsapp-button" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+   </a>
     <footer class="footer-wrapper footer-layout3 bg-white">
         <?php include_once 'includes/footer.php'; ?>
     </footer>
