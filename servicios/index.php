@@ -5,67 +5,29 @@
         <?php include_once '../includes/head.php'; ?>
     </head>
 
-<body class="">
+    <body class="">
 
     <!--[if lte IE 9]>
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
 
 
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
+    <!--******************************** Code Start From Here  ******************************** -->
     <div class="cursor-follower"></div>
 
     <!-- slider drag cursor -->
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
 
-  <!--==============================
-     Preloader
-    ==============================-->
-    <div class="preloader">
-        <?php include_once '../includes/preloader.php'; ?>
-    </div>
-    <!--==============================
-    Mobile Menu
-    ============================== -->
-    <div class="th-menu-wrapper onepage-nav">
-        <?php include_once '../includes/menu-mobile.php'; ?>
-    </div>
-    <!--==============================
-    Sidemenu
-    ============================== -->
-    <div class="sidemenu-wrapper sidemenu-info d-none d-lg-block ">
-        <?php include_once '../includes/sidemenu-wrapper.php'; ?>
-    </div>
-    <!--==============================
-	Header Area
-    ==============================-->
-    <header class="th-header header-default">
-        <?php include_once '../includes/header.php'; ?>
-    </header>
-    <!--==============================
-    Breadcumb
-    ============================== -->
-    <!-- <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="breadcumb-overlay" data-bg-src="assets/img/bg/breadcumb-bg-overlay.png"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Services</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Services</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--==============================
-    Service Page Area
-    ==============================-->
+    <!--============================== Preloader  ==============================-->
+    <?php include_once '../includes/preloader.php'; ?>
+
+    <!--============================== Mobile Menu ============================== -->
+    <?php include_once '../includes/menu-mobile.php'; ?>
+    
+    <!--============================== Header Area ==============================-->
+    <?php include_once '../includes/header.php'; ?>
+
+    <!--============================== Service Page Area ==============================-->
    <section class="space-top space-extra2-bottom">
     <div class="container">
             <div class="row gy-4">
@@ -85,7 +47,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
-                        <img src="/assets/img/images-cabonor/servicios/2.webp" alt="Servicio">
+                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Servicio">
                     </div>
                     <div class="property-card-details">
                         <h4 class="property-card-title"><a href="service-details.html">COQUE DE NUEZ METALÚRGICO</a></h4>
@@ -95,7 +57,7 @@
                         </p>
                         <div class="property-btn-wrap">
                             <div class="btn-wrap">
-                                <a href="/servicios/servicio1/index.php" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                <a href="./servicios/coque-de-nuez/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +67,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
-                        <img src="/assets/img/images-cabonor/servicios/1.webp" alt="Servicio">
+                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Servicio">
                     </div>
                     <div class="property-card-details">
                         <h4 class="property-card-title"><a href="service-details.html">BRISA DE COQUE METALÚRGICO</a></h4>
@@ -115,7 +77,7 @@
                         </p>
                         <div class="property-btn-wrap">
                             <div class="btn-wrap">
-                                <a href="/servicios/servicio2/index.php" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                <a href="./servicios/brisa-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -125,7 +87,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="property-card6">
                     <div class="property-card-thumb img-shine">
-                        <img src="/assets/img/images-cabonor/servicios/3.webp" alt="Servicio">
+                        <img src="/assets/img/carbonor/servicios/3.webp" alt="Servicio">
                     </div>
                     <div class="property-card-details">
                         <h4 class="property-card-title"><a href="service-details.html">CARBÓN TÉRMICO</a></h4>
@@ -136,7 +98,7 @@
                         </p>
                         <div class="property-btn-wrap">
                             <div class="btn-wrap">
-                                <a href="/servicios/servicio3/index.php" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                <a href="./servicios/carbon-termico/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -257,19 +219,16 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-thumb4-1">
-                            <img class="w-100" src="/assets/img/images-cabonor/servicios/4.webp" alt="img">
+                            <img class="w-100" src="/assets/img/carbonor/servicios/4.webp" alt="img">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--==============================
-	Footer Area
-    ==============================-->
-    <footer class="footer-wrapper footer-layout3 bg-white">
-        <?php include_once '../includes/footer.php'; ?>
-    </footer>
+
+    <!--============================== Footer Area ==============================-->
+    <?php include_once '../includes/footer.php'; ?>
 
     <!--********************************
 			Code End  Here 

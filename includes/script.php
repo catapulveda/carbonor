@@ -22,3 +22,5 @@
 <script src="/assets/js/jquery.datetimepicker.min.js"></script>
 <!-- Main Js File -->
 <script src="/assets/js/main.js"></script>
+<!-- Floating-WhatsApp-Message-Button-jQuery -->
+<script src="/assets/js/floating-wpp.min.js"></script>

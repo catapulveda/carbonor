@@ -5,81 +5,40 @@
         <?php include_once '../../includes/head.php'; ?>
     </head>
 
-<body class="">
+    <body class="">
 
     <!--[if lte IE 9]>
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
 
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
+    <!--******************************** Code Start From Here  ******************************** -->
     <div class="cursor-follower"></div>
 
     <!-- slider drag cursor -->
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
 
-    <!--==============================
-     Preloader
-    ==============================-->
-    <div class="preloader">
-        <?php include_once '../../includes/preloader.php'; ?>
-    </div>
+    <!--============================== Preloader  ==============================-->
+    <?php include_once '../../includes/preloader.php'; ?>
 
-    <!--==============================
-    Mobile Menu
-    ============================== -->
-    <div class="th-menu-wrapper onepage-nav">
-       <?php include_once '../../includes/menu-mobile.php'; ?>
-    </div>
-    <!--==============================
-    Sidemenu
-    ============================== -->
-    <div class="sidemenu-wrapper sidemenu-info d-none d-lg-block ">
-        <?php include_once '../../includes/sidemenu-wrapper.php'; ?>
-    </div>
-    <!--==============================
-	Header Area
-    ==============================-->
-    <header class="th-header header-default">
-        <?php include_once '../../includes/header.php'; ?>
-    </header>
+    <!--============================== Mobile Menu ============================== -->
+    <?php include_once '../../includes/menu-mobile.php'; ?>
 
-    <!--==============================
-    Breadcumb
-    ============================== -->
-    <!-- <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="breadcumb-overlay" data-bg-src="assets/img/bg/breadcumb-bg-overlay.png"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Service Details</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Service Details</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--==============================
-    Service Page Area
-    ==============================-->
+    <!--============================== Header Area ==============================-->
+    <?php include_once '../../includes/header.php'; ?>
+
+    <!--============================== Service Page Area ==============================-->
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row gx-40">
                 <div class="col-xxl-12 col-lg-12">
                     <div class="page-single mb-40">
                         <!-- <div class="page-img mb-25">
-                            <img src="/assets/img/images-cabonor/servicios/2.webp" alt="Service Image">
+                            <img src="/assets/img/carbonor/servicios/2.webp" alt="Service Image">
                         </div> -->
                         <div class="page-content">
                             <h2 class="page-title fw-semibold">BRISA DE COQUE METALÚRGICO</h2>
-                            <p class="mb-30">Se utiliza principalmente como combustible sólido esencial en los procesos de sinterización de mineral de hierro, proporcionando la energía térmica necesaria para fundir y aglomerar finos metálicos.</p>
-                            <p class="mb-50">Gracias a sus propiedades de alta pureza, bajo fósforo y bajo azufre, favorece una sinterización más eficiente, reduciendo impurezas y mejorando la calidad del hierro producido.</p>
+                            <p class="mb-30 text-justify">Se utiliza principalmente como combustible sólido esencial en los procesos de sinterización de mineral de hierro, proporcionando la energía térmica necesaria para fundir y aglomerar finos metálicos.</p>
+                            <p class="mb-50 text-justify">Gracias a sus propiedades de alta pureza, bajo fósforo y bajo azufre, favorece una sinterización más eficiente, reduciendo impurezas y mejorando la calidad del hierro producido.</p>
                             <h4 class="fw-semibold mb-25">Especificaciones típicas</h4>
                             <!-- <p class="mb-30">We have the experience and expertise to deliver a variety of building designs for a wide range of clients. We are used to working on complex building projects with challenging programmers and high customer expectations. Our team works closely with our clients and professional advisors to understand the requirements.</p> -->
                             <div class="row gy-3">
@@ -105,7 +64,7 @@
                                 </div> -->
                             </div>
                             <h4 class="fw-semibold mb-25 mt-50">3 Pasos Simples de Producción</h4>
-                            <p class="mb-30">
+                            <p class="mb-30 text-justify">
                                 La producción de coque de nuez metalúrgico implica un proceso controlado que garantiza
                                 un producto con <b>ultra bajo fósforo</b>, alta pureza y calidad constante. Cada etapa se
                                 realiza bajo estrictos estándares para asegurar eficiencia y confiabilidad en las entregas.
@@ -145,7 +104,7 @@
                             <div class="row gy-40 align-items-center">
                                 <div class="col-xl-6">
                                     <div class="page-img">
-                                        <img src="/assets/img/images-cabonor/servicios/1.webp" alt="Service Image">
+                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Service Image">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
@@ -162,62 +121,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-xxl-4 col-lg-5">
-                    <aside class="sidebar-area">
-                        <div class="widget widget_search  ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Search...">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div class="widget widget_categories  ">
-                            <h3 class="widget_title">Categories</h3>
-                            <ul>
-                                <li>
-                                    <a href="blog.html">Building Construction <span><i class="far fa-arrow-right"></i></span></a>
-
-                                </li>
-                                <li>
-                                    <a href="blog.html">Architecture Design <span><i class="far fa-arrow-right"></i></span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Building Renovations <span><i class="far fa-arrow-right"></i></span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Flooring & Roofing <span><i class="far fa-arrow-right"></i></span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">General Contracting <span><i class="far fa-arrow-right"></i></span></a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Repair & Expand <span><i class="far fa-arrow-right"></i></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_download  ">
-                            <h4 class="widget_title">Download Brochure</h4>
-                            <div class="download-widget-wrap">
-                                <a href="service-details.html" class="th-btn"><i class="fal fa-file-pdf"></i>DOWNLOAD PDF</a>
-                                <a href="service-details.html" class="th-btn"><i class="fal fa-file-lines"></i>DOWNLOAD DOC</a>
-                            </div>
-                        </div>
-                        <div class="widget widget_call  ">
-                            <div class="play-btn"><i class="fa-solid fa-phone"></i></div>
-                            <h4 class="box-title">Need Help? Call Here</h4>
-                            <a href="+25669872564" class="call">+256 6987 2564</a>
-                            <a href="contact.html" class="th-btn style4 btn-sm th-btn-icon">Get a Quote</a>
-                        </div>
-                    </aside>
-                </div> -->
             </div>
         </div>
     </section>
-    <!--==============================
-	Footer Area
-    ==============================-->
-    <footer class="footer-wrapper footer-layout3 bg-white">
-        <?php include_once '../../includes/footer.php'; ?>
-    </footer>
+
+    <!--============================== Footer Area ==============================-->
+    <?php include_once '../../includes/footer.php'; ?>
 
     <!--********************************
 			Code End  Here 

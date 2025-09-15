@@ -12,57 +12,21 @@
   	<![endif]-->
 
 
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
+    <!--******************************** Code Start From Here  ******************************** -->
     <div class="cursor-follower"></div>
 
     <!-- slider drag cursor -->
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
 
-  <!--==============================
-     Preloader
-    ==============================-->
-    <div class="preloader">
-        <?php include_once '../includes/preloader.php'; ?>
-    </div>
-    <!--==============================
-    Mobile Menu
-    ============================== -->
-    <div class="th-menu-wrapper onepage-nav">
-         <?php include_once '../includes/menu-mobile.php'; ?>
-    </div>
-    <!--==============================
-    Sidemenu
-    ============================== -->
-    <div class="sidemenu-wrapper sidemenu-info d-none d-lg-block ">
-        <?php include_once '../includes/sidemenu-wrapper.php'; ?>
-    </div>
-    <!--==============================
-	Header Area
-    ==============================-->
-    <header class="th-header header-default">
-        <?php include_once '../includes/header.php'; ?>
-    </header>
-    <!--==============================
-    Breadcumb
-    ============================== -->
-    <!-- <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="breadcumb-overlay" data-bg-src="assets/img/bg/breadcumb-bg-overlay.png"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Contact Us</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Contact Us</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    <!--============================== Preloader  ==============================-->
+    <?php include_once '../includes/preloader.php'; ?>
+
+    <!--============================== Mobile Menu ============================== -->
+    <?php include_once '../includes/menu-mobile.php'; ?>
+    
+    <!--============================== Header Area ==============================-->
+    <?php include_once '../includes/header.php'; ?>
+    
     <!--==============================
     Contact Area   
     ==============================-->
@@ -130,7 +94,7 @@
     ==============================-->
     <div class="space contact-area-5 z-index-common" id="contact-sec">
         <div class="contact-thumb6-1">
-            <img src="assets/img/images-cabonor/contacto/2.webp" alt="img">
+            <img src="assets/img/carbonor/contacto/2.webp" alt="img">
         </div>
         <div class="container">
             <div class="row gx-60 gy-60 justify-content-end">
@@ -175,13 +139,11 @@
     <a href="https://wa.me/+573112936388?text=Hola%20quiero%20más%20información" class="whatsapp-button" target="_blank">
     <i class="fab fa-whatsapp"></i>
     </a>
-     <!--==============================
-	Footer Area
-    ==============================-->
 
-    <footer class="footer-wrapper footer-layout3 bg-white">
-        <?php include_once '../includes/footer.php'; ?>
-    </footer>
+    
+    <!--============================== Footer Area ==============================-->
+    <?php include_once '../includes/footer.php'; ?>
+
     <!--********************************
 			Code End  Here 
 	******************************** -->

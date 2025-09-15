@@ -5,71 +5,30 @@
         <?php include_once '../includes/head.php'; ?>
     </head>
 
-<body class="">
+    <body class="">
 
     <!--[if lte IE 9]>
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
 
 
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
+    <!--******************************** Code Start From Here ******************************** -->
     <div class="cursor-follower"></div>
 
     <!-- slider drag cursor -->
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
+    
+    <!--============================== Preloader  ==============================-->
+    <?php include_once '../includes/preloader.php'; ?>
 
-   <!--==============================
-     Preloader
-    ==============================-->
-    <div class="preloader">
-        <?php include_once '../includes/preloader.php'; ?>
-    </div>
+    <!--============================== Mobile Menu ============================== -->
+    <?php include_once '../includes/menu-mobile.php'; ?>
+    
+    <!--============================== Header Area ==============================-->
+    <?php include_once '../includes/header.php'; ?>
 
-     <!--==============================
-    Mobile Menu
-    ============================== -->
-    <div class="th-menu-wrapper onepage-nav">
-        <?php include_once '../includes/menu-mobile.php'; ?>
-    </div>
-
-   <!--==============================
-    Sidemenu
-    ============================== -->
-    <div class="sidemenu-wrapper sidemenu-info d-none d-lg-block ">
-        <?php include_once '../includes/sidemenu-wrapper.php'; ?>
-    </div>
-
-    <!--==============================
-	Header Area
-    ==============================-->
-    <header class="th-header header-default">
-        <?php include_once '../includes/header.php'; ?>
-    </header>
-    <!--==============================
-    Breadcumb
-    ============================== -->
-    <!-- <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="breadcumb-overlay" data-bg-src="assets/img/bg/breadcumb-bg-overlay.png"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">About Us</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li>About Us</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--==============================
-    About Area  
-    ==============================-->
-    <div class="overflow-hidden space-top bg-smoke3" id="about-sec">
+    <!--============================== About Area ==============================-->
+    <div class="overflow-hidden space-top space-bottom bg-smoke2" id="about-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
@@ -94,14 +53,14 @@
                 <div class="col-lg-6">
                     <div class="img-box1">
                         <div class="img1 img-shine" data-mask-src="assets/img/shape/about-1-mask.png">
-                            <img src="/assets/img/images-cabonor/quienes-somos/1.webp" alt="Producción de coque en Carbónor">
+                            <img src="/assets/img/carbonor/quienes-somos/1.webp" alt="Producción de coque en Carbónor">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="img-box1">
                         <div class="img1 img-shine" data-mask-src="assets/img/shape/about-1-mask.png">
-                            <img src="/assets/img/images-cabonor/quienes-somos/2.webp" alt="Hornos tipo colmena Carbónor">
+                            <img src="/assets/img/carbonor/quienes-somos/2.webp" alt="Hornos tipo colmena Carbónor">
                         </div>
                     </div>
                 </div>
@@ -114,13 +73,13 @@
                                 <span class="circle-title-anime text-title">Más de 20 años de experiencia</span>
                             </div>
                             <div class="about-tag-thumb">
-                                <img src="/assets/img/images-cabonor/quienes-somos/5.webp" alt="Experiencia Carbónor">
+                                <img src="/assets/img/carbonor/quienes-somos/5.webp" alt="Experiencia Carbónor">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-9">
                         <div class="about-wrap1">
-                            <p class="about-text text-title">
+                            <p class="about-text text-title text-justify">
                                 Producimos entre <b>7.000 y 10.000 toneladas mensuales</b> de coque reactivo, 
                                 con ultra bajo fósforo (&lt;0,015%) y bajo azufre. <br><br>
                                 Contamos con minas en Chitagá y San Faustino, además de infraestructura propia con 
@@ -135,10 +94,9 @@
             </div>
         </div>
     </div>
-    <!--==============================
-    Service Area  
-    ==============================-->
-    <section class="service-area-1 overflow-hidden space-bottom bg-smoke3 pt-80">
+
+    <!--============================== Service Area ==============================-->
+    <section class="service-area-1 overflow-hidden space-bottom pt-80">
         <div class="container">
             <div class="row gy-40">
                 <div class="col-lg-4 col-md-6">
@@ -150,7 +108,7 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a class="text-title" href="service-details.html">Producción Responsable</a></h3>
-                            <p class="box-text text-body">Nuestras operaciones mineras y de coque se desarrollan bajo criterios de sostenibilidad, garantizando seguridad, calidad y responsabilidad ambiental en cada proceso.</p>
+                            <p class="box-text text-body text-justify">Nuestras operaciones mineras y de coque se desarrollan bajo criterios de sostenibilidad, garantizando seguridad, calidad y responsabilidad ambiental en cada proceso.</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +121,7 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a class="text-title" href="service-details.html">Calidad Certificada</a></h3>
-                            <p class="box-text text-body">Nuestro coque ultrabajo en fósforo está certificado por SGS, asegurando un producto confiable, homogéneo y de alto rendimiento energético para el sector metalúrgico.</p>
+                            <p class="box-text text-body text-justify">Nuestro coque ultrabajo en fósforo está certificado por SGS, asegurando un producto confiable, homogéneo y de alto rendimiento energético para el sector metalúrgico.</p>
                         </div>
                     </div>
                 </div>
@@ -176,23 +134,22 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a class="text-title" href="service-details.html">Logística & Distribución</a></h3>
-                            <p class="box-text text-body">Ofrecemos una logística eficiente y confiable, con despachos nacionales y exportaciones a través de los puertos de Barranquilla y Cartagena.</p>
+                            <p class="box-text text-body text-justify">Ofrecemos una logística eficiente y confiable, con despachos nacionales y exportaciones a través de los puertos de Barranquilla y Cartagena.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--==============================
-    Process Area  
-    ==============================-->
+
+    <!--============================== Process Area ==============================-->
     <section class="space bg-black2 position-relative" id="process-area2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7">
                     <div class="title-area text-center">
                         <h2 class="sec-title text-white">Nuestro Proceso de Trabajo</h2>
-                        <p class="sec-text text-white">Desde la extracción en nuestras minas hasta la entrega final, desarrollamos procesos seguros, eficientes y sostenibles que garantizan calidad en cada etapa.</p>
+                        <p class="sec-text text-white text-justify">Desde la extracción en nuestras minas hasta la entrega final, desarrollamos procesos seguros, eficientes y sostenibles que garantizan calidad en cada etapa.</p>
                     </div>
                 </div>
             </div>
@@ -204,7 +161,7 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Extracción Responsable</h3>
-                            <p class="box-text">Nuestras minas en Norte de Santander operan bajo estrictos estándares de seguridad y sostenibilidad, cuidando el entorno y garantizando un suministro continuo.</p>
+                            <p class="box-text text-justify">Nuestras minas en Norte de Santander operan bajo estrictos estándares de seguridad y sostenibilidad, cuidando el entorno y garantizando un suministro continuo.</p>
                             <p class="box-number">Paso - 01</p>
                         </div>
                     </div>
@@ -216,7 +173,7 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Procesamiento & Clasificación</h3>
-                            <p class="box-text">El carbón es preparado y clasificado en nuestras plantas para obtener un coque reactivo ultrabajo en fósforo y con características homogéneas para la industria.</p>
+                            <p class="box-text text-justify">El carbón es preparado y clasificado en nuestras plantas para obtener un coque reactivo ultrabajo en fósforo y con características homogéneas para la industria.</p>
                             <p class="box-number">Paso - 02</p>
                         </div>
                     </div>
@@ -228,7 +185,7 @@
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Entrega & Distribución</h3>
-                            <p class="box-text">Realizamos despachos locales e internacionales con logística propia y alianzas estratégicas, asegurando cumplimiento y confianza en cada envío.</p>
+                            <p class="box-text text-justify">Realizamos despachos locales e internacionales con logística propia y alianzas estratégicas, asegurando cumplimiento y confianza en cada envío.</p>
                             <p class="box-number">Paso - 03</p>
                         </div>
                     </div>
@@ -236,15 +193,14 @@
             </div>
         </div>
     </section>
-    <!--==============================
-    Video Area  
-    ==============================-->
+
+    <!--============================== Video Area ==============================-->
     <div class="bg-smoke3">
         <div class="container">
             <div class="video-area-1-1 space-bottom position-relative" data-sec-pos="top-half" data-pos-for="#process-area2">
                 <div class="video-wrap1 style2 overflow-hidden">
                 <div class="video-box1" data-overlay="black2" data-opacity="3">
-                        <img src="assets/img/images-cabonor/quienes-somos/3.webp" alt="Carbónor Video">
+                        <img src="assets/img/carbonor/quienes-somos/3.webp" alt="Carbónor Video">
                         <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn style3 popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i>
                         </a>
@@ -295,217 +251,9 @@
             </div>
         </div>
     </div>
-    <!--==============================
-    Team Area  
-    ==============================-->
-    <!-- <section class="team-area-9 overflow-hidden bg-smoke3 space-bottom" id="team-sec">
-        <div class="sec-bg-shape9-1 spin shape-mockup d-xxl-block d-none" data-top="4%" data-right="-2%">
-            <img src="assets/img/shape/section_shape_2_1.jpg" alt="img">
-        </div>
-        <div class="sec-bg-shape9-2 jump shape-mockup d-xxl-block d-none" data-bottom="7%" data-left="2%">
-            <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
-        </div>
-        <div class="container z-index-common">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-xl-6 col-lg-7">
-                    <div class="title-area">
-                        <h2 class="sec-title">Nuestro Equipo</h2>
-                        <p class="sec-text">En <b>Carbónor</b> contamos con un equipo de profesionales capacitados y comprometidos con la excelencia, la seguridad y la sostenibilidad en cada proceso.</p>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="sec-btn">
-                        <a href="team.html" class="th-btn style4 btn-sm th-btn-icon">Conocer Más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper th-slider team-slider9" id="teamSlider9" data-slider-options='{"paginationType":"progressbar","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="th-team team-card style6">
-                            <div class="img-wrap">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_8_3.png" alt="Director General">
-                                </div>
-                            </div>
-                            <div class="team-card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Juan Pérez</a></h3>
-                                        <span class="team-desig">Director General</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <a class="icon-btn" href="tel:+573001112233"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="th-social">
-                                    <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="th-team team-card style6">
-                            <div class="img-wrap">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_8_3.png" alt="Ingeniera de Producción">
-                                </div>
-                            </div>
-                            <div class="team-card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">María Rodríguez</a></h3>
-                                        <span class="team-desig">Ingeniera de Producción</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <a class="icon-btn" href="tel:+573004445566"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="th-social">
-                                    <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="th-team team-card style6">
-                            <div class="img-wrap">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_8_3.png" alt="Jefe de Logística">
-                                </div>
-                            </div>
-                            <div class="team-card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <h3 class="box-title"><a href="team-details.html">Carlos Gómez</a></h3>
-                                        <span class="team-desig">Jefe de Logística</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <a class="icon-btn" href="tel:+573007778899"><img src="assets/img/icon/phone.svg" alt="img"></a>
-                                    </div>
-                                </div>
-                                <div class="th-social">
-                                    <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-pagination"></div>
-                <button data-slider-prev="#teamSlider9" class="slider-arrow slider-prev"><img src="assets/img/icon/arrow-left.svg" alt="icon"></button>
-                <button data-slider-next="#teamSlider9" class="slider-arrow slider-next"><img src="assets/img/icon/arrow-right.svg" alt="icon"></button>
-            </div>
-        </div>
-    </section> -->
 
-    <!--==============================
-    Testimonial Area  
-    ==============================-->
-    <!-- <section class="testi-sec-1 overflow-hidden space overflow-hidden">
-        <div class="container">
-            <div class="row gy-80 flex-row-reverse">
-                <div class="col-xl-5">
-                    <div class="testi-thumb-wrap">
-                        <div class="img1">
-                            <img src="assets/img/testimonial/testi_thumb_1_1.png" alt="img">
-                        </div>
-                        <div class="img2 jump">
-                            <img src="assets/img/testimonial/testi_thumb_1_2.png" alt="img">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-7">
-                    <div class="title-area">
-                        <h2 class="sec-title">What Our Clients Say</h2>
-                    </div>
-                    <div class="swiper th-slider testi-slider1" id="testiSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testi-card">
-                                    <div class="testi-grid_review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="testi-card_text">“Classic construction refers to building techniques, designs, and materials that emphasize durability, elegance, and traditional craftsmanship. This approach is often inspired by historical architecture.”</p>
-                                    <div class="testi-grid-wrap">
-                                        <div class="testi-card_profile">
-                                            <div class="avatar" data-mask-src="assets/img/shape/testi_1_1-mask.png">
-                                                <img src="assets/img/testimonial/testi_1_1.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Janny Muna</h3>
-                                                <span class="testi-card_desig">CEO of Company</span>
-                                            </div>
-                                        </div>
-                                        <div class="quote-icon">
-                                            <img src="assets/img/icon/qoute.svg" alt="icon">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-card">
-                                    <div class="testi-grid_review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="testi-card_text">“Classic construction refers to building techniques, designs, and materials that emphasize durability, elegance, and traditional craftsmanship. This approach is often inspired by historical architecture.”</p>
-                                    <div class="testi-grid-wrap">
-                                        <div class="testi-card_profile">
-                                            <div class="avatar" data-mask-src="assets/img/shape/testi_1_1-mask.png">
-                                                <img src="assets/img/testimonial/testi_1_2.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Alexan Micelito</h3>
-                                                <span class="testi-card_desig">Senior Manager</span>
-                                            </div>
-                                        </div>
-                                        <div class="quote-icon">
-                                            <img src="assets/img/icon/qoute.svg" alt="icon">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testi-card">
-                                    <div class="testi-grid_review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="testi-card_text">“Classic construction refers to building techniques, designs, and materials that emphasize durability, elegance, and traditional craftsmanship. This approach is often inspired by historical architecture.”</p>
-                                    <div class="testi-grid-wrap">
-                                        <div class="testi-card_profile">
-                                            <div class="avatar" data-mask-src="assets/img/shape/testi_1_1-mask.png">
-                                                <img src="assets/img/testimonial/testi_1_3.png" alt="avatar">
-                                            </div>
-                                            <div class="testi-card_profile-details">
-                                                <h3 class="testi-card_name">Brooklyn Simmons</h3>
-                                                <span class="testi-card_desig">Junior Manager</span>
-                                            </div>
-                                        </div>
-                                        <div class="quote-icon">
-                                            <img src="assets/img/icon/qoute.svg" alt="icon">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-pagination style2"></div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-     <!--==============================
-	Footer Area
-    ==============================-->
-    <footer class="footer-wrapper footer-layout3 bg-white">
-        <?php include_once '../includes/footer.php'; ?>
-    </footer>
+    <!--============================== Footer Area ==============================-->
+    <?php include_once '../includes/footer.php'; ?>
 
     <!--********************************
 			Code End  Here 
@@ -518,10 +266,7 @@
         </svg>
     </div>
 
-    <!--==============================
-    All Js File
-    ============================== -->
-    <!-- Jquery -->
+    <!--============================== All Js File ============================== -->
      <?php include_once '../includes/script.php'; ?>
 </body>
 

@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Builda - Construction Services & Architecture HTML Template - Industrial</title>
+<title>CARBONOR * Energía que mueve el progreso</title>
 <meta name="author" content="Builda">
 <meta name="description" content="Builda - Construction Services & Architecture HTML Template">
 <meta name="keywords" content="Builda - Construction Services & Architecture HTML Template">
@@ -51,3 +51,28 @@
 <!-- Theme Custom CSS -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Floating-WhatsApp-Message-Button-jQuery -->
+<link rel="stylesheet" href="/assets/css/floating-wpp.min.css">
+
+<!-- Estilos personalizados para el botón de WhatsApp -->
+<style>
+    .floating-wpp {
+        z-index: 9999999 !important;
+        position: fixed !important;
+    }
+    
+    .floating-wpp .floating-wpp-button {
+        z-index: 9999999 !important;
+        position: relative !important;
+    }
+    
+    .floating-wpp .floating-wpp-popup {
+        z-index: 9999999 !important;
+        position: absolute !important;
+    }
+    
+    /* Asegurar que el botón esté siempre visible */
+    .floating-wpp:hover {
+        z-index: 9999999 !important;
+    }
+</style>
