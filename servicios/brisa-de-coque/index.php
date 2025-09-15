@@ -48,7 +48,7 @@
                                             <li>Ceniza: 22% Máx.</li>
                                             <li>Volátiles: 5% Máx.</li>
                                             <li>Azufre: 0,9%</li>
-                                            <li>Fósforo: 010%</li>
+                                            <li>Fósforo: 0.10%</li>
                                             <li>Carbono fijo: 73%</li>
                                         </ul>
                                     </div>
