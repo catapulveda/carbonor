@@ -142,8 +142,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <button data-slider-prev="#heroSlide1" class="slider-arrow style2"><img src="assets/img/icon/arrow-left.svg" alt="prev"></button>
-                            <button data-slider-next="#heroSlide1" class="slider-arrow style2 slider-next"><img src="assets/img/icon/arrow-right.svg" alt="next"></button>
+                            <button data-slider-prev="#heroSlide1" class="slider-arrow style2"><img src="/assets/img/icon/arrow-left.svg" alt="prev"></button>
+                            <button data-slider-next="#heroSlide1" class="slider-arrow style2 slider-next"><img src="/assets/img/icon/arrow-right.svg" alt="next"></button>
                         </div>
                     </div>
                 </div>
