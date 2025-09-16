@@ -3,7 +3,7 @@
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
             <a href="index.html">
-                <img src="/assets/img/logo-white.svg" alt="Builda">
+                <img src="/assets/img/carbonor/logo-principal.webp" alt="Builda">
             </a>
         </div>
         <div class="th-mobile-menu allow-natural-scroll">
