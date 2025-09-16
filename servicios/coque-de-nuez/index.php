@@ -98,7 +98,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="fw-semibold mb-25 mt-50">disponible en</h4>
+                            <h4 class="fw-semibold mb-25 mt-50">Disponible en</h4>
                             <!-- <p class="mb-30">Conveniently predominate revolutionary quality vectors through future-proof manufactured products. Objectively envisioned high in convergence through collaborative networks. Interactively generate B2C tailers for business data restore fully researched relationships through</p> -->
                             <div class="row gy-40 align-items-center">
                                 <div class="col-xl-6">
