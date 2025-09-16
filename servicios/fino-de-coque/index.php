@@ -36,7 +36,7 @@
                             <img src="/assets/img/carbonor/servicios/2.webp" alt="Service Image">
                         </div> -->
                         <div class="page-content">
-                            <h2 class="page-title fw-semibold">BRISA DE COQUE METALÚRGICO</h2>
+                            <h2 class="page-title fw-semibold">FINO DE COQUE REACTIVO</h2>
                             <p class="mb-30 text-justify">Se utiliza principalmente como combustible sólido esencial en los procesos de sinterización de mineral de hierro, proporcionando la energía térmica necesaria para fundir y aglomerar finos metálicos.</p>
                             <p class="mb-50 text-justify">Gracias a sus propiedades de alta pureza, bajo fósforo y bajo azufre, favorece una sinterización más eficiente, reduciendo impurezas y mejorando la calidad del hierro producido.</p>
                             <h4 class="fw-semibold mb-25">Especificaciones típicas</h4>
