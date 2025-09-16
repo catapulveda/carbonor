@@ -99,7 +99,7 @@
         <div class="container">
             <div class="row gx-60 gy-60 justify-content-end">
                 <div class="col-lg-6">
-                    <div class="appointment-wrap contact-wrap6">
+                    <div class="appointment-wrap">
                         <h2 class="form-title fw-semibold mb-35">Contáctanos</h2>
                         <form action="mail.php" method="POST" class="appointment-form ajax-contact">
                             <div class="row">
@@ -111,15 +111,19 @@
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo*">
                                     <i class="fal fa-envelope"></i>
                                 </div>
-                                <div class="form-group style-border2 style-radius col-md-12">
+                                <div class="form-group style-border2 style-radius col-lg-6">
                                     <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Selecciona el motivo de contacto</option>
+                                        <option value="" disabled selected hidden>Selecciona el motivo</option>
                                         <option value="Información de productos">Información de productos</option>
                                         <option value="Cotización">Cotización</option>
                                         <option value="Logística y entregas">Logística y entregas</option>
                                         <option value="Otro">Otro</option>
                                     </select>
                                     <i class="fal fa-angle-down"></i>
+                                </div>
+                                <div class="form-group style-border2 style-radius col-lg-6">
+                                    <input type="email" class="form-control" name="number" id="number" placeholder="Tu Número de Teléfono*">
+                                    <i class="fal fa-phone"></i>
                                 </div>
                                 <div class="col-12 form-group style-border2 style-radius">
                                     <i class="far fa-comments"></i>
