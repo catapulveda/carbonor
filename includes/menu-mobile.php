@@ -2,8 +2,8 @@
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.html">
-                <img src="/assets/img/carbonor/logo-principal.webp" alt="Builda">
+            <a href="/">
+                <img src="/assets/img/carbonor/logo-principal.webp" alt="Carbonor">
             </a>
         </div>
         <div class="th-mobile-menu allow-natural-scroll">
