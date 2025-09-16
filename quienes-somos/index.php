@@ -52,14 +52,14 @@
             <div class="row gy-4">
                 <div class="col-lg-6">
                     <div class="img-box1">
-                        <div class="img1 img-shine" data-mask-src="assets/img/shape/about-1-mask.png">
+                        <div class="img1 img-shine" data-mask-src="/assets/img/shape/about-1-mask.png">
                             <img src="/assets/img/carbonor/quienes-somos/1.webp" alt="Producción de coque en Carbónor">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="img-box1">
-                        <div class="img1 img-shine" data-mask-src="assets/img/shape/about-1-mask.png">
+                        <div class="img1 img-shine" data-mask-src="/assets/img/shape/about-1-mask.png">
                             <img src="/assets/img/carbonor/quienes-somos/2.webp" alt="Hornos tipo colmena Carbónor">
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                     <div class="service-card">
                         <div class="service-card-icon">
                             <div class="icon">
-                                <img src="assets/img/icon/service-icon1-4.png" alt="Icon">
+                                <img src="/assets/img/icon/service-icon1-4.png" alt="Icon">
                             </div>
                         </div>
                         <div class="box-content">
@@ -116,7 +116,7 @@
                     <div class="service-card">
                         <div class="service-card-icon">
                             <div class="icon">
-                                <img src="assets/img/icon/service-icon1-5.png" alt="Icon">
+                                <img src="/assets/img/icon/service-icon1-5.png" alt="Icon">
                             </div>
                         </div>
                         <div class="box-content">
@@ -129,7 +129,7 @@
                     <div class="service-card">
                         <div class="service-card-icon">
                             <div class="icon">
-                                <img src="assets/img/icon/service-icon1-6.png" alt="Icon">
+                                <img src="/assets/img/icon/service-icon1-6.png" alt="Icon">
                             </div>
                         </div>
                         <div class="box-content">
@@ -155,9 +155,9 @@
             </div>
             <div class="row gy-4 justify-content-center">
                 <div class="col-xl-4 col-md-6">
-                    <div class="process-card2" data-bg-src="assets/img/bg/process-card2-bg.png">
+                    <div class="process-card2" data-bg-src="/assets/img/bg/process-card2-bg.png">
                         <div class="box-icon">
-                            <img src="assets/img/icon/process_card_2_1.svg" alt="icon">
+                            <img src="/assets/img/icon/process_card_2_1.svg" alt="icon">
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Extracción Responsable</h3>
@@ -167,9 +167,9 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="process-card2" data-bg-src="assets/img/bg/process-card2-bg.png">
+                    <div class="process-card2" data-bg-src="/assets/img/bg/process-card2-bg.png">
                         <div class="box-icon">
-                            <img src="assets/img/icon/process_card_2_2.svg" alt="icon">
+                            <img src="/assets/img/icon/process_card_2_2.svg" alt="icon">
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Procesamiento & Clasificación</h3>
@@ -179,9 +179,9 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="process-card2" data-bg-src="assets/img/bg/process-card2-bg.png">
+                    <div class="process-card2" data-bg-src="/assets/img/bg/process-card2-bg.png">
                         <div class="box-icon">
-                            <img src="assets/img/icon/process_card_2_3.svg" alt="icon">
+                            <img src="/assets/img/icon/process_card_2_3.svg" alt="icon">
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Entrega & Distribución</h3>
@@ -200,7 +200,7 @@
             <div class="video-area-1-1 space-bottom position-relative" data-sec-pos="top-half" data-pos-for="#process-area2">
                 <div class="video-wrap1 style2 overflow-hidden">
                 <div class="video-box1" data-overlay="black2" data-opacity="3">
-                        <img src="assets/img/carbonor/quienes-somos/3.webp" alt="Carbónor Video">
+                        <img src="/assets/img/carbonor/quienes-somos/3.webp" alt="Carbónor Video">
                         <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn style3 popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i>
                         </a>
@@ -215,7 +215,7 @@
                             <div class="col-sm-6">
                                 <div class="why-info-card style2">
                                     <div class="box-icon">
-                                        <img src="assets/img/icon/checkmark2.svg" alt="img">
+                                        <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div>
                                     <h4 class="box-title">Calidad Certificada SGS</h4>
                                 </div>
@@ -223,7 +223,7 @@
                             <div class="col-sm-6">
                                 <div class="why-info-card style2">
                                     <div class="box-icon">
-                                        <img src="assets/img/icon/checkmark2.svg" alt="img">
+                                        <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div> 
                                     <h4 class="box-title">Satisfacción Garantizada</h4>
                                 </div>
@@ -231,7 +231,7 @@
                             <div class="col-sm-6">
                                 <div class="why-info-card style2">
                                     <div class="box-icon">
-                                        <img src="assets/img/icon/checkmark2.svg" alt="img">
+                                        <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div>
                                     <h4 class="box-title">Equipo Capacitado</h4>
                                 </div>
@@ -239,7 +239,7 @@
                             <div class="col-sm-6">
                                 <div class="why-info-card style2">
                                     <div class="box-icon">
-                                        <img src="assets/img/icon/checkmark2.svg" alt="img">
+                                        <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div>
                                     <h4 class="box-title">Procesos Seguros & Eficientes</h4>
                                 </div>

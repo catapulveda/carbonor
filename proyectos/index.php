@@ -171,7 +171,7 @@
                                 <h2 class="sec-title">Calidad, Infraestructura y Experiencia</h2>
                             </div>
                             <p class="sec-text mb-20">
-                                Nuestra producción de coque reactivo bajo en fósforo está respaldada por certificación SGS y un proceso controlado que garantiza homogeneidad y volumen constante. Contamos con minas propias y una infraestructura completa que asegura eficiencia y confianza.
+                                Nuestra producción de coque reactivo bajo en fósforo está respaldada por certificación SGS y un proceso controlado que garantiza homogeneidad y volumen constante. Contamos con nuestra propia mina y somos autosostenibles.
                             </p>
                             <h5 class="fw-medium mb-10">Características de Nuestro Carbón</h5>
                             <p class="sec-text mb-30">
