@@ -49,7 +49,7 @@
                                 <img src="/assets/img/carbonor/servicios/2.webp" alt="Servicio">
                             </div>
                             <div class="property-card-details">
-                                <h4 class="property-card-title"><a href="service-details.html">COQUE DE NUEZ METALÚRGICO</a></h4>
+                                <h4 class="property-card-title"><a href="service-details.html">10 x 30</a></h4>
                                 <p class="property-card-text text-justify">Ultra bajo en fósforo Se utiliza como agente reductor en la fabricación de ferroaleaciones especializadas.</p>
                                 <div class="property-btn-wrap">
                                     <div class="btn-wrap">
