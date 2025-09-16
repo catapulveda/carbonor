@@ -28,146 +28,58 @@
     <?php include_once '../includes/header.php'; ?>
 
     <!--============================== Service Page Area ==============================-->
-   <section class="space-top space-extra2-bottom">
-    <div class="container">
+    <section class="space-top space-extra2-bottom pb-5">
+        <div class="container">
             <div class="row gy-4">
                 <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-8">
-                        <div class="title-area">
-                            <span class="sub-title3 before-none">Nuestros Servicios</span>
-                            <h2 class="sec-title">Producción y Logística de Coque</h2>
-                            <p class="sec-text">Contamos con tres minas ubicadas en el municipio de Chitaga: CHITA, ESMERALDA y MOUNTAIN, y la tercera mina, MAPORAL, en el pueblo de San Faustino.
-                                 Nuestras minas son conocidas por producir carbones térmicos y de coque de calidad óptima,
-                                lo que nos permite ofrecer productos de calidad superior al mercado.</p>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-8">
+                            <div class="title-area mb-0">
+                                <span class="sub-title3 before-none">Nuestros Servicios</span>
+                                <h2 class="sec-title">Producción y Logística de Coque</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-xl-4">
-                <div class="property-card6">
-                    <div class="property-card-thumb img-shine">
-                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Servicio">
+
+                <div class="row justify-content-center gy-5 mt-0">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="property-card6">
+                            <div class="property-card-thumb img-shine">
+                                <img src="/assets/img/carbonor/servicios/2.webp" alt="Servicio">
+                            </div>
+                            <div class="property-card-details">
+                                <h4 class="property-card-title"><a href="service-details.html">COQUE DE NUEZ METALÚRGICO</a></h4>
+                                <p class="property-card-text text-justify">Ultra bajo en fósforo Se utiliza como agente reductor en la fabricación de ferroaleaciones especializadas.</p>
+                                <div class="property-btn-wrap">
+                                    <div class="btn-wrap">
+                                        <a href="./servicios/coque-de-nuez/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">COQUE DE NUEZ METALÚRGICO</a></h4>
-                        <p class="property-card-text">
-                           Ultra bajo en fósforo
-                           Se utiliza como agente reductor en la fabricación de ferroaleaciones especializadas.
-                        </p>
-                        <div class="property-btn-wrap">
-                            <div class="btn-wrap">
-                                <a href="./servicios/coque-de-nuez/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="property-card6">
+                            <div class="property-card-thumb img-shine">
+                                <img src="/assets/img/carbonor/servicios/1.webp" alt="Servicio">
+                            </div>
+                            <div class="property-card-details">
+                                <h4 class="property-card-title"><a href="service-details.html">FINO DE COQUE REACTIVO</a></h4>
+                                <p class="property-card-text text-justify">Ultra bajo fósforo. Se utiliza como combustible sólido principal en la sinterización de mineral de hierro. También es un material de relleno.</p>
+                                <div class="property-btn-wrap">
+                                    <div class="btn-wrap">
+                                        <a href="./servicios/fino-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="property-card6">
-                    <div class="property-card-thumb img-shine">
-                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Servicio">
-                    </div>
-                    <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">BRISA DE COQUE METALÚRGICO</a></h4>
-                        <p class="property-card-text">
-                            Ultra bajo fósforo Se utiliza como combustible sólido principal en la sinterización de mineral de hierro.
-                            También es un material de relleno.
-                        </p>
-                        <div class="property-btn-wrap">
-                            <div class="btn-wrap">
-                                <a href="./servicios/brisa-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="property-card6">
-                    <div class="property-card-thumb img-shine">
-                        <img src="/assets/img/carbonor/servicios/3.webp" alt="Servicio">
-                    </div>
-                    <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">CARBÓN TÉRMICO</a></h4>
-                        <p class="property-card-text">
-                           Alto valor calórico Se utiliza para proporcionar energía térmica 
-                           en la combustión en varios tipos de hornos a través del método de combustible 
-                           
-                        </p>
-                        <div class="property-btn-wrap">
-                            <div class="btn-wrap">
-                                <a href="./servicios/carbon-termico/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="col-md-6 col-xl-4">
-                <div class="property-card6">
-                    <div class="property-card-thumb img-shine">
-                        <img src="assets/img/property/property6-4.png" alt="Servicio">
-                    </div>
-                    <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">Ventas a Terceros</a></h4>
-                        <p class="property-card-text">
-                            Comercialización de coque a <b>fundiciones, acerías y empresas metalúrgicas</b>, 
-                            con suministro constante, flexibilidad logística y calidad certificada.
-                        </p>
-                        <div class="property-btn-wrap">
-                            <div class="btn-wrap">
-                                <a href="service-details.html" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="property-card6">
-                    <div class="property-card-thumb img-shine">
-                        <img src="assets/img/property/property6-5.png" alt="Servicio">
-                    </div>
-                    <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">Especificaciones Técnicas</a></h4>
-                        <p class="property-card-text">
-                            <b>Fósforo &lt;0,015%</b>, <b>carbono fijo ~86%</b>, bajo azufre, granulometría ajustada 
-                            al cliente y homogeneidad garantizada en cada embarque.
-                        </p>
-                        <div class="property-btn-wrap">
-                            <div class="btn-wrap">
-                                <a href="service-details.html" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="property-card6">
-                    <div class="property-card-thumb img-shine">
-                        <img src="assets/img/property/property6-6.png" alt="Servicio">
-                    </div>
-                    <div class="property-card-details">
-                        <h4 class="property-card-title"><a href="service-details.html">Ventajas Competitivas</a></h4>
-                        <p class="property-card-text">
-                            Producción constante, <b>certificación SGS</b>, logística flexible, certificado de origen, 
-                            regalías pagadas y atención directa del CEO para mayor confianza.
-                        </p>
-                        <div class="property-btn-wrap">
-                            <div class="btn-wrap">
-                                <a href="service-details.html" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
         </div>
-    </div>
-   </section>
+    </section>
 
     <!--==============================
     Contact Area   
