@@ -17,7 +17,7 @@
                                 <li><a href="/">INICIO</a></li>
                                 <li><a href="/quienes-somos">QUIÉNES SOMOS</a></li>
                                 <li><a href="/servicios">SERVICIOS</a></li>
-                                <li><a href="/proyectos">MINERÍA</a></li>
+                                <li><a href="/mineria">MINERÍA</a></li>
                                 <li><a href="/contacto">CONTÁCTANOS</a></li>
                             </ul>
                         </nav>
