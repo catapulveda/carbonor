@@ -32,7 +32,7 @@
     ==============================-->
     <div class="space" id="contact-sec">
         <div class="contact-bg-shape1-1 jump shape-mockup" data-bottom="30%" data-left="2%">
-            <img src="assets/img/shape/section_shape_2_3.jpg" alt="img">
+            <img src="/assets/img/shape/section_shape_2_3.jpg" alt="img">
         </div>
         <div class="container">
             <div class="row gx-35">
@@ -43,7 +43,7 @@
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
-                            <img src="assets/img/icon/location-dot.svg" alt="icon">
+                            <img src="/assets/img/icon/location-dot.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Ubicación:</h6>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
-                            <img src="assets/img/icon/phone.svg" alt="icon">
+                            <img src="/assets/img/icon/phone.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Teléfono:</h6>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
-                            <img src="assets/img/icon/envelope.svg" alt="icon">
+                            <img src="/assets/img/icon/envelope.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
                             <h6 class="about-contact-details-title">Correo:</h6>
@@ -78,7 +78,7 @@
             </div>
             <div class="location-map-address">
                 <div class="thumb">
-                    <img src="assets/img/property/property_inner_1.jpg" alt="img">
+                    <img src="/assets/img/property/property_inner_1.jpg" alt="img">
                 </div>
                 <div class="media-body">
                     <h4 class="title">Dirección:</h4>
@@ -94,7 +94,7 @@
     ==============================-->
     <div class="space contact-area-5 z-index-common" id="contact-sec">
         <div class="contact-thumb6-1">
-            <img src="assets/img/carbonor/contacto/2.webp" alt="img">
+            <img src="/assets/img/carbonor/contacto/2.webp" alt="img">
         </div>
         <div class="container">
             <div class="row gx-60 gy-60 justify-content-end">
@@ -126,7 +126,7 @@
                                     <textarea name="message" id="message" placeholder="Escribe tu mensaje" class="form-control"></textarea>
                                 </div>
                                 <div class="col-12 form-btn">
-                                    <button class="th-btn style4">Enviar Mensaje <span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span></button>
+                                    <button class="th-btn style4">Enviar Mensaje <span class="btn-icon"><img src="/assets/img/icon/paper-plane.svg" alt="img"></span></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
