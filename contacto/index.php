@@ -122,7 +122,7 @@
                                     <i class="fal fa-angle-down"></i>
                                 </div>
                                 <div class="form-group style-border2 style-radius col-lg-6">
-                                    <input type="email" class="form-control" name="number" id="number" placeholder="Tu Número de Teléfono*">
+                                    <input type="number" class="form-control" name="number" id="number" placeholder="Tu Número de Teléfono*">
                                     <i class="fal fa-phone"></i>
                                 </div>
                                 <div class="col-12 form-group style-border2 style-radius">
