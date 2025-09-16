@@ -53,7 +53,7 @@
                                 <p class="property-card-text text-justify">Ultra bajo en fósforo Se utiliza como agente reductor en la fabricación de ferroaleaciones especializadas.</p>
                                 <div class="property-btn-wrap">
                                     <div class="btn-wrap">
-                                        <a href="./servicios/coque-de-nuez/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                        <a href="./coque-de-nuez/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                                 <p class="property-card-text text-justify">Ultra bajo fósforo. Se utiliza como combustible sólido principal en la sinterización de mineral de hierro. También es un material de relleno.</p>
                                 <div class="property-btn-wrap">
                                     <div class="btn-wrap">
-                                        <a href="./servicios/fino-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                        <a href="./fino-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                                     </div>
                                 </div>
                             </div>
