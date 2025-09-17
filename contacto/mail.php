@@ -29,7 +29,7 @@
         $email_content = "Name: $name\n";
         $email_content .= "Subject: $subject\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Message:\n$number\n";
+        $email_content .= "Message:\n$message\n";
         $email_content .= "Number:\n$number\n";
 
         // Build the email headers.
