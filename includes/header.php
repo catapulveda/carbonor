@@ -31,7 +31,16 @@
                     </div>
                     <div class="col-auto d-none d-xxl-block">
                         <div class="header-button">
-                            <a href="/contacto" class="th-btn style4 th-btn-icon">SOLICITAR INFORMACIÓN</a>
+                            <!-- Selector de idiomas -->
+                            <div class="language-selector d-flex align-items-center">
+                                <a href="?lang=es" class="language-flag <?php echo (LANG === 'es') ? 'active' : ''; ?>" title="Español">
+                                    <img src="https://flagcdn.com/24x18/co.png" alt="Español" class="flag-img">
+                                </a>
+                                <span class="language-separator mx-2">|</span>
+                                <a href="?lang=br" class="language-flag <?php echo (LANG === 'br') ? 'active' : ''; ?>" title="Português">
+                                    <img src="https://flagcdn.com/24x18/br.png" alt="Português" class="flag-img">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
