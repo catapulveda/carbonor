@@ -19,7 +19,7 @@ if (file_exists($commonFile)) {
 }
 
 // Helper
-function __($key) {
+function translate($key) {
   global $translations;
   return $translations[$key] ?? $key;
 }
