@@ -58,11 +58,11 @@
                                     <div class="hero-style2">
                                         <h1 class="hero-title">
                                             <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                            Producción y comercialización
+                                            <?php echo translate('hero_title_1'); ?>
                                         </h1>
-                                        <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s">Coque reactivo ultra bajo en fósforo (ULP < 0,015%), con calidad certificada SGS y COA por lote. Control integral de la cadena – desde la mina y la preparación, hasta hornos, cribado y despacho – para asegurar volumen, homogeneidad y continuidad.</p>
+                                        <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s"><?php echo translate('hero_text_1'); ?></p>
                                         <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="/contacto" class="th-btn style4 th-btn-icon">Descurbir más</a>
+                                            <a href="/contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_btn_1'); ?></a>
                                         </div>
                                     </div>
                                 </div>
@@ -80,12 +80,11 @@
                                 <div class="col-xl-7">
                                     <div class="hero-style2">
                                         <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">Preparación y cribado a medida</span>
+                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s"><?php echo translate('hero_title_2'); ?></span>
                                         </h1>
-                                        <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s">Ajustamos la granulometría del coque según las necesidades de cada cliente. Contamos con áreas de cribado y despacho con báscula propia, lo que asegura precisión en cada embarque y homogeneidad en las fracciones entregadas.</p>
+                                        <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s"><?php echo translate('hero_text_2'); ?></p>
                                         <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="/contacto" class="th-btn style4 th-btn-icon">Descurbir más</a>
-
+                                            <a href="/contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_btn_2'); ?></a>
                                         </div>
                                     </div>
                                 </div>
@@ -103,12 +102,11 @@
                                 <div class="col-xl-7">
                                     <div class="hero-style2">
                                         <h1 class="hero-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">Logística nacional e internacional</span>
+                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s"><?php echo translate('hero_title_3'); ?></span>
                                         </h1>
-                                        <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s">Despachamos pedidos en Colombia por vía terrestre y realizamos exportaciones a través de los puertos de Barranquilla y Cartagena. Ofrecemos condiciones FOB y CIF, con opciones de embarque en contenedor de 40’ (big-bag) o a granel en bodega de buque.</p>
+                                        <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s"><?php echo translate('hero_text_3'); ?></p>
                                         <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="/contacto" class="th-btn style4 th-btn-icon">Descurbir más</a>
-
+                                            <a href="/contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_btn_3'); ?></a>
                                         </div>
                                     </div>
                                 </div>
@@ -209,19 +207,19 @@
                 </div>
                 <div class="col-xl-5">
                     <div class="title-area mb-32">
-                        <span class="sub-title5 text-title"><span class="line line1"></span> Quiénes somos</span>
-                        <h2 class="sec-title style2">Carbonor * Energía que mueve el progreso</h2>
-                        <p class="sec-text">Carbonor es una empresa colombiana dedicada a la producción y comercialización de coque reactivo ultra bajo en fósforo (ULP < 0,015%), con calidad certificada SGS y COA por lote. Control integral de la cadena – desde la mina y la preparación, hasta hornos, cribado y despacho – para asegurar volumen, homogeneidad y continuidad.</p>
+                        <span class="sub-title5 text-title"><span class="line line1"></span> <?php echo translate('about_subtitle'); ?></span>
+                        <h2 class="sec-title style2"><?php echo translate('about_title'); ?></h2>
+                        <p class="sec-text"><?php echo translate('about_text'); ?></p>
                     </div>
                     <div class="about-wrap2">
                         <div class="checklist style2">
                             <ul>
-                                <li><img src="/assets/img/icon/checkmark.svg" alt="img">Producción y comercialización</li>
-                                <li><img src="/assets/img/icon/checkmark.svg" alt="img">Preparación y cribado a medida</li>
-                                <li><img src="/assets/img/icon/checkmark.svg" alt="img">Logística nacional e internacional</li>
-                                <li><img src="/assets/img/icon/checkmark.svg" alt="img">100% Satisfaction guarantee</li>
-                                <li><img src="/assets/img/icon/checkmark.svg" alt="img">Calidad certificada SGS y COA por lote</li>
-                                <li><img src="/assets/img/icon/checkmark.svg" alt="img">Control integral de la cadena</li>
+                                <li><img src="/assets/img/icon/checkmark.svg" alt="img"><?php echo translate('about_list_1'); ?></li>
+                                <li><img src="/assets/img/icon/checkmark.svg" alt="img"><?php echo translate('about_list_2'); ?></li>
+                                <li><img src="/assets/img/icon/checkmark.svg" alt="img"><?php echo translate('about_list_3'); ?></li>
+                                <li><img src="/assets/img/icon/checkmark.svg" alt="img"><?php echo translate('about_list_4'); ?></li>
+                                <li><img src="/assets/img/icon/checkmark.svg" alt="img"><?php echo translate('about_list_5'); ?></li>
+                                <li><img src="/assets/img/icon/checkmark.svg" alt="img"><?php echo translate('about_list_6'); ?></li>
                             </ul>
                         </div>
                         <div class="call-btn">
@@ -229,13 +227,13 @@
                                 <img src="/assets/img/icon/phone.svg" alt="img">
                             </div>
                             <div class="btn-content">
-                                <h6 class="btn-title">Llamanos 24/7</h6>
+                                <h6 class="btn-title"><?php echo translate('about_call_title'); ?></h6>
                                 <span class="btn-text"><a href="tel:+57 311-293-6388">+57 311-293-6388</a></span>
                             </div>
                         </div>
                     </div>
                     <div class="btn-wrap mt-5">
-                        <a href="/quienes-somos" class="th-btn style2 th-btn-icon">Más sobre Carbonor</a>
+                        <a href="/quienes-somos" class="th-btn style2 th-btn-icon"><?php echo translate('about_btn'); ?></a>
                     </div>
                 </div>
             </div>
@@ -256,14 +254,14 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-7">
                     <div class="title-area">
-                        <span class="sub-title5 text-title"><span class="line line1"></span> Nuestros Servicios</span>
-                        <h2 class="sec-title">Servicios que ofrecemos</h2>
-                        <p class="sec-text">En Carbónor ofrecemos soluciones integrales que garantizan productividad, sostenibilidad y calidad en la extracción, comercialización y distribución de carbón mineral.</p>
+                        <span class="sub-title5 text-title"><span class="line line1"></span> <?php echo translate('services_subtitle'); ?></span>
+                        <h2 class="sec-title"><?php echo translate('services_title'); ?></h2>
+                        <p class="sec-text"><?php echo translate('services_text'); ?></p>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="/servicios" class="th-btn style2 th-btn-icon">Ver todos los servicios</a>
+                        <a href="/servicios" class="th-btn style2 th-btn-icon"><?php echo translate('services_btn'); ?></a>
                     </div>
                 </div>
             </div>
@@ -274,8 +272,8 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-6.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="#">Sostenibilidad ambiental</a></h3>
-                            <p class="box-text">Prácticas responsables que minimizan el impacto ambiental en nuestras operaciones.</p>
+                            <h3 class="box-title"><a href="#"><?php echo translate('service_1_title'); ?></a></h3>
+                            <p class="box-text"><?php echo translate('service_1_text'); ?></p>
                             <div class="service-img img-shine">
                                 <img src="/assets/img/carbonor/inicio/servicios/1.webp" alt="img">   
                                 <!-- <a href="service-details.html" class="icon-btn">
@@ -289,8 +287,8 @@
                             <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-6.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="#">Transporte y logística</a></h3>
-                            <p class="box-text">Gestión eficiente del transporte para garantizar entregas puntuales.</p>
+                            <h3 class="box-title"><a href="#"><?php echo translate('service_2_title'); ?></a></h3>
+                            <p class="box-text"><?php echo translate('service_2_text'); ?></p>
                             <div class="service-img img-shine">
                                 <img src="/assets/img/carbonor/inicio/servicios/2.webp" alt="img">   
                                 <!-- <a href="service-details.html" class="icon-btn">
@@ -304,8 +302,8 @@
                             <div class="service-card-icon">
                                 <img src="/assets/img/icon/service-icon2-1.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Extracción y producción</a></h3>
-                            <p class="box-text">Procesos eficientes y seguros en la extracción y preparación del carbón mineral.</p>
+                            <h3 class="box-title"><a href="service-details.html"><?php echo translate('service_3_title'); ?></a></h3>
+                            <p class="box-text"><?php echo translate('service_3_text'); ?></p>
                             <div class="service-img img-shine">
                                 <img src="/assets/img/carbonor/inicio/servicios/3.webp" alt="img">
                             </div>
@@ -316,8 +314,8 @@
                         <div class="service-card-icon">
                                 <img src="assets/img/icon/service-icon3-5.svg" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="#">Comercialización</a></h3>
-                            <p class="box-text">Suministro confiable de carbón para diferentes sectores industriales y energéticos.</p>
+                            <h3 class="box-title"><a href="#"><?php echo translate('service_4_title'); ?></a></h3>
+                            <p class="box-text"><?php echo translate('service_4_text'); ?></p>
                             <div class="service-img img-shine">
                                 <img src="/assets/img/carbonor/inicio/servicios/4.webp" alt="img">
                                 <!-- <a href="service-details.html" class="icon-btn">
@@ -351,10 +349,10 @@
 
                         <div class="col-lg-6 col-md-8 order-md-2">
                             <div class="title-area mb-md-0 text-center">
-                                <span class="sub-title5 text-title justify-content-center"><span class="line line1"></span> Trabaja con nosotros<span class="line line2"></span></span>
-                                <h2 class="sec-title">Contacta con nosotros</h2>
+                                <span class="sub-title5 text-title justify-content-center"><span class="line line1"></span> <?php echo translate('gallery_subtitle'); ?><span class="line line2"></span></span>
+                                <h2 class="sec-title"><?php echo translate('gallery_title'); ?></h2>
                                 <div class="btn-wrap mt-4 justify-content-center">
-                                    <a href="/contacto" class="th-btn mb-0 style4 th-btn-icon">Contacta con nosotros</a>
+                                    <a href="/contacto" class="th-btn mb-0 style4 th-btn-icon"><?php echo translate('gallery_btn'); ?></a>
                                 </div>
                             </div>
                         </div>
@@ -417,17 +415,17 @@
             <div class="row gx-35">
                 <div class="col-lg-5">
                     <div class="title-area">
-                            <h2 class="sec-title">Información de Contacto</h2>
-                            <p class="text-justify">En Carbones Norte-Santandereanos S.A.S. (Carbónor) estamos comprometidos con la calidad, la sostenibilidad y la eficiencia en la producción y distribución de coque. Contáctanos para más información.</p>
+                            <h2 class="sec-title"><?php echo translate('contact_title'); ?></h2>
+                            <p class="text-justify"><?php echo translate('contact_text'); ?></p>
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
                             <img src="assets/img/icon/location-dot.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Ubicación:</h6>
-                            <p class="about-contact-details-text">Cúcuta, Norte de Santander</p>
-                            <p class="about-contact-details-text">Colombia</p>
+                            <h6 class="about-contact-details-title"><?php echo translate('contact_location_title'); ?></h6>
+                            <p class="about-contact-details-text"><?php echo translate('contact_location_1'); ?></p>
+                            <p class="about-contact-details-text"><?php echo translate('contact_location_2'); ?></p>
                         </div>
                     </div>
                     <div class="about-contact-grid">
@@ -435,7 +433,7 @@
                             <img src="assets/img/icon/phone.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Teléfono:</h6>
+                            <h6 class="about-contact-details-title"><?php echo translate('contact_phone_title'); ?></h6>
                             <p class="about-contact-details-text"><a href="tel:+573112936388">+57 311-293-6388</a></p>
                         </div>
                     </div>
@@ -444,7 +442,7 @@
                             <img src="assets/img/icon/envelope.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Correo:</h6>
+                            <h6 class="about-contact-details-title"><?php echo translate('contact_email_title'); ?></h6>
                             <p class="about-contact-details-text"><a href="mailto:comercial@carbonor.com.co">comercial@carbonor.com.co</a></p>
                         </div>
                     </div>
@@ -460,10 +458,10 @@
                     <img src="assets/img/property/property_inner_1.jpg" alt="img">
                 </div>
                 <div class="media-body">
-                    <h4 class="title">Dirección:</h4>
-                    <p class="text">Cúcuta, Norte de Santander – Colombia</p>
-                    <h4 class="title">CEO:</h4>
-                    <p class="text">Arturo González</p>
+                    <h4 class="title"><?php echo translate('contact_map_title'); ?></h4>
+                    <p class="text"><?php echo translate('contact_map_text'); ?></p>
+                    <h4 class="title"><?php echo translate('contact_ceo_title'); ?></h4>
+                    <p class="text"><?php echo translate('contact_ceo_name'); ?></p>
                 </div>
             </div>
         </div>
@@ -556,10 +554,10 @@
         $(function () {
             $('.floating-wpp').floatingWhatsApp({
                 phone: '573112936388',
-                popupMessage: 'Hola, ¿en qué podemos ayudarte?',
+                popupMessage: '<?php echo translate('whatsapp_message'); ?>',
                 showPopup: true,
-                message: 'Hola, me interesa conocer más sobre los servicios de CARBONOR',
-                headerTitle: 'CARBONOR - WhatsApp',
+                message: '<?php echo translate('whatsapp_default'); ?>',
+                headerTitle: '<?php echo translate('whatsapp_title'); ?>',
                 position: 'left',
                 showOnIE: false,
                 size: '60px',
