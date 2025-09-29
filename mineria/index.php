@@ -1,3 +1,15 @@
+<?php
+  require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+
+  $pageId   = 'mineria'; 
+  $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
+  if (file_exists($pageFile)) {
+    $pageTrans = include $pageFile; 
+    if (is_array($pageTrans)) {
+      $translations = array_merge($translations, $pageTrans);
+    }
+  }
+?>
 <!doctype html>
 <html class="no-js" lang="zxx" dir="ltr">
 
@@ -18,7 +30,7 @@
     <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
 
     <!--============================== Preloader  ==============================-->
-    <?php include_once '../includes/preloader.php'; ?>
+    <!-- <?php include_once '../includes/preloader.php'; ?> -->
 
     <!--============================== Mobile Menu ============================== -->
     <?php include_once '../includes/menu-mobile.php'; ?>
@@ -44,15 +56,15 @@
                                         <div class="hero-style2">
                                             <h1 class="hero-title">
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                    Producción de Coque </span>
+                                                    <?php echo translate('hero_1_title_1'); ?></span>
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                    Bajo en Fósforo </span>
+                                                    <?php echo translate('hero_1_title_2'); ?></span>
                                             </h1>
                                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                                Contamos con más de 20 años de experiencia en la producción de coque reactivo ULP (Ultra Low Phosphorus), con una capacidad de <b>7.000 – 10.000 toneladas mensuales</b> y certificación SGS que garantiza calidad y continuidad en cada embarque.
+                                                <?php echo translate('hero_1_text'); ?>
                                             </p>
                                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                                <a href="contacto" class="th-btn style4 th-btn-icon">Contáctanos</a>
+                                                <a href="contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_1_btn'); ?></a>
                                             </div>
                                         </div>
                                     </div>
@@ -71,15 +83,15 @@
                                         <div class="hero-style2">
                                             <h1 class="hero-title">
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                    Infraestructura </span>
+                                                    <?php echo translate('hero_2_title_1'); ?></span>
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                    Propia y Eficiente </span>
+                                                    <?php echo translate('hero_2_title_2'); ?></span>
                                             </h1>
                                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                                Disponemos de carbones propios, transporte, patios de almacenamiento, plantas de preparación y producción de coque, además de un área de despacho, asegurando control total sobre cada etapa del proceso.
+                                                <?php echo translate('hero_2_text'); ?>
                                             </p>
                                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                                <a href="contacto" class="th-btn style4 th-btn-icon">Saber Más</a>
+                                                <a href="contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_2_btn'); ?></a>
                                             </div>
                                         </div>
                                     </div>
@@ -98,15 +110,15 @@
                                         <div class="hero-style2">
                                             <h1 class="hero-title">
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                    Minería de </span>
+                                                    <?php echo translate('hero_3_title_1'); ?></span>
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
-                                                    Excelencia </span>
+                                                    <?php echo translate('hero_3_title_2'); ?></span>
                                             </h1>
                                             <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                                Operamos minas en Chitagá (Chita, Esmeralda y Montaña) y en San Faustino (Maporal), que producen carbón coquizable de calidad ideal para el proceso de coquización y la entrega de un producto superior en el mercado.
+                                                <?php echo translate('hero_3_text'); ?>
                                             </p>
                                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                                                <a href="contacto" class="th-btn style4 th-btn-icon">Conócenos</a>
+                                                <a href="contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_3_btn'); ?></a>
                                             </div>
                                         </div>
                                     </div>
@@ -167,27 +179,27 @@
                         </div>
                         <div class="col-xl-6">
                             <div class="title-area mb-15">
-                                <span class="sub-title4">Producción y Minería</span>
-                                <h2 class="sec-title">Calidad, Infraestructura y Experiencia</h2>
+                                <span class="sub-title4"><?php echo translate('about_subtitle'); ?></span>
+                                <h2 class="sec-title"><?php echo translate('about_title'); ?></h2>
                             </div>
                             <p class="sec-text mb-20">
-                                Nuestra producción de coque reactivo bajo en fósforo está respaldada por certificación SGS y un proceso controlado que garantiza homogeneidad y volumen constante. Contamos con nuestra propia mina y somos autosostenibles.
+                                <?php echo translate('about_text'); ?>
                             </p>
-                            <h5 class="fw-medium mb-10">Características de Nuestro Carbón</h5>
+                            <h5 class="fw-medium mb-10"><?php echo translate('coal_characteristics_title'); ?></h5>
                             <p class="sec-text mb-30">
-                                - Humedad: 3% – 6% <br>
-                                - Ceniza: 5% – 11% <br>
-                                - Materia volátil (MR): 20% – 41% <br>
-                                - FSI (índice de hinchamiento): 5 – 8,5 <br>
-                                - Azufre: 0,5% – 0,8%
+                                - <?php echo translate('coal_moisture'); ?> <br>
+                                - <?php echo translate('coal_ash'); ?> <br>
+                                - <?php echo translate('coal_volatile'); ?> <br>
+                                - <?php echo translate('coal_fsi'); ?> <br>
+                                - <?php echo translate('coal_sulfur'); ?>
                             </p>
                             <div class="about-wrap2">
                                 <div class="checklist style5">
                                     <ul>
-                                        <li>Producción constante de gran volumen.</li>
-                                        <li>Certificación SGS y COA por lote.</li>
-                                        <li>Infraestructura y minas propias.</li>
-                                        <li>Flexibilidad logística nacional e internacional.</li>
+                                        <li><?php echo translate('feature_1'); ?></li>
+                                        <li><?php echo translate('feature_2'); ?></li>
+                                        <li><?php echo translate('feature_3'); ?></li>
+                                        <li><?php echo translate('feature_4'); ?></li>
                                     </ul>
                                 </div>
                                 <div class="call-btn">
@@ -195,7 +207,7 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="btn-content">
-                                        <h6 class="btn-title">Atención Directa</h6>
+                                        <h6 class="btn-title"><?php echo translate('contact_title'); ?></h6>
                                         <span class="btn-text"><a href="tel:+573112936388">+57 311-293-6388</a></span>
                                     </div>
                                 </div>

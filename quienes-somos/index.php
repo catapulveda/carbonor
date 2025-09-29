@@ -1,3 +1,17 @@
+<?php
+  require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+
+  // Ahora cargo las traducciones específicas de esta página:
+  $pageId   = 'quienes-somos';
+  $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
+  if (file_exists($pageFile)) {
+    $pageTrans = include $pageFile; 
+    if (is_array($pageTrans)) {
+      $translations = array_merge($translations, $pageTrans);
+    }
+  }
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx" dir="ltr">
 
@@ -33,19 +47,15 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="title-area">
-                        <h2 class="sec-title">Sobre Nosotros</h2>
+                        <h2 class="sec-title"><?php echo translate('about_title'); ?></h2>
                         <p class="sec-text">
-                            <b>Carbones Norte-Santandereanos S.A.S.</b>, conocida comercialmente como <b>Carbónor</b>, 
-                            es una empresa ubicada en Cúcuta, Norte de Santander – Colombia. Con más de 20 años de 
-                            experiencia, nos especializamos en la producción de <b>coque reactivo ultrabajo en fósforo (ULP)</b>. 
-                            Operamos más de 210 hornos tipo colmena y contamos con certificaciones internacionales 
-                            de SGS que garantizan continuidad, seguridad y calidad en cada entrega.
+                            <?php echo translate('about_text'); ?>
                         </p>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="sec-btn">
-                        <a href="/contacto" class="th-btn style4 btn-sm th-btn-icon">Conócenos</a>
+                        <a href="/contacto" class="th-btn style4 btn-sm th-btn-icon"><?php echo translate('about_btn'); ?></a>
                     </div>
                 </div>
             </div>
@@ -70,7 +80,7 @@
                     <div class="col-xl-3 text-xl-end">
                         <div class="about-tag">
                             <div class="about-experience-tag">
-                                <span class="circle-title-anime text-title">Más de 20 años de experiencia</span>
+                                <span class="circle-title-anime text-title"><?php echo translate('about_experience'); ?></span>
                             </div>
                             <div class="about-tag-thumb">
                                 <img src="/assets/img/carbonor/quienes-somos/5.webp" alt="Experiencia Carbónor">
@@ -80,12 +90,7 @@
                     <div class="col-xl-9">
                         <div class="about-wrap1">
                             <p class="about-text text-title text-justify">
-                                Producimos entre <b>7.000 y 10.000 toneladas mensuales</b> de coque reactivo, 
-                                con ultra bajo fósforo (&lt;0,015%) y bajo azufre. <br><br>
-                                Contamos con minas en Chitagá y San Faustino, además de infraestructura propia con 
-                                patios de acopio, planta de preparación de carbones, hornos, zona de cribado, despacho 
-                                y báscula. Nuestra logística flexible nos permite atender fundiciones, acerías y 
-                                empresas del sector metalúrgico a nivel nacional e internacional.
+                                <?php echo translate('about_production_text'); ?>
                             </p>
                         </div>
                     </div>
@@ -107,8 +112,8 @@
                             </div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a class="text-title" href="service-details.html">Producción Responsable</a></h3>
-                            <p class="box-text text-body text-justify">Nuestras operaciones mineras y de coque se desarrollan bajo criterios de sostenibilidad, garantizando seguridad, calidad y responsabilidad ambiental en cada proceso.</p>
+                            <h3 class="box-title"><a class="text-title" href="service-details.html"><?php echo translate('service_1_title'); ?></a></h3>
+                            <p class="box-text text-body text-justify"><?php echo translate('service_1_text'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -120,8 +125,8 @@
                             </div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a class="text-title" href="service-details.html">Calidad Certificada</a></h3>
-                            <p class="box-text text-body text-justify">Nuestro coque ultrabajo en fósforo está certificado por SGS, asegurando un producto confiable, homogéneo y de alto rendimiento energético para el sector metalúrgico.</p>
+                            <h3 class="box-title"><a class="text-title" href="service-details.html"><?php echo translate('service_2_title'); ?></a></h3>
+                            <p class="box-text text-body text-justify"><?php echo translate('service_2_text'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -133,8 +138,8 @@
                             </div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a class="text-title" href="service-details.html">Logística & Distribución</a></h3>
-                            <p class="box-text text-body text-justify">Ofrecemos una logística eficiente y confiable, con despachos nacionales y exportaciones a través de los puertos de Barranquilla y Cartagena.</p>
+                            <h3 class="box-title"><a class="text-title" href="service-details.html"><?php echo translate('service_3_title'); ?></a></h3>
+                            <p class="box-text text-body text-justify"><?php echo translate('service_3_text'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -148,8 +153,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7">
                     <div class="title-area text-center">
-                        <h2 class="sec-title text-white">Nuestro Proceso de Trabajo</h2>
-                        <p class="sec-text text-white text-justify">Desde la extracción en nuestras minas hasta la entrega final, desarrollamos procesos seguros, eficientes y sostenibles que garantizan calidad en cada etapa.</p>
+                        <h2 class="sec-title text-white"><?php echo translate('process_title'); ?></h2>
+                        <p class="sec-text text-white text-justify"><?php echo translate('process_text'); ?></p>
                     </div>
                 </div>
             </div>
@@ -160,9 +165,9 @@
                             <img src="/assets/img/icon/process_card_2_1.svg" alt="icon">
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title">Extracción Responsable</h3>
-                            <p class="box-text text-justify">Nuestras minas en Norte de Santander operan bajo estrictos estándares de seguridad y sostenibilidad, cuidando el entorno y garantizando un suministro continuo.</p>
-                            <p class="box-number">Paso - 01</p>
+                            <h3 class="box-title"><?php echo translate('process_1_title'); ?></h3>
+                            <p class="box-text text-justify"><?php echo translate('process_1_text'); ?></p>
+                            <p class="box-number"><?php echo translate('process_1_step'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -172,9 +177,9 @@
                             <img src="/assets/img/icon/process_card_2_2.svg" alt="icon">
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title">Procesamiento & Clasificación</h3>
-                            <p class="box-text text-justify">El carbón es preparado y clasificado en nuestras plantas para obtener un coque reactivo ultrabajo en fósforo y con características homogéneas para la industria.</p>
-                            <p class="box-number">Paso - 02</p>
+                            <h3 class="box-title"><?php echo translate('process_2_title'); ?></h3>
+                            <p class="box-text text-justify"><?php echo translate('process_2_text'); ?></p>
+                            <p class="box-number"><?php echo translate('process_2_step'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -184,9 +189,9 @@
                             <img src="/assets/img/icon/process_card_2_3.svg" alt="icon">
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title">Entrega & Distribución</h3>
-                            <p class="box-text text-justify">Realizamos despachos locales e internacionales con logística propia y alianzas estratégicas, asegurando cumplimiento y confianza en cada envío.</p>
-                            <p class="box-number">Paso - 03</p>
+                            <h3 class="box-title"><?php echo translate('process_3_title'); ?></h3>
+                            <p class="box-text text-justify"><?php echo translate('process_3_text'); ?></p>
+                            <p class="box-number"><?php echo translate('process_3_step'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -208,8 +213,8 @@
 
                     <div class="video-wrap-details bg-white">
                         <div class="title-area mb-45">
-                            <h2 class="sec-title">¿Por qué elegirnos?</h2>
-                            <p class="sec-text">En Carbónor trabajamos con altos estándares de calidad, responsabilidad social y sostenibilidad. Nuestra experiencia y certificaciones nos convierten en un aliado estratégico para la industria.</p>
+                            <h2 class="sec-title"><?php echo translate('why_title'); ?></h2>
+                            <p class="sec-text"><?php echo translate('why_text'); ?></p>
                         </div>
                         <div class="row gy-4">
                             <div class="col-sm-6">
@@ -217,7 +222,7 @@
                                     <div class="box-icon">
                                         <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div>
-                                    <h4 class="box-title">Calidad Certificada SGS</h4>
+                                    <h4 class="box-title"><?php echo translate('why_1'); ?></h4>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -225,7 +230,7 @@
                                     <div class="box-icon">
                                         <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div> 
-                                    <h4 class="box-title">Satisfacción Garantizada</h4>
+                                    <h4 class="box-title"><?php echo translate('why_2'); ?></h4>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -233,7 +238,7 @@
                                     <div class="box-icon">
                                         <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div>
-                                    <h4 class="box-title">Equipo Capacitado</h4>
+                                    <h4 class="box-title"><?php echo translate('why_3'); ?></h4>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -241,7 +246,7 @@
                                     <div class="box-icon">
                                         <img src="/assets/img/icon/checkmark2.svg" alt="img">
                                     </div>
-                                    <h4 class="box-title">Procesos Seguros & Eficientes</h4>
+                                    <h4 class="box-title"><?php echo translate('why_4'); ?></h4>
                                 </div>
                             </div>
                         </div>
@@ -267,7 +272,7 @@
     </div>
 
     <!--============================== All Js File ============================== -->
-     <?php include_once '../includes/script.php'; ?>
+    <?php include_once '../includes/script.php'; ?>
 </body>
 
 </html>
