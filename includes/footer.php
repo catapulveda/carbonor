@@ -9,7 +9,7 @@
                                 <div class="about-logo">
                                     <a href="/"><img src="/assets/img/carbonor/logo-principal.webp" alt="Carbonor"></a>
                                 </div>
-                                <p class="about-text">Carbones Norte-Santandereanos S.A.S. – <strong>Carbonor</strong>, líder en el sector minero de Norte de Santander, Colombia. Nos destacamos por calidad, compromiso y responsabilidad con el medio ambiente.</p>
+                                <p class="about-text"><?php echo translate('about_text'); ?></p>
                                 <div class="th-social style7">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -22,13 +22,13 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">Contáctanos</h3>
+                            <h3 class="widget_title"><?php echo translate('contact_title'); ?></h3>
                             <div class="th-widget-contact">
                                 <div class="info-box_text">
                                     <div class="icon"><img src="/assets/img/icon/location-dot.svg" alt="img"></div>
                                     <div class="details">
-                                        <p>Cúcuta, Norte de Santander</p>
-                                        <p>Colombia</p>
+                                        <p><?php echo translate('contact_location_1'); ?></p>
+                                        <p><?php echo translate('contact_location_2'); ?></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
@@ -52,23 +52,23 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Enlaces Útiles</h3>
+                            <h3 class="widget_title"><?php echo translate('useful_links_title'); ?></h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="/quienes-somos">Quiénes Somos</a></li>
-                                    <li><a href="/servicios">Servicios</a></li>
-                                    <li><a href="/proyectos">Minería</a></li>
-                                    <li><a href="/contacto">Contáctanos</a></li>
+                                    <li><a href="/quienes-somos"><?php echo translate('link_about'); ?></a></li>
+                                    <li><a href="/servicios"><?php echo translate('link_services'); ?></a></li>
+                                    <li><a href="/proyectos"><?php echo translate('link_mining'); ?></a></li>
+                                    <li><a href="/contacto"><?php echo translate('link_contact'); ?></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Explorar</h3>
+                            <h3 class="widget_title"><?php echo translate('explore_title'); ?></h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="/contacto">Ubicación</a></li>
+                                    <li><a href="/contacto"><?php echo translate('link_location'); ?></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
             <div class="row gy-2 align-items-center">
                 <div class="col-lg-6">
                     <p class="copyright-text">
-                        Copyright <i class="fal fa-copyright"></i> 2025 <a href="https://ccnasys.com">ccnasys.com</a> Todos los derechos reservados.
+                        <?php echo translate('copyright_text'); ?>
                     </p>
                 </div>
                 <div class="col-lg-6 text-center text-lg-end">
