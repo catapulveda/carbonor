@@ -1,3 +1,17 @@
+<?php
+  require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
+
+  // Ahora cargo las traducciones específicas de esta página:
+  $pageId   = 'contacto';
+  $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
+  if (file_exists($pageFile)) {
+    $pageTrans = include $pageFile; 
+    if (is_array($pageTrans)) {
+      $translations = array_merge($translations, $pageTrans);
+    }
+  }
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx" dir="ltr">
 
@@ -38,17 +52,17 @@
             <div class="row gx-35">
                 <div class="col-lg-5">
                     <div class="title-area">
-                        <h2 class="sec-title">Información de Contacto</h2>
-                        <p>En Carbones Norte-Santandereanos S.A.S. (Carbónor) estamos comprometidos con la calidad, la sostenibilidad y la eficiencia en la producción y distribución de coque. Contáctanos para más información.</p>
+                        <h2 class="sec-title"><?php echo translate('contact_title'); ?></h2>
+                        <p><?php echo translate('contact_description'); ?></p>
                     </div>
                     <div class="about-contact-grid">
                         <div class="about-contact-icon text-white">
                             <img src="/assets/img/icon/location-dot.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Ubicación:</h6>
-                            <p class="about-contact-details-text">Cúcuta, Norte de Santander</p>
-                            <p class="about-contact-details-text">Colombia</p>
+                            <h6 class="about-contact-details-title"><?php echo translate('location_title'); ?></h6>
+                            <p class="about-contact-details-text"><?php echo translate('location_1'); ?></p>
+                            <p class="about-contact-details-text"><?php echo translate('location_2'); ?></p>
                         </div>
                     </div>
                     <div class="about-contact-grid">
@@ -56,7 +70,7 @@
                             <img src="/assets/img/icon/phone.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Teléfono:</h6>
+                            <h6 class="about-contact-details-title"><?php echo translate('phone_title'); ?></h6>
                             <p class="about-contact-details-text"><a href="tel:+573112936388">+57 311-293-6388</a></p>
                         </div>
                     </div>
@@ -65,7 +79,7 @@
                             <img src="/assets/img/icon/envelope.svg" alt="icon">
                         </div>
                         <div class="about-contact-details">
-                            <h6 class="about-contact-details-title">Correo:</h6>
+                            <h6 class="about-contact-details-title"><?php echo translate('email_title'); ?></h6>
                             <p class="about-contact-details-text"><a href="mailto:comercial@carbonor.com.co">comercial@carbonor.com.co</a></p>
                         </div>
                     </div>
@@ -81,10 +95,10 @@
                     <img src="/assets/img/property/property_inner_1.jpg" alt="img">
                 </div>
                 <div class="media-body">
-                    <h4 class="title">Dirección:</h4>
-                    <p class="text">Cúcuta, Norte de Santander – Colombia</p>
-                    <h4 class="title">CEO:</h4>
-                    <p class="text">Arturo González</p>
+                    <h4 class="title"><?php echo translate('address_title'); ?></h4>
+                    <p class="text"><?php echo translate('address_text'); ?></p>
+                    <h4 class="title"><?php echo translate('ceo_title'); ?></h4>
+                    <p class="text"><?php echo translate('ceo_name'); ?></p>
                 </div>
             </div>
         </div>
@@ -100,37 +114,37 @@
             <div class="row gx-60 gy-60 justify-content-end">
                 <div class="col-lg-6">
                     <div class="appointment-wrap">
-                        <h2 class="form-title fw-semibold mb-35">Contáctanos</h2>
+                        <h2 class="form-title fw-semibold mb-35"><?php echo translate('form_title'); ?></h2>
                         <form action="mail.php" method="POST" class="appointment-form ajax-contact">
                             <div class="row">
                                 <div class="form-group style-border2 style-radius col-lg-6">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu Nombre*">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="<?php echo translate('form_name_placeholder'); ?>">
                                     <i class="fal fa-user"></i>
                                 </div>
                                 <div class="form-group style-border2 style-radius col-lg-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo*">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="<?php echo translate('form_email_placeholder'); ?>">
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="form-group style-border2 style-radius col-lg-6">
                                     <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Selecciona el motivo</option>
-                                        <option value="Información de productos">Información de productos</option>
-                                        <option value="Cotización">Cotización</option>
-                                        <option value="Logística y entregas">Logística y entregas</option>
-                                        <option value="Otro">Otro</option>
+                                        <option value="" disabled selected hidden><?php echo translate('form_subject_placeholder'); ?></option>
+                                        <option value="Información de productos"><?php echo translate('option_1'); ?></option>
+                                        <option value="Cotización"><?php echo translate('option_2'); ?></option>
+                                        <option value="Logística y entregas"><?php echo translate('option_3'); ?></option>
+                                        <option value="Otro"><?php echo translate('option_4'); ?></option>
                                     </select>
                                     <i class="fal fa-angle-down"></i>
                                 </div>
                                 <div class="form-group style-border2 style-radius col-lg-6">
-                                    <input type="number" class="form-control" name="number" id="number" placeholder="Tu Número de Teléfono*">
+                                    <input type="number" class="form-control" name="number" id="number" placeholder="<?php echo translate('form_phone_placeholder'); ?>">
                                     <i class="fal fa-phone"></i>
                                 </div>
                                 <div class="col-12 form-group style-border2 style-radius">
                                     <i class="far fa-comments"></i>
-                                    <textarea name="message" id="message" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                                    <textarea name="message" id="message" placeholder="<?php echo translate('form_message_placeholder'); ?>" class="form-control"></textarea>
                                 </div>
                                 <div class="col-12 form-btn">
-                                    <button class="th-btn style4">Enviar Mensaje <span class="btn-icon"><img src="/assets/img/icon/paper-plane.svg" alt="img"></span></button>
+                                    <button class="th-btn style4"><?php echo translate('form_submit_btn'); ?> <span class="btn-icon"><img src="/assets/img/icon/paper-plane.svg" alt="img"></span></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
