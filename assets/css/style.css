@@ -39989,3 +39989,57 @@ Version: 1.0.0
 .text-justify {
   text-align: justify;
 }
+
+/* =================================
+   Language Selector Styles
+================================= */
+.language-selector {
+  gap: 8px;
+}
+
+.language-flag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.language-flag:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.language-flag.active {
+  background-color: rgba(0, 123, 255, 0.1);
+  border: 1px solid rgba(0, 123, 255, 0.3);
+}
+
+.flag-img {
+  width: 24px;
+  height: 18px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.language-separator {
+  color: #6c757d;
+  font-weight: 300;
+}
+
+/* Responsive para pantallas más pequeñas */
+@media (max-width: 1399px) {
+  .language-selector {
+      gap: 4px;
+  }
+  
+  .flag-img {
+      width: 20px;
+      height: 15px;
+  }
+  
+  .language-separator {
+      margin: 0 4px !important;
+  }
+}
