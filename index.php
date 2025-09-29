@@ -1,8 +1,7 @@
 <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
-  // Ahora cargo las traducciones específicas de esta página:
-  $pageId   = 'index';  // o 'index', 'servicios', etc.
+  $pageId   = 'index';
   $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
   if (file_exists($pageFile)) {
     $pageTrans = include $pageFile; 
