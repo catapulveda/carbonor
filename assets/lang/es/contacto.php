@@ -3,7 +3,7 @@
 return [
     // Contact Information Section
     'contact_title' => 'Información de Contacto',
-    'contact_description' => 'En Carbones Norte-Santandereanos S.A.S. (Carbónor) estamos comprometidos con la calidad, la sostenibilidad y la eficiencia en la producción y distribución de coque. Contáctanos para más información.',
+    'contact_description' => 'En Carbones Norte-Santandereanos S.A.S. (Carbonor) estamos comprometidos con la calidad, la sostenibilidad y la eficiencia en la producción y distribución de coque. Contáctanos para más información.',
     
     // Contact Details
     'location_title' => 'Ubicación:',

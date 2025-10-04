@@ -2,7 +2,7 @@
   require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
   // Ahora cargo las traducciones específicas de esta página:
-  $pageId   = 'servicios';  // Cambiado de 'quienes-somos' a 'servicios'
+  $pageId   = 'productos'; 
   $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
   if (file_exists($pageFile)) {
     $pageTrans = include $pageFile; 
@@ -56,34 +56,85 @@
                         </div>
 
                         <div class="row justify-content-center gy-5 mt-0">
+                            <!-- Coque 10x30 mm -->
                             <div class="col-md-6 col-xl-4">
                                 <div class="property-card6">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Servicio">
+                                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Coque 10x30 mm">
                                     </div>
                                     <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/servicios/coque-de-nuez/"><?php echo translate('service_1_title'); ?></a></h4>
-                                        <p class="property-card-text text-justify"><?php echo translate('service_1_text'); ?></p>
+                                        <h4 class="property-card-title"><a href="/productos/coque-10x30-mm/">Coque 10x30 mm</a></h4>
                                         <div class="property-btn-wrap">
                                             <div class="btn-wrap">
-                                                <a href="/servicios/coque-de-nuez/" class="th-btn style-border8 th-btn-icon"><?php echo translate('service_1_btn'); ?></a>
+                                                <a href="/productos/coque-10x30-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Coque 2x3 mm -->
                             <div class="col-md-6 col-xl-4">
                                 <div class="property-card6">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Servicio">
+                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 2x3 mm">
                                     </div>
                                     <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/servicios/fino-de-coque/"><?php echo translate('service_2_title'); ?></a></h4>
-                                        <p class="property-card-text text-justify"><?php echo translate('service_2_text'); ?></p>
+                                        <h4 class="property-card-title"><a href="/productos/coque-2x3-mm/">Coque 2x3 mm</a></h4>
                                         <div class="property-btn-wrap">
                                             <div class="btn-wrap">
-                                                <a href="/servicios/fino-de-coque/" class="th-btn style-border8 th-btn-icon"><?php echo translate('service_2_btn'); ?></a>
+                                                <a href="/productos/coque-2x3-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Coque 20x80 mm -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="property-card6">
+                                    <div class="property-card-thumb img-shine">
+                                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Coque 20x80 mm">
+                                    </div>
+                                    <div class="property-card-details">
+                                        <h4 class="property-card-title"><a href="/productos/coque-20x80-mm/">Coque 20x80 mm</a></h4>
+                                        <div class="property-btn-wrap">
+                                            <div class="btn-wrap">
+                                                <a href="/productos/coque-20x80-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Coque 6x10 mm -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="property-card6">
+                                    <div class="property-card-thumb img-shine">
+                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 6x10 mm">
+                                    </div>
+                                    <div class="property-card-details">
+                                        <h4 class="property-card-title"><a href="/productos/coque-6x10-mm/">Coque 6x10 mm</a></h4>
+                                        <div class="property-btn-wrap">
+                                            <div class="btn-wrap">
+                                                <a href="/productos/coque-6x10-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Fino de Coque Reactivo -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="property-card6">
+                                    <div class="property-card-thumb img-shine">
+                                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Fino de Coque Reactivo">
+                                    </div>
+                                    <div class="property-card-details">
+                                        <h4 class="property-card-title"><a href="/productos/fino-de-coque/">Fino de Coque Reactivo</a></h4>
+                                        <div class="property-btn-wrap">
+                                            <div class="btn-wrap">
+                                                <a href="/productos/fino-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
                                             </div>
                                         </div>
                                     </div>

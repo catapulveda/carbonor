@@ -7,7 +7,7 @@ return [
     
     // About Details
     'about_experience' => 'Mais de 20 anos de experiência',
-    'about_production_text' => 'Produzimos entre <b>7.000 e 10.000 toneladas mensais</b> de coque reativo, com ultra baixo fósforo (&lt;0,015%) e baixo enxofre. <br><br>Contamos com minas em Chitagá e San Faustino, além de infraestrutura própria com pátios de armazenamento, planta de preparação de carvões, fornos, zona de peneiramento, despacho e balança. Nossa logística flexível nos permite atender fundições, siderúrgicas e empresas do setor metalúrgico a nível nacional e internacional.',
+    'about_production_text' => 'Produzimos entre <b>7.000 e 10.000 toneladas mensais</b> de coque reativo, com ultra baixo fósforo (&lt;0,015%) e baixo enxofre.',
     
     // Services Section
     'service_1_title' => 'Produção Responsável',

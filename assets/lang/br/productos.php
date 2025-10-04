@@ -1,11 +1,11 @@
 <?php
 return [
     // Service Page Header
-    'services_subtitle' => 'Nossos Serviços',
+    'services_subtitle' => 'Nossos Produtos',
     'services_title' => 'Produção e Logística de Coque',
     
     // Service 1 - Coque de Nuez
-    'service_1_title' => '10 x 30',
+    'service_1_title' => '10 x 30 mm',
     'service_1_text' => 'Ultra baixo em fósforo. Utilizado como agente redutor na fabricação de ferro-ligas especializadas.',
     'service_1_btn' => 'Ver Detalhes',
     
