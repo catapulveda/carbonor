@@ -40043,3 +40043,12 @@ Version: 1.0.0
       margin: 0 4px !important;
   }
 }
+
+/* Clases personalizadas para colores del tema */
+.text-theme-color {
+  color: var(--theme-color) !important;
+}
+
+.text-theme-color2 {
+  color: var(--theme-color2) !important;
+}

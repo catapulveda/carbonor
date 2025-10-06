@@ -4,15 +4,25 @@ return [
     'services_subtitle' => 'Nuestros Productos',
     'services_title' => 'Producción y Logística de Coque',
     
-    // Service 1 - Coque de Nuez
-    'service_1_title' => '10 x 30 mm',
-    'service_1_text' => 'Ultra bajo en fósforo Se utiliza como agente reductor en la fabricación de ferroaleaciones especializadas.',
-    'service_1_btn' => 'Ver Detalles',
+    // Productos
+    'product_1_title' => 'COQUE 10X30 MM',
+    'product_2_title' => 'COQUE 2X3 MM',
+    'product_3_title' => 'COQUE 20X80 MM',
+    'product_4_title' => 'COQUE 6X10 MM',
+    'product_5_title' => 'FINO DE COQUE REACTIVO',
     
-    // Service 2 - Fino de Coque
-    'service_2_title' => 'FINO DE COQUE REACTIVO',
-    'service_2_text' => 'Ultra bajo fósforo. Se utiliza como combustible sólido principal en la sinterización de mineral de hierro. También es un material de relleno.',
-    'service_2_btn' => 'Ver Detalles',
+    // Logística Section
+    'logistics_subtitle' => 'Logística',
+    'logistics_title' => 'LOGÍSTICA GLOBAL: FLEXIBILIDAD Y CONFIANZA',
+    'logistics_description' => 'Garantizar la entrega oportuna de nuestro coque es una prioridad. Nuestra infraestructura logística está diseñada para ofrecer flexibilidad y confianza en cada envío de exportación.',
+    'logistics_precision_title' => 'Carga con Precisión y Seguridad',
+    'logistics_precision_text' => 'En nuestras operaciones de despacho, la profesionalidad es clave. Adaptamos nuestros métodos de carga a tus necesidades, asegurando un manejo limpio, seguro y estandarizado para tu producto, como puedes apreciar en las fotografías.',
+    
+    // Logistics Features
+    'logistics_feature_1_title' => 'Carga Directa a Granel',
+    'logistics_feature_1_text' => 'La solución más ágil y eficiente en volumen. Nuestro equipo especializado asegura el máximo aprovechamiento de la capacidad de la mula o camión, garantizando la estabilidad y el cumplimiento de todas las normativas de tránsito.',
+    'logistics_feature_2_title' => 'Carga en Big Bags (Sacos Jumbo)',
+    'logistics_feature_2_text' => 'Para quienes buscan control de inventario, protección superior y facilidad de descarga, ofrecemos el embalaje en Big Bags. Cada saco es llenado y estibado con cuidado milimétrico, asegurando que tu carga llegue a destino de forma impecable y lista para ser manipulada con equipos estándar.',
     
     // Contact Section
     'contact_subtitle' => 'Contáctanos',

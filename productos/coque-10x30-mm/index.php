@@ -46,7 +46,7 @@
                 <div class="col-xxl-12 col-lg-12">
                     <div class="page-single mb-40">
                         <div class="page-content">
-                            <h2 class="page-title fw-semibold">Coque 10x30 mm</h2>
+                            <h2 class="page-title fw-semibold">COQUE 10X30 mm</h2>
                             <p class="mb-30 text-justify">El Coque 10x30 mm es un producto de alta calidad con especificaciones técnicas optimizadas para diversos procesos industriales.</p>
                             
                             <div class="row gy-3">

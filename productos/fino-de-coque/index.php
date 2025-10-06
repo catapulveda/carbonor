@@ -119,7 +119,7 @@
                                         <ul>
                                             <li><?php echo translate('size_1'); ?></li>
                                             <li><?php echo translate('size_2'); ?></li>
-                                            
+                                            <li><?php echo translate('size_3'); ?></li>
                                         </ul>
                                     </div>
                                 </div>

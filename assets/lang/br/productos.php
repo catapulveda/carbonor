@@ -4,15 +4,25 @@ return [
     'services_subtitle' => 'Nossos Produtos',
     'services_title' => 'Produção e Logística de Coque',
     
-    // Service 1 - Coque de Nuez
-    'service_1_title' => '10 x 30 mm',
-    'service_1_text' => 'Ultra baixo em fósforo. Utilizado como agente redutor na fabricação de ferro-ligas especializadas.',
-    'service_1_btn' => 'Ver Detalhes',
+    // Produtos
+    'product_1_title' => 'COQUE 10X30 MM',
+    'product_2_title' => 'COQUE 2X3 MM',
+    'product_3_title' => 'COQUE 20X80 MM',
+    'product_4_title' => 'COQUE 6X10 MM',
+    'product_5_title' => 'FINO DE COQUE REATIVO',
     
-    // Service 2 - Fino de Coque
-    'service_2_title' => 'FINO DE COQUE REATIVO',
-    'service_2_text' => 'Ultra baixo fósforo. Utilizado como combustível sólido principal na sinterização de minério de ferro. Também é um material de preenchimento.',
-    'service_2_btn' => 'Ver Detalhes',
+    // Seção de Logística
+    'logistics_subtitle' => 'Logística',
+    'logistics_title' => 'LOGÍSTICA GLOBAL: FLEXIBILIDADE E CONFIANÇA',
+    'logistics_description' => 'Garantir a entrega oportuna do nosso coque é uma prioridade. Nossa infraestrutura logística está projetada para oferecer flexibilidade e confiança em cada embarque de exportação.',
+    'logistics_precision_title' => 'Carga com Precisão e Segurança',
+    'logistics_precision_text' => 'Em nossas operações de despacho, a profissionalidade é fundamental. Adaptamos nossos métodos de carga às suas necessidades, garantindo um manuseio limpo, seguro e padronizado para seu produto, como você pode apreciar nas fotografias.',
+    
+    // Características de Logística
+    'logistics_feature_1_title' => 'Carga Direta a Granel',
+    'logistics_feature_1_text' => 'A solução mais ágil e eficiente em volume. Nossa equipe especializada garante o máximo aproveitamento da capacidade do caminhão ou carreta, garantindo a estabilidade e o cumprimento de todas as normas de trânsito.',
+    'logistics_feature_2_title' => 'Carga em Big Bags (Sacos Jumbo)',
+    'logistics_feature_2_text' => 'Para quem busca controle de estoque, proteção superior e facilidade de descarga, oferecemos o empacotamento em Big Bags. Cada saco é preenchido e empilhado com cuidado milimétrico, garantindo que sua carga chegue ao destino de forma impecável e pronta para ser manipulada com equipamentos padrão.',
     
     // Contact Section
     'contact_subtitle' => 'Entre em contato',

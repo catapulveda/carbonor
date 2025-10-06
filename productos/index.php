@@ -41,7 +41,7 @@
             <?php include_once '../includes/header.php'; ?>
             
             <!--============================== Service Page Area ==============================-->
-            <section class="space-top space-extra2-bottom pb-5">
+            <section class="space-top space-extra2-bottom pb-5 bg-smoke2">
                 <div class="container">
                     <div class="row gy-4">
                         <div class="container">
@@ -62,13 +62,13 @@
                                     <div class="property-card-thumb img-shine">
                                         <img src="/assets/img/carbonor/servicios/2.webp" alt="Coque 10x30 mm">
                                     </div>
-                                    <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/productos/coque-10x30-mm/">Coque 10x30 mm</a></h4>
-                                        <div class="property-btn-wrap">
-                                            <div class="btn-wrap">
-                                                <a href="/productos/coque-10x30-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                                            </div>
-                                        </div>
+                                    <div class="property-card-details pb-0">
+                                        <h4 class="property-card-title mb-3 text-center">
+                                            <a href="/productos/coque-10x30-mm/" class="text-decoration-none d-flex align-items-center justify-content-center">
+                                                <span class="fw-bold text-theme-color fs-4 text-uppercase"><?php echo translate('product_1_title'); ?></span>
+                                                <i class="fas fa-arrow-right text-theme-color ms-3 fs-5"></i>
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -79,13 +79,13 @@
                                     <div class="property-card-thumb img-shine">
                                         <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 2x3 mm">
                                     </div>
-                                    <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/productos/coque-2x3-mm/">Coque 2x3 mm</a></h4>
-                                        <div class="property-btn-wrap">
-                                            <div class="btn-wrap">
-                                                <a href="/productos/coque-2x3-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                                            </div>
-                                        </div>
+                                    <div class="property-card-details pb-0">
+                                        <h4 class="property-card-title mb-3 text-center">
+                                            <a href="/productos/coque-2x3-mm/" class="text-decoration-none d-flex align-items-center justify-content-center">
+                                                <span class="fw-bold text-theme-color fs-4 text-uppercase"><?php echo translate('product_2_title'); ?></span>
+                                                <i class="fas fa-arrow-right text-theme-color ms-3 fs-5"></i>
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -96,13 +96,13 @@
                                     <div class="property-card-thumb img-shine">
                                         <img src="/assets/img/carbonor/servicios/2.webp" alt="Coque 20x80 mm">
                                     </div>
-                                    <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/productos/coque-20x80-mm/">Coque 20x80 mm</a></h4>
-                                        <div class="property-btn-wrap">
-                                            <div class="btn-wrap">
-                                                <a href="/productos/coque-20x80-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                                            </div>
-                                        </div>
+                                    <div class="property-card-details pb-0">
+                                        <h4 class="property-card-title mb-3 text-center">
+                                            <a href="/productos/coque-20x80-mm/" class="text-decoration-none d-flex align-items-center justify-content-center">
+                                                <span class="fw-bold text-theme-color fs-4 text-uppercase"><?php echo translate('product_3_title'); ?></span>
+                                                <i class="fas fa-arrow-right text-theme-color ms-3 fs-5"></i>
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -113,13 +113,13 @@
                                     <div class="property-card-thumb img-shine">
                                         <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 6x10 mm">
                                     </div>
-                                    <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/productos/coque-6x10-mm/">Coque 6x10 mm</a></h4>
-                                        <div class="property-btn-wrap">
-                                            <div class="btn-wrap">
-                                                <a href="/productos/coque-6x10-mm/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                                            </div>
-                                        </div>
+                                    <div class="property-card-details pb-0">
+                                        <h4 class="property-card-title mb-3 text-center">
+                                            <a href="/productos/coque-6x10-mm/" class="text-decoration-none d-flex align-items-center justify-content-center">
+                                                <span class="fw-bold text-theme-color fs-4 text-uppercase"><?php echo translate('product_4_title'); ?></span>
+                                                <i class="fas fa-arrow-right text-theme-color ms-3 fs-5"></i>
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -130,13 +130,13 @@
                                     <div class="property-card-thumb img-shine">
                                         <img src="/assets/img/carbonor/servicios/2.webp" alt="Fino de Coque Reactivo">
                                     </div>
-                                    <div class="property-card-details">
-                                        <h4 class="property-card-title"><a href="/productos/fino-de-coque/">Fino de Coque Reactivo</a></h4>
-                                        <div class="property-btn-wrap">
-                                            <div class="btn-wrap">
-                                                <a href="/productos/fino-de-coque/" class="th-btn style-border8 th-btn-icon">Ver Detalles</a>
-                                            </div>
-                                        </div>
+                                    <div class="property-card-details pb-0">
+                                        <h4 class="property-card-title mb-3 text-center">
+                                            <a href="/productos/fino-de-coque/" class="text-decoration-none d-flex align-items-center justify-content-center">
+                                                <span class="fw-bold text-theme-color fs-5 text-uppercase"><?php echo translate('product_5_title'); ?></span>
+                                                <i class="fas fa-arrow-right text-theme-color ms-3 fs-5"></i>
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -145,8 +145,47 @@
                 </div>
             </section>
 
+            <section class="why-sec2 space overflow-hidden">
+                <div class="container">
+                    <div class="row gx-80 gy-60">
+                        <div class="col-xl-4 col-lg-8">
+                            <div class="why-img-box2">
+                                <div class="img1">
+                                    <img src="/assets/img/carbonor/servicios/logistica.webp" alt="Logística Global">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="title-area mb-40">
+                                <span class="sub-title"><?php echo translate('logistics_subtitle'); ?></span>
+                                <h2 class="sec-title"><?php echo translate('logistics_title'); ?></h2>
+                                <p class="sec-text text-justify"><?php echo translate('logistics_description'); ?></p>
+                                <h5><?php echo translate('logistics_precision_title'); ?></h5>
+                                <p class="sec-text text-justify"><?php echo translate('logistics_precision_text'); ?></p>
+                            </div>
+                            <ul class="why-feature-list">
+                                <li class="why-feature-list-wrap">
+                                    <div class="number">01</div>
+                                    <div class="why-feature-list-details">
+                                        <h4 class="feature-title"><?php echo translate('logistics_feature_1_title'); ?></h4>
+                                        <p class="feature-text text-justify"><?php echo translate('logistics_feature_1_text'); ?></p>
+                                    </div>
+                                </li>
+                                <li class="why-feature-list-wrap">
+                                    <div class="number">02</div>
+                                    <div class="why-feature-list-details">
+                                        <h4 class="feature-title"><?php echo translate('logistics_feature_2_title'); ?></h4>
+                                        <p class="feature-text text-justify"><?php echo translate('logistics_feature_2_text'); ?></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!--============================== Contact Area ==============================-->
-            <div class="overflow-hidden space-bottom contact-area-4-2 z-index-common" id="contact-sec">
+            <!-- <div class="overflow-hidden space-bottom contact-area-4-2 z-index-common" id="contact-sec">
                 <div class="container th-container2">
                     <div class="contact-wrap4 bg-smoke4">
                         <div class="row g-0">
@@ -199,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!--============================== Footer Area ==============================-->
             <?php include_once '../includes/footer.php'; ?>
