@@ -60,9 +60,7 @@
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
                                                     <?php echo translate('hero_1_title_2'); ?></span>
                                             </h1>
-                                            <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                                <?php echo translate('hero_1_text'); ?>
-                                            </p>
+                                            <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s"><?php echo translate('hero_1_text'); ?></p>
                                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
                                                 <a href="contacto" class="th-btn style4 th-btn-icon"><?php echo translate('hero_1_btn'); ?></a>
                                             </div>
@@ -87,7 +85,7 @@
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
                                                     <?php echo translate('hero_2_title_2'); ?></span>
                                             </h1>
-                                            <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
+                                            <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s">
                                                 <?php echo translate('hero_2_text'); ?>
                                             </p>
                                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
@@ -114,7 +112,7 @@
                                                 <span class="title1" data-ani="slideinup" data-ani-delay="0.5s">
                                                     <?php echo translate('hero_3_title_2'); ?></span>
                                             </h1>
-                                            <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
+                                            <p class="hero-text text-justify" data-ani="slideinup" data-ani-delay="0.6s">
                                                 <?php echo translate('hero_3_text'); ?>
                                             </p>
                                             <div class="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
@@ -178,21 +176,6 @@
                             </div>
                         </div>
                         <div class="col-xl-6">
-                            <div class="title-area mb-15">
-                                <span class="sub-title4"><?php echo translate('about_subtitle'); ?></span>
-                                <h2 class="sec-title"><?php echo translate('about_title'); ?></h2>
-                            </div>
-                            <p class="sec-text mb-20">
-                                <?php echo translate('about_text'); ?>
-                            </p>
-                            <h5 class="fw-medium mb-10"><?php echo translate('coal_characteristics_title'); ?></h5>
-                            <p class="sec-text mb-30">
-                                - <?php echo translate('coal_moisture'); ?> <br>
-                                - <?php echo translate('coal_ash'); ?> <br>
-                                - <?php echo translate('coal_volatile'); ?> <br>
-                                - <?php echo translate('coal_fsi'); ?> <br>
-                                - <?php echo translate('coal_sulfur'); ?>
-                            </p>
                             <div class="about-wrap2">
                                 <div class="checklist style5">
                                     <ul>

@@ -31,7 +31,7 @@ return [
     // Services Section
     'services_subtitle' => 'Nuestros Servicios',
     'services_title' => 'Servicios que ofrecemos',
-    'services_text' => 'En Carbónor ofrecemos soluciones integrales que garantizan productividad, sostenibilidad y calidad en la extracción, comercialización y distribución de carbón mineral.',
+    'services_text' => 'En Carbonor ofrecemos soluciones integrales que garantizan productividad, sostenibilidad y calidad en la extracción, comercialización y distribución de carbón mineral.',
     'services_btn' => 'Ver todos los servicios',
     
     'service_1_title' => 'Sostenibilidad ambiental',
@@ -53,7 +53,7 @@ return [
     
     // Contact Section
     'contact_title' => 'Información de Contacto',
-    'contact_text' => 'En Carbones Norte-Santandereanos S.A.S. (Carbónor) estamos comprometidos con la calidad, la sostenibilidad y la eficiencia en la producción y distribución de coque. Contáctanos para más información.',
+    'contact_text' => 'En Carbones Norte-Santandereanos S.A.S. (Carbonor) estamos comprometidos con la calidad, la sostenibilidad y la eficiencia en la producción y distribución de coque. Contáctanos para más información.',
     
     'contact_location_title' => 'Ubicación:',
     'contact_location_1' => 'Cúcuta, Norte de Santander',

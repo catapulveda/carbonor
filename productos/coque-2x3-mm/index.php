@@ -2,7 +2,7 @@
   require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
   // Ahora cargo las traducciones específicas de esta página:
-  $pageId   = 'fino-de-coque';  // Cambiado de 'quienes-somos' a 'fino-de-coque'
+  $pageId   = 'coque-2x3-mm';  
   $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
   if (file_exists($pageFile)) {
     $pageTrans = include $pageFile; 
@@ -45,31 +45,26 @@
             <div class="row gx-40">
                 <div class="col-xxl-12 col-lg-12">
                     <div class="page-single mb-40">
-                        <!-- <div class="page-img mb-25">
-                            <img src="/assets/img/carbonor/servicios/2.webp" alt="Service Image">
-                        </div> -->
                         <div class="page-content">
-                            <h2 class="page-title fw-semibold"><?php echo translate('page_title'); ?></h2>
-                            <p class="mb-30 text-justify"><?php echo translate('main_description_1'); ?></p>
-                            <p class="mb-50 text-justify"><?php echo translate('main_description_2'); ?></p>
+                            <h2 class="page-title fw-semibold">Coque 2x3 mm</h2>
+                            <p class="mb-30 text-justify">El Coque 2x3 mm es un producto de alta calidad con especificaciones técnicas optimizadas para procesos industriales que requieren granulometría fina.</p>
                             
-                            <!-- <p class="mb-30">We have the experience and expertise to deliver a variety of building designs for a wide range of clients. We are used to working on complex building projects with challenging programmers and high customer expectations. Our team works closely with our clients and professional advisors to understand the requirements.</p> -->
                             <div class="row gy-3">
                                 <div class="col-xl-6">
-                                    <h4 class="fw-semibold"><?php echo translate('process_title'); ?></h4>
+                                    <h4 class="fw-semibold">Especificaciones Técnicas</h4>
                                     <p class="mb-30 text-justify">
-                                        <?php echo translate('process_description'); ?>
+                                        Nuestro Coque 2x3 mm cumple con los más altos estándares de calidad para garantizar un rendimiento óptimo en sus procesos industriales.
                                     </p>
                                 </div>
                                 <div class="col-xl-6">
-                                    <h4 class="fw-semibold"><?php echo translate('specs_title'); ?></h4>
+                                    <h4 class="fw-semibold">Especificaciones</h4>
                                     <div class="checklist style5">
                                         <ul>
-                                            <li><?php echo translate('spec_ash'); ?></li>
-                                            <li><?php echo translate('spec_volatiles'); ?></li>
-                                            <li><?php echo translate('spec_sulfur'); ?></li>
-                                            <li><?php echo translate('spec_phosphorus'); ?></li>
-                                            <li><?php echo translate('spec_fixed_carbon'); ?></li>
+                                            <li>Humedad: 1,7% máx</li>
+                                            <li>Ceniza: 24% máx</li>
+                                            <li>Materia Volátil: 3% máx</li>
+                                            <li>Azufre: 0,70%</li>
+                                            <li>Carbono Fijo: 73%</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -81,8 +76,8 @@
                                         <div class="box-icon">
                                             <i class="fal fa-file-lines"></i>
                                         </div>
-                                        <h2 class="box-title"><?php echo translate('step_1_title'); ?></h2>
-                                        <p class="box-text"><?php echo translate('step_1_description'); ?></p>
+                                        <h2 class="box-title">Análisis Químico</h2>
+                                        <p class="box-text">Realizamos análisis químicos exhaustivos para garantizar la calidad del producto.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xl-4">
@@ -90,8 +85,8 @@
                                         <div class="box-icon">
                                             <i class="fal fa-pen-ruler"></i>
                                         </div>
-                                        <h2 class="box-title"><?php echo translate('step_2_title'); ?></h2>
-                                        <p class="box-text"><?php echo translate('step_2_description'); ?></p>
+                                        <h2 class="box-title">Control de Tamaño</h2>
+                                        <p class="box-text">Cumplimiento estricto de las dimensiones especificadas para cada aplicación.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xl-4">
@@ -99,27 +94,26 @@
                                         <div class="box-icon">
                                             <i class="fal fa-circle-dollar"></i>
                                         </div>
-                                        <h2 class="box-title"><?php echo translate('step_3_title'); ?></h2>
-                                        <p class="box-text"><?php echo translate('step_3_description'); ?></p>
+                                        <h2 class="box-title">Entrega Garantizada</h2>
+                                        <p class="box-text">Compromiso con la entrega puntual y en las cantidades solicitadas.</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <h4 class="fw-semibold mb-25 mt-50"><?php echo translate('sizes_title'); ?></h4>
-                            <!-- <p class="mb-30">Conveniently predominate revolutionary quality vectors through future-proof manufactured products. Objectively envisioned high in convergence through collaborative networks. Interactively generate B2C tailers for business data restore fully researched relationships through</p> -->
+                            <h4 class="fw-semibold mb-25 mt-50">Aplicaciones</h4>
                             <div class="row gy-40 align-items-center">
                                 <div class="col-xl-6">
                                     <div class="page-img">
-                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Service Image">
+                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 2x3 mm">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
-                                    <!-- <p class="mt-n2">An architecture company thrives on innovation and creativity. Designers explore new materials, technologies, and design trends to deliver fresh and unique solutions.</p> -->
                                     <div class="checklist style5">
                                         <ul>
-                                            <li><?php echo translate('size_1'); ?></li>
-                                            <li><?php echo translate('size_2'); ?></li>
-                                            
+                                            <li>Industria metalúrgica</li>
+                                            <li>Fundiciones especializadas</li>
+                                            <li>Producción de hierro y acero</li>
+                                            <li>Aplicaciones que requieren granulometría fina</li>
                                         </ul>
                                     </div>
                                 </div>

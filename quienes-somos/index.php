@@ -63,14 +63,14 @@
                 <div class="col-lg-6">
                     <div class="img-box1">
                         <div class="img1 img-shine" data-mask-src="/assets/img/shape/about-1-mask.png">
-                            <img src="/assets/img/carbonor/quienes-somos/1.webp" alt="Producción de coque en Carbónor">
+                            <img src="/assets/img/carbonor/quienes-somos/1.webp" alt="Producción de coque en Carbonor">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="img-box1">
                         <div class="img1 img-shine" data-mask-src="/assets/img/shape/about-1-mask.png">
-                            <img src="/assets/img/carbonor/quienes-somos/2.webp" alt="Hornos tipo colmena Carbónor">
+                            <img src="/assets/img/carbonor/quienes-somos/2.webp" alt="Hornos tipo colmena Carbonor">
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                                 <span class="circle-title-anime text-title"><?php echo translate('about_experience'); ?></span>
                             </div>
                             <div class="about-tag-thumb">
-                                <img src="/assets/img/carbonor/quienes-somos/5.webp" alt="Experiencia Carbónor">
+                                <img src="/assets/img/carbonor/quienes-somos/5.webp" alt="Experiencia Carbonor">
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
             <div class="video-area-1-1 space-bottom position-relative" data-sec-pos="top-half" data-pos-for="#process-area2">
                 <div class="video-wrap1 style2 overflow-hidden">
                 <div class="video-box1" data-overlay="black2" data-opacity="3">
-                        <img src="/assets/img/carbonor/quienes-somos/3.webp" alt="Carbónor Video">
+                        <img src="/assets/img/carbonor/quienes-somos/3.webp" alt="Carbonor Video">
                         <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn style3 popup-video">
                             <i class="fa-sharp fa-solid fa-play"></i>
                         </a>
