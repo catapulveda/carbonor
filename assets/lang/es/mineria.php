@@ -3,7 +3,7 @@ return [
     // Hero Section - Slide 1
     'hero_1_title_1' => 'Producción de Coque',
     'hero_1_title_2' => 'Bajo en Fósforo',
-    'hero_1_text' => 'Contamos con más de 20 años de experiencia en la producción de coque reactivo ULP (Ultra Low Phosphorus), con una capacidad de <b>7.000 – 10.000 toneladas mensuales</b> y certificación SGS que garantiza calidad y continuidad en cada embarque.',
+    'hero_1_text' => 'Contamos con más de 20 años de experiencia en la producción de coque reactivo ULP (Ultra Low Phosphorus), con una capacidad de <b>10.000 toneladas mensuales</b> y certificación SGS que garantiza calidad y continuidad en cada embarque.',
     'hero_1_btn' => 'Contáctanos',
     
     // Hero Section - Slide 2
@@ -15,7 +15,7 @@ return [
     // Hero Section - Slide 3
     'hero_3_title_1' => 'Minería de',
     'hero_3_title_2' => 'Excelencia',
-    'hero_3_text' => 'Operamos minas en Chitagá (Chita, Esmeralda y Montaña) y en San Faustino (Maporal), que producen carbón coquizable de calidad ideal para el proceso de coquización y la entrega de un producto superior en el mercado.',
+    'hero_3_text' => 'Gracias a que operamos nuestra propia minería, contamos con disponibilidad total de materia prima. Esto se traduce directamente en la calidad superior de nuestro coque y una trazabilidad rigurosa de todo el proceso.',
     'hero_3_btn' => 'Conócenos',
     
     // About Section

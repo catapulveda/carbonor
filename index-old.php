@@ -147,14 +147,14 @@
                     <div class="col-xxl-7">
                         <div class="about-thumb17-1">
                             <div class="img1">
-                                <img src="/assets/img/carbonor/2.webp" alt="Carbónor planta">
+                                <img src="/assets/img/carbonor/2.webp" alt="Carbonor planta">
                             </div>
                             <div class="img2">
-                                <img src="/assets/img/carbonor/1.webp" alt="Carbónor hornos">
+                                <img src="/assets/img/carbonor/1.webp" alt="Carbonor hornos">
                             </div>
                             <div class="about-tag">
                                 <div class="about-experience-tag text-title">
-                                    <span class="circle-title-anime">Carbónor – Energía que mueve el progreso</span>
+                                    <span class="circle-title-anime">Carbonor – Energía que mueve el progreso</span>
                                 </div>
                                 <a href="https://www.youtube.com/watch?v=j6T3Y0KnwPA" class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                             </div>
@@ -170,7 +170,7 @@
                         <div class="about-wrap16">
                             <div class="title-area mb-35">
                                 <span class="sub-title text-title">Sobre Nosotros</span>
-                                <h2 class="sec-title">Carbones Norte-Santandereanos S.A.S. – Carbónor</h2>
+                                <h2 class="sec-title">Carbones Norte-Santandereanos S.A.S. – Carbonor</h2>
                                 <p>Somos una empresa regional con más de dos décadas de experiencia en la producción de <strong>coque reactivo bajo en fósforo (ULP)</strong>, operando más de 210 hornos tipo colmena en Norte de Santander – Colombia. Nuestro proceso de producción está certificado y estandarizado, lo que garantiza calidad y continuidad en el suministro.</p>
                                 <p>Contamos con infraestructura propia en toda la cadena productiva: carbones, transporte, patios de almacenamiento y plantas de preparación y producción de coque. Gracias a esto aseguramos un producto homogéneo, confiable y con certificación internacional SGS.</p>
                             </div>
@@ -247,7 +247,7 @@
                     <div class="title-area">
                         <span class="sub-title text-title">Nuestros Servicios Industriales</span>
                         <h2 class="sec-title">Soluciones confiables en la industria del carbón</h2>
-                        <p>En Carbónor ofrecemos soluciones integrales que garantizan productividad, sostenibilidad y calidad en la extracción, comercialización y distribución de carbón mineral.</p>
+                        <p>En Carbonor ofrecemos soluciones integrales que garantizan productividad, sostenibilidad y calidad en la extracción, comercialización y distribución de carbón mineral.</p>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -344,7 +344,7 @@
                     <div class="title-area text-center">
                         <span class="sub-title text-white">¿Por qué elegirnos?</span>
                         <h2 class="sec-title text-white">La mejor opción en soluciones de carbón industrial</h2>
-                        <p class="text-white mb-35 mt-20">En Carbónor trabajamos para brindar un servicio confiable y sostenible, optimizando operaciones, garantizando productividad y asegurando calidad en cada proceso.</p>
+                        <p class="text-white mb-35 mt-20">En Carbonor trabajamos para brindar un servicio confiable y sostenible, optimizando operaciones, garantizando productividad y asegurando calidad en cada proceso.</p>
                         <div class="checklist why-list-wrap mb-15">
                             <ul>
                                 <li><img src="assets/img/icon/checkmark3.svg" alt="icon"> Estrategia de producción eficiente</li>
@@ -355,7 +355,7 @@
                         </div>
                         <div class="btn-wrap justify-content-center">
                             <a href="contacto" class="th-btn mb-0 style4 th-btn-icon">Contáctanos</a>
-                            <a href="quienes-somos" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbónor</a>
+                            <a href="quienes-somos" class="th-btn mb-0 style-border3 th-btn-icon">Conoce más sobre Carbonor</a>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
                             <ul>
                                 <li><a href="/"><?php echo translate('menu_home'); ?></a></li>
                                 <li><a href="/quienes-somos"><?php echo translate('menu_about'); ?></a></li>
-                                <li><a href="/servicios"><?php echo translate('menu_services'); ?></a></li>
+                                <li><a href="/productos"><?php echo translate('menu_products'); ?></a></li>
                                 <li><a href="/mineria"><?php echo translate('menu_mining'); ?></a></li>
                                 <li><a href="/contacto"><?php echo translate('menu_contact'); ?></a></li>
                             </ul>
