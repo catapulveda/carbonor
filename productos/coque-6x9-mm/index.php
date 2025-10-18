@@ -2,7 +2,7 @@
   require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
   // Ahora cargo las traducciones específicas de esta página:
-  $pageId   = 'coque-6x10-mm';  
+  $pageId   = 'coque-6x9-mm';  
   $pageFile = LANG_DIR . '/' . LANG . '/' . $pageId . '.php';
   if (file_exists($pageFile)) {
     $pageTrans = include $pageFile; 
@@ -46,14 +46,14 @@
                 <div class="col-xxl-12 col-lg-12">
                     <div class="page-single mb-40">
                         <div class="page-content">
-                            <h2 class="page-title fw-semibold">Coque 6x10 mm</h2>
-                            <p class="mb-30 text-justify">El Coque 6x10 mm es un producto de alta calidad con especificaciones técnicas optimizadas para procesos industriales que requieren granulometría media.</p>
+                            <h2 class="page-title fw-semibold">Coque 6x9 mm</h2>
+                            <p class="mb-30 text-justify">El Coque 6x9 mm es un producto de alta calidad con especificaciones técnicas optimizadas para procesos industriales que requieren granulometría media.</p>
                             
                             <div class="row gy-3">
                                 <div class="col-xl-6">
                                     <h4 class="fw-semibold">Especificaciones Técnicas</h4>
                                     <p class="mb-30 text-justify">
-                                        Nuestro Coque 6x10 mm cumple con los más altos estándares de calidad para garantizar un rendimiento óptimo en sus procesos industriales.
+                                        Nuestro Coque 6x9 mm cumple con los más altos estándares de calidad para garantizar un rendimiento óptimo en sus procesos industriales.
                                     </p>
                                 </div>
                                 <div class="col-xl-6">
@@ -104,7 +104,7 @@
                             <div class="row gy-40 align-items-center">
                                 <div class="col-xl-6">
                                     <div class="page-img">
-                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 6x10 mm">
+                                        <img src="/assets/img/carbonor/servicios/6x9_856x450.webp" alt="Coque 6x9 mm">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">

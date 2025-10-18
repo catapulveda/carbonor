@@ -32,5 +32,6 @@ return [
     // Available Sizes Section
     'sizes_title' => 'Available in',
     'size_1' => '0x5 mm',
-    'size_2' => '0x10 mm'
+    'size_2' => '0x10 mm',
+    'size_3' => '5x10 mm'
 ];
