@@ -8,6 +8,7 @@ return [
     'lang_spanish' => 'Español',
     'lang_portuguese' => 'Português',
     'lang_english' => 'English',
+    'select_language' => 'Select language',
 
     // About Section
     'about_text' => 'Carbones Norte-Santandereanos S.A.S. – <strong>Carbonor</strong>, leader in the mining sector of Norte de Santander, Colombia. We stand out for quality, commitment and environmental responsibility.',
