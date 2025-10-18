@@ -8,7 +8,7 @@ return [
     'product_1_title' => 'COQUE 10X30 MM',
     'product_2_title' => 'COQUE 2X3 MM',
     'product_3_title' => 'COQUE 20X80 MM',
-    'product_4_title' => 'COQUE 6X10 MM',
+    'product_4_title' => 'COQUE 6X9 MM',
     'product_5_title' => 'FINO DE COQUE REATIVO',
     
     // Seção de Logística
