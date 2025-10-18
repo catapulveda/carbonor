@@ -60,7 +60,7 @@
                             <div class="col-md-6 col-xl-4">
                                 <div class="property-card6">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Coque 10x30 mm">
+                                        <img src="/assets/img/carbonor/servicios/10x30_386x251.webp" alt="Coque 10x30 mm">
                                     </div>
                                     <div class="property-card-details pb-0">
                                         <h4 class="property-card-title mb-3 text-center">
@@ -77,7 +77,7 @@
                             <div class="col-md-6 col-xl-4">
                                 <div class="property-card6">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 2x3 mm">
+                                        <img src="/assets/img/carbonor/servicios/2x3_386x251.webp" alt="Coque 2x3 mm">
                                     </div>
                                     <div class="property-card-details pb-0">
                                         <h4 class="property-card-title mb-3 text-center">
@@ -94,7 +94,7 @@
                             <div class="col-md-6 col-xl-4">
                                 <div class="property-card6">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="/assets/img/carbonor/servicios/2.webp" alt="Coque 20x80 mm">
+                                        <img src="/assets/img/carbonor/servicios/20x80_386x251.webp" alt="Coque 20x80 mm">
                                     </div>
                                     <div class="property-card-details pb-0">
                                         <h4 class="property-card-title mb-3 text-center">
@@ -107,15 +107,15 @@
                                 </div>
                             </div>
 
-                            <!-- Coque 6x10 mm -->
+                            <!-- Coque 6x9 mm -->
                             <div class="col-md-6 col-xl-4">
                                 <div class="property-card6">
                                     <div class="property-card-thumb img-shine">
-                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 6x10 mm">
+                                        <img src="/assets/img/carbonor/servicios/6x9_386x251.webp" alt="Coque 6x9 mm">
                                     </div>
                                     <div class="property-card-details pb-0">
                                         <h4 class="property-card-title mb-3 text-center">
-                                            <a href="/productos/coque-6x10-mm/" class="text-decoration-none d-flex align-items-center justify-content-center">
+                                            <a href="/productos/coque-6x9-mm/" class="text-decoration-none d-flex align-items-center justify-content-center">
                                                 <span class="fw-bold text-theme-color fs-4 text-uppercase"><?php echo translate('product_4_title'); ?></span>
                                                 <i class="fas fa-arrow-right text-theme-color ms-3 fs-5"></i>
                                             </a>

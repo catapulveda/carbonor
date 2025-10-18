@@ -8,7 +8,7 @@ return [
     'product_1_title' => 'COKE 10X30 MM',
     'product_2_title' => 'COKE 2X3 MM',
     'product_3_title' => 'COKE 20X80 MM',
-    'product_4_title' => 'COKE 6X10 MM',
+    'product_4_title' => 'COKE 6X9 MM',
     'product_5_title' => 'REACTIVE COKE FINES',
     
     // Logistics Section

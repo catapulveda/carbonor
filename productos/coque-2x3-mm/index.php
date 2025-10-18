@@ -104,7 +104,7 @@
                             <div class="row gy-40 align-items-center">
                                 <div class="col-xl-6">
                                     <div class="page-img">
-                                        <img src="/assets/img/carbonor/servicios/1.webp" alt="Coque 2x3 mm">
+                                        <img src="/assets/img/carbonor/servicios/2x3_856x450.webp" alt="Coque 2x3 mm">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
