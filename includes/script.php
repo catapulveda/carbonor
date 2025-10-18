@@ -24,3 +24,21 @@
 <script src="/assets/js/main.js"></script>
 <!-- Floating-WhatsApp-Message-Button-jQuery -->
 <script src="/assets/js/floating-wpp.min.js"></script>
+
+<script>
+    $(function () {
+        $('.floating-wpp').floatingWhatsApp({
+            phone: '573112936388',
+            popupMessage: '<?php echo translate('whatsapp_message'); ?>',
+            showPopup: true,
+            message: '<?php echo translate('whatsapp_default'); ?>',
+            headerTitle: '<?php echo translate('whatsapp_title'); ?>',
+            position: 'left',
+            showOnIE: false,
+            size: '60px',
+            backgroundColor: '#25D366',
+            headerColor: '#128C7E',
+            zIndex: 9999999
+        });
+    });
+</script>

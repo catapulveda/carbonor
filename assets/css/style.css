@@ -3684,7 +3684,6 @@ Version: 1.0.0
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: var(--black-color2);
 }
 .th-menu-wrapper .mobile-logo svg {
   max-width: 185px;
@@ -40051,4 +40050,18 @@ Version: 1.0.0
 
 .text-theme-color2 {
   color: var(--theme-color2) !important;
+}
+
+/* Mobile Language Selector */
+.mobile-language-selector {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.mobile-language-selector .language-selector {
+  gap: 15px;
+}
+
+.mobile-language-selector .flag-img {
+  width: 28px;
+  height: 21px;
 }
