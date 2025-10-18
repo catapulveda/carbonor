@@ -18,7 +18,7 @@
             <!-- Mobile Language Selector -->
             <div class="mobile-language-selector mt-4 pt-3 border-top">
                 <div class="text-center mb-2">
-                    <small class="text-muted"><?php echo translate('lang_spanish'); ?></small>
+                    <small class="text-muted"><?php echo translate('select_language'); ?></small>
                 </div>
                 <div class="language-selector d-flex justify-content-center align-items-center gap-3">
                     <a href="?lang=es" class="language-flag <?php echo (LANG === 'es') ? 'active' : ''; ?>" title="Español">
