@@ -40,6 +40,10 @@
                                 <a href="?lang=br" class="language-flag <?php echo (LANG === 'br') ? 'active' : ''; ?>" title="Português">
                                     <img src="https://flagcdn.com/24x18/br.png" alt="Português" class="flag-img">
                                 </a>
+                                <span class="language-separator mx-2">|</span>
+                                <a href="?lang=en" class="language-flag <?php echo (LANG === 'en') ? 'active' : ''; ?>" title="English">
+                                    <img src="https://flagcdn.com/24x18/us.png" alt="English" class="flag-img">
+                                </a>
                             </div>
                         </div>
                     </div>
