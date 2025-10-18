@@ -7,6 +7,7 @@ return [
     'menu_contact' => 'CONTATO',
     'lang_spanish' => 'Español',
     'lang_portuguese' => 'Português',
+    'lang_english' => 'English',
 
     // About Section
     'about_text' => 'Carbones Norte-Santandereanos S.A.S. – <strong>Carbonor</strong>, líder no setor de mineração do Norte de Santander, Colômbia. Destacamo-nos por qualidade, compromisso e responsabilidade com o meio ambiente.',
