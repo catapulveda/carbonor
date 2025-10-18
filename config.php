@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Idioma
-$supported = ['es','br'];
+$supported = ['es','br','en'];
 if (isset($_GET['lang']) && in_array($_GET['lang'],$supported)) {
   $_SESSION['lang'] = $_GET['lang'];
 }
