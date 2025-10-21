@@ -29,7 +29,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-auto d-none d-xxl-block">
+                    <div class="col-auto d-none d-lg-block">
                         <div class="header-button">
                             <!-- Selector de idiomas -->
                             <div class="language-selector d-flex align-items-center">
